@@ -1,0 +1,130 @@
+/* Reset and fonts */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  width: 100%;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #4CAF50, #45a049);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;          /* Allow wrapping if screen is narrow */
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;                /* Small gap between items */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 1;           /* Prevent the title from stretching too much */
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: white;
+  color: #4CAF50;
+  font-weight: bold;
+  transition: all 0.2s;
+  flex-shrink: 0;           /* Prevent button from shrinking too small */
+}
+
+header button:hover {
+  background: #e6ffe6;
+}
+
+/* Main content */
+main {
+  flex: 1;
+  padding: 20px 40px;
+  overflow-y: auto;
+}
+
+/* Repo list grid */
+#repo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.repo-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.repo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.repo-link {
+  font-weight: bold;
+  color: #1a73e8;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.repo-link:hover {
+  text-decoration: underline;
+}
+
+.stats {
+  margin-top: 15px;
+}
+
+.stat {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.loading, .error {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.loading { color: #555; }
+.error { color: red; }
+
+header .header-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+canvas { max-width: 100%; margin-top: 10px; }
+
+/* Ensure button moves under title on very narrow screens */
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header button {
+    margin-top: 10px;
+  }
+}

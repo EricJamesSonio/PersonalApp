@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dev Tracker</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="../designs/styles.css">
+</head>
+<body>
+    <header>
+  <h1>🚀 Dev Tracker</h1>
+  <div class="header-buttons">
+    <button onclick="loadRepos()">Refresh Repos</button>
+    <button id="fullscreen-btn">Toggle Fullscreen</button>
+  </div>
+</header>
+
+  <main>
+    <div id="status" class="loading" style="display:none;"></div>
+    <div id="error" class="error" style="display:none;"></div>
+    <ul id="repo-list"></ul>
+  </main>
+  <script src="../actions/renderer.js"></script>
+</body>
+</html>
