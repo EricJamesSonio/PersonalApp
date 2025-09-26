@@ -1,110 +1,121 @@
-/* Reset and fonts */
-html, body {
-  height: 100%;
+/* Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f0f2f5;
-  color: #333;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  background: url("../../image/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #eaeaea;
+  position: relative;
+}
+
+/* Dark overlay for readability */
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 20, 25, 0.75);
+  z-index: 0;
+}
+
+header, main {
+  position: relative;
+  z-index: 1;
 }
 
 /* Header */
 header {
-  width: 100%;
-  padding: 20px 40px;
-  background: linear-gradient(90deg, #4CAF50, #45a049);
-  color: white;
   display: flex;
-  flex-wrap: wrap;          /* Allow wrapping if screen is narrow */
-  align-items: center;
   justify-content: space-between;
-  gap: 10px;                /* Small gap between items */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  box-sizing: border-box;
+  align-items: center;
+  padding: 20px 40px;
+  background: rgba(20, 30, 40, 0.85);
+  backdrop-filter: blur(8px);
+  color: #eaeaea;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  border-radius: 0 0 10px 10px;
+  flex-wrap: wrap;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 1;           /* Prevent the title from stretching too much */
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 header .header-buttons {
   display: flex;
-  flex-wrap: wrap;          /* wrap buttons neatly */
+  flex-wrap: wrap;
   gap: 10px;
-  justify-content: flex-end;
-  max-width: 100%;          /* prevent overflow */
-  box-sizing: border-box;
 }
 
-header button {
+header .header-buttons button {
   padding: 8px 16px;
-  font-size: 0.95rem;
-  border-radius: 6px;
   border: none;
+  border-radius: 6px;
+  background: #2c5364;
+  color: #eaeaea;
+  font-weight: 500;
   cursor: pointer;
-  background: white;
-  color: #4CAF50;
-  font-weight: bold;
-  transition: all 0.2s;
-  flex: 0 0 auto;           /* prevent squishing */
-  white-space: nowrap;      /* keep text on one line */
+  transition: all 0.25s;
 }
 
-header button:hover {
-  background: #e6ffe6;
-}
-
-/* Back button style (slightly different) */
-header button.back-btn {
-  background: #f5f5f5;
-  color: #333;
-}
-
-header button.back-btn:hover {
-  background: #ddd;
+header .header-buttons button:hover {
+  background: #3e6b7e;
+  transform: translateY(-2px);
 }
 
 /* Main content */
 main {
   flex: 1;
-  padding: 20px 40px;
+  padding: 40px;
   overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 /* Repo list grid */
 #repo-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
   list-style: none;
   padding: 0;
 }
 
+/* Repo card */
 .repo-card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.2s, box-shadow 0.2s;
+  background: rgba(27, 40, 50, 0.9);
+  padding: 25px 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .repo-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.7);
+  background: rgba(34, 55, 69, 0.95);
 }
 
+/* Repo link */
 .repo-link {
   font-weight: bold;
-  color: #1a73e8;
-  font-size: 1.2rem;
+  color: #4da6ff;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 
@@ -112,30 +123,39 @@ main {
   text-decoration: underline;
 }
 
+/* Stats section */
 .stats {
-  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .stat {
-  margin-bottom: 8px;
   font-size: 0.95rem;
+  color: #c9d6de;
 }
 
-.loading, .error {
+/* Chart styling */
+canvas {
+  max-width: 100%;
+  height: 260px !important;
   margin-top: 10px;
+  background: rgba(20, 30, 40, 0.6);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Loading and error messages */
+.loading, .error {
+  margin-top: 15px;
   font-weight: bold;
   text-align: center;
 }
 
-.loading { color: #555; }
-.error { color: red; }
+.loading { color: #bbb; }
+.error { color: #ff6b6b; }
 
-canvas { 
-  max-width: 100%; 
-  margin-top: 10px; 
-}
-
-/* Mobile fixes */
+/* Responsive */
 @media (max-width: 600px) {
   header {
     flex-direction: column;
@@ -143,12 +163,13 @@ canvas {
   }
 
   header .header-buttons {
-    justify-content: flex-start;
+    margin-top: 10px;
     width: 100%;
+    justify-content: flex-start;
   }
 
-  header button {
-    flex: 1 1 auto;   /* buttons resize evenly */
+  header .header-buttons button {
+    flex: 1 1 auto;
     min-width: 120px;
   }
 }
