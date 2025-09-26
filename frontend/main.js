@@ -16,41 +16,22 @@ function createMainWindow() {
   mainWin.loadFile("index.html");
   mainWin.setMenuBarVisibility(false);
 
+  // Start maximized
+  mainWin.maximize();
+
   ipcMain.on("toggle-fullscreen", () => {
     if (mainWin) mainWin.setFullScreen(!mainWin.isFullScreen());
   });
-}
 
-function openModule(modulePath) {
-  const moduleWin = new BrowserWindow({
-    width: 1000,
-    height: 700,
-    resizable: true,
-    fullscreen: false,
-    webPreferences: {
-      preload: path.join(__dirname, modulePath, "preload.js"),
-      contextIsolation: true,
-      nodeIntegration: false,
-    },
-  });
-
-  moduleWin.loadFile(path.join(__dirname, modulePath, "views/index.html"));
-  moduleWin.setMenuBarVisibility(false);
-
-  // Only attach once per module window
-  const toggleListener = () => {
-    moduleWin.setFullScreen(!moduleWin.isFullScreen());
-  };
-  ipcMain.once("toggle-fullscreen-module", toggleListener);
-
-  moduleWin.on("closed", () => {
-    ipcMain.removeListener("toggle-fullscreen-module", toggleListener);
+  ipcMain.on("open-module", (event, modulePath) => {
+    // Load module HTML into the same window
+    mainWin.loadFile(path.join(__dirname, modulePath, "views/index.html"));
   });
 }
 
 app.whenReady().then(() => {
   createMainWindow();
-  const menu = Menu.buildFromTemplate(menuTemplate);
+  const menu = Menu.buildFromTemplate([]); // replace with your menuTemplate if needed
   Menu.setApplicationMenu(menu);
 });
 
@@ -61,9 +42,3 @@ app.on("window-all-closed", () => {
 app.on("activate", () => {
   if (BrowserWindow.getAllWindows().length === 0) createMainWindow();
 });
-
-// Add this inside app.whenReady() in main.js
-ipcMain.on('open-module', (event, modulePath) => {
-  openModule(modulePath);
-});
-
