@@ -7,19 +7,28 @@
   <link rel="stylesheet" href="../designs/styles.css">
 </head>
 <body>
-    <header>
-  <h1>🚀 Dev Tracker</h1>
-  <div class="header-buttons">
-    <button onclick="loadRepos()">Refresh Repos</button>
-    <button id="fullscreen-btn">Toggle Fullscreen</button>
-  </div>
-</header>
+  <header>
+    <h1>🚀 Dev Tracker</h1>
+    <div class="header-buttons">
+      <button onclick="loadRepos()">Refresh Repos</button>
+      <button id="fullscreen-btn">Toggle Fullscreen</button>
+      <!-- ✅ Back button -->
+      <button onclick="goBack()">⬅ Back</button>
+    </div>
+  </header>
 
   <main>
     <div id="status" class="loading" style="display:none;"></div>
     <div id="error" class="error" style="display:none;"></div>
     <ul id="repo-list"></ul>
   </main>
+
+  <script>
+    function goBack() {
+      window.location.href = "../../index.html"; // adjust path if needed
+    }
+  </script>
+
   <script src="../actions/renderer.js"></script>
 </body>
 </html>

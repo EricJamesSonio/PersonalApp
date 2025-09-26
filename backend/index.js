@@ -11,12 +11,24 @@ const GITHUB_API = "https://api.github.com";
 const USER = process.env.GITHUB_USER;
 const TOKEN = process.env.GITHUB_TOKEN;
 
+// ✅ Check if .env variables are set
+if (!USER || !TOKEN) {
+  console.error("❌ Missing GITHUB_USER or GITHUB_TOKEN in .env file!");
+} else {
+  console.log("✅ .env loaded correctly");
+  console.log("   👤 GITHUB_USER:", USER);
+  console.log("   🔑 GITHUB_TOKEN length:", TOKEN.length);
+}
+
 // Helper: GitHub fetch with auth
 async function githubFetch(url) {
+  console.log("🌐 Fetching:", url);
   const res = await fetch(url, {
     headers: { Authorization: `token ${TOKEN}` },
   });
   const data = await res.json();
+  console.log("📥 GitHub API response status:", res.status);
+  if (!res.ok) console.log("❌ GitHub API error response:", data);
   return { ok: res.ok, data };
 }
 
@@ -25,26 +37,49 @@ app.get("/", (req, res) => {
   res.send("✅ Dev Tracker Backend running! Try /repos or /streak/:repo");
 });
 
-// Fully smart: fetch all repos contributed to, with contributors
+// Fetch repos
 app.get("/repos", async (req, res) => {
   try {
-    // 1️⃣ Get all user repos (owned + collaborated)
+    console.log("🔎 USER:", USER);
+    console.log("🔑 TOKEN loaded?", TOKEN ? "yes" : "no");
+
+    // 1️⃣ Get all user repos
     const { ok, data } = await githubFetch(`${GITHUB_API}/users/${USER}/repos?per_page=100`);
-    if (!ok) return res.status(500).json({ error: data.message || "GitHub API error" });
+    if (!ok) {
+      return res.status(500).json({ error: data.message || "GitHub API error" });
+    }
+
+    if (!Array.isArray(data)) {
+      console.error("⚠️ Unexpected /repos data:", data);
+      return res.status(500).json({ error: "GitHub did not return an array" });
+    }
+
+    console.log(`📊 Found ${data.length} repos for user ${USER}`);
 
     // 2️⃣ Filter out empty repos
     const nonEmptyRepos = data.filter(r => r.size > 0 && r.name && r.owner?.login);
+    console.log(`📦 Non-empty repos: ${nonEmptyRepos.length}`);
 
-    // 3️⃣ For each repo, fetch contributors
+    // 3️⃣ Enrich with contributors
     const enrichedRepos = await Promise.all(nonEmptyRepos.map(async repo => {
       try {
-        const { ok: contribOk, data: contribData } = await githubFetch(`${GITHUB_API}/repos/${repo.owner.login}/${repo.name}/contributors`);
-        const contributors = (contribOk && Array.isArray(contribData)) 
-          ? contribData.map(c => ({ login: c.login, contributions: c.contributions })) 
+        const { ok: contribOk, data: contribData } = await githubFetch(
+          `${GITHUB_API}/repos/${repo.owner.login}/${repo.name}/contributors`
+        );
+
+        if (!contribOk) {
+          console.warn(`⚠️ Failed contributors fetch for ${repo.name}`);
+          return null;
+        }
+
+        const contributors = Array.isArray(contribData)
+          ? contribData.map(c => ({ login: c.login, contributions: c.contributions }))
           : [];
-        
-        // Only include if the user contributed
-        if (!contributors.some(c => c.login === USER)) return null;
+
+        if (!contributors.some(c => c.login === USER)) {
+          console.log(`⏭ Skipping ${repo.name}, user not a contributor`);
+          return null;
+        }
 
         return {
           name: repo.name,
@@ -56,21 +91,20 @@ app.get("/repos", async (req, res) => {
           updated_at: repo.pushed_at,
           contributors
         };
-      } catch {
+      } catch (err) {
+        console.error(`❌ Error enriching repo ${repo.name}:`, err.message);
         return null;
       }
     }));
 
-    // 4️⃣ Filter nulls (repos where user did not contribute)
-    res.json(enrichedRepos.filter(r => r !== null));
+    const finalRepos = enrichedRepos.filter(r => r !== null);
+    console.log(`✅ Final repos returned: ${finalRepos.length}`);
+    res.json(finalRepos);
   } catch (err) {
-    console.error("❌ Error in /repos:", err.message);
+    console.error("❌ Error in /repos:", err);
     res.status(500).json({ error: err.message });
   }
 });
-
-// Start server
-app.listen(PORT, () => console.log(`Backend running at http://localhost:${PORT}`));
 
 // Get commits for a repo
 app.get("/commits/:repo", async (req, res) => {

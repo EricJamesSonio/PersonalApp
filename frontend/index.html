@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Main Menu</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>🛠 Main App Menu</h1>
-  <div class="module-menu">
-    <div class="module-card" onclick="window.electronAPI.openModule('repoTracker')">
-      🚀 Repo Tracker
+  <header>
+    <h1>🛠 Main App Menu</h1>
+    <div class="header-buttons">
+      <button>⚙ Settings</button>
+      <button>❌ Exit</button>
     </div>
-    <!-- Add more modules here -->
-  </div>
+  </header>
+
+  <main id="app-content">
+    <section class="module-menu">
+      <div class="module-card" onclick="window.electronAPI.openModule('repoTracker')">
+        <span class="emoji">🚀</span>
+        <h2>Repo Tracker</h2>
+        <p>Track and manage repositories with ease</p>
+      </div>
+
+      <div class="module-card">
+        <span class="emoji">📊</span>
+        <h2>Analytics</h2>
+        <p>View app usage stats and reports</p>
+      </div>
+
+      <div class="module-card">
+        <span class="emoji">📝</span>
+        <h2>Notes</h2>
+        <p>Keep quick notes inside your workspace</p>
+      </div>
+    </section>
+  </main>
 
   <script>
     const { ipcRenderer } = require('electron');
-
     function openModule(modulePath) {
       ipcRenderer.send('open-module', modulePath);
     }

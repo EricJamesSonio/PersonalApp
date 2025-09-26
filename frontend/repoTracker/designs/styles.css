@@ -23,6 +23,7 @@ header {
   justify-content: space-between;
   gap: 10px;                /* Small gap between items */
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  box-sizing: border-box;
 }
 
 header h1 {
@@ -34,9 +35,18 @@ header h1 {
   flex-shrink: 1;           /* Prevent the title from stretching too much */
 }
 
+header .header-buttons {
+  display: flex;
+  flex-wrap: wrap;          /* wrap buttons neatly */
+  gap: 10px;
+  justify-content: flex-end;
+  max-width: 100%;          /* prevent overflow */
+  box-sizing: border-box;
+}
+
 header button {
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 8px 16px;
+  font-size: 0.95rem;
   border-radius: 6px;
   border: none;
   cursor: pointer;
@@ -44,11 +54,22 @@ header button {
   color: #4CAF50;
   font-weight: bold;
   transition: all 0.2s;
-  flex-shrink: 0;           /* Prevent button from shrinking too small */
+  flex: 0 0 auto;           /* prevent squishing */
+  white-space: nowrap;      /* keep text on one line */
 }
 
 header button:hover {
   background: #e6ffe6;
+}
+
+/* Back button style (slightly different) */
+header button.back-btn {
+  background: #f5f5f5;
+  color: #333;
+}
+
+header button.back-btn:hover {
+  background: #ddd;
 }
 
 /* Main content */
@@ -109,22 +130,25 @@ main {
 .loading { color: #555; }
 .error { color: red; }
 
-header .header-buttons {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+canvas { 
+  max-width: 100%; 
+  margin-top: 10px; 
 }
 
-canvas { max-width: 100%; margin-top: 10px; }
-
-/* Ensure button moves under title on very narrow screens */
-@media (max-width: 500px) {
+/* Mobile fixes */
+@media (max-width: 600px) {
   header {
     flex-direction: column;
     align-items: flex-start;
   }
 
+  header .header-buttons {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
   header button {
-    margin-top: 10px;
+    flex: 1 1 auto;   /* buttons resize evenly */
+    min-width: 120px;
   }
 }
