@@ -4,12 +4,19 @@
   <title>Repo Details</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="../designs/styles.css">
+  <style>
+    .highlight { background-color: #2ecc71; transition: background 0.3s; }
+
+    /* Commit list style */
+    .commit-card { margin: 5px 0; padding: 5px; border: 1px solid #ccc; border-radius: 4px; }
+  </style>
 </head>
 <body>
   <header>
     <h1 id="repo-title">Repo Details</h1>
     <div class="header-buttons">
-      <button onclick="goBack()">⬅ Back</button>
+      <button id="back-btn">⬅ Back</button>
+
       <button id="fullscreen-btn">Toggle Fullscreen</button>
     </div>
   </header>
@@ -20,39 +27,58 @@
     <div class="repo-details">
       <div id="repo-stats" class="stats"></div>
       <canvas id="repo-chart"></canvas>
+      <div id="commit-list" class="commit-list"></div>
     </div>
   </main>
 
-  <script>
+  <script type="module">
+    import { initTerminal } from "../../terminal.js"; // root path
+
     const API_BASE = "http://localhost:4000";
-    const charts = new Map();
+    let chartInstance = null;
+    let commitsData = [];
+
+    // Initialize terminal
+    const terminal = initTerminal({
+      onHighlight: (elements) => {
+        if (elements && elements.length) elements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
 
     document.getElementById("fullscreen-btn").addEventListener("click", () => {
       window.electronAPI.toggleFullscreen();
     });
 
-    function goBack() {
-      window.location.href = "./index.html"; // main repo list
-    }
+document.getElementById("back-btn").addEventListener("click", () => {
+  window.location.href = "./index.html";
+});
+
 
     async function loadRepo(repoName) {
       const statusEl = document.getElementById("status");
       const errorEl = document.getElementById("error");
       const statsEl = document.getElementById("repo-stats");
       const chartEl = document.getElementById("repo-chart");
+      const commitListEl = document.getElementById("commit-list");
 
       statusEl.style.display = "block";
       statusEl.textContent = "Loading repo details...";
       errorEl.style.display = "none";
 
       try {
-        const res = await fetch(`${API_BASE}/repos`);
-        const repos = await res.json();
+        // Fetch repo
+        const reposRes = await fetch(`${API_BASE}/repos`);
+        const repos = await reposRes.json();
         const repo = repos.find(r => r.name === repoName);
         if (!repo) throw new Error("Repo not found");
 
+        // Fetch streak
         const streakRes = await fetch(`${API_BASE}/streak/${repoName}`);
         const streak = await streakRes.json();
+
+        // Fetch commits
+        const commitsRes = await fetch(`${API_BASE}/commits/${repoName}`);
+        commitsData = await commitsRes.json();
 
         // Set title
         document.getElementById("repo-title").textContent = repo.name;
@@ -71,18 +97,42 @@
           ${contributorsHTML}
         `;
 
-        // Chart
-        const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
-        const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
-
-        if (charts.has(repoName)) charts.get(repoName).destroy();
-        const ctx = chartEl.getContext("2d");
-        const chart = new Chart(ctx, {
-          type: "bar",
-          data: { labels: days, datasets: [{ label: 'Commits per day', data: commits, backgroundColor: '#4CAF50' }] },
-          options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
+        // Prepare chart data
+        const commitsByDate = {};
+        commitsData.forEach(c => {
+          const day = new Date(c.date).toISOString().split("T")[0];
+          commitsByDate[day] = (commitsByDate[day] || 0) + 1;
         });
-        charts.set(repoName, chart);
+        const sortedDays = Object.keys(commitsByDate).sort();
+        const commitsPerDay = sortedDays.map(d => commitsByDate[d]);
+
+        // Render chart
+        if (chartInstance) chartInstance.destroy();
+        const ctx = chartEl.getContext("2d");
+        chartInstance = new Chart(ctx, {
+          type: "bar",
+          data: { labels: sortedDays, datasets: [{ label: 'Commits per day', data: commitsPerDay, backgroundColor: '#4CAF50' }] },
+          options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: { y: { beginAtZero: true, stepSize: 1 } },
+            onClick: (evt, elements) => {
+              if (!elements.length) return;
+              const idx = elements[0].index;
+              const selectedDate = sortedDays[idx];
+              highlightCommits(selectedDate);
+            }
+          }
+        });
+
+        // Render commits
+        commitListEl.innerHTML = commitsData.map(c => `
+          <div class="commit-card" data-date="${new Date(c.date).toISOString().split("T")[0]}">
+            <div><strong>${c.sha.substring(0,7)}</strong> - ${c.message}</div>
+            <div>Author: ${c.author} | Date: ${new Date(c.date).toLocaleString()}</div>
+            <div><a href="${c.url}" target="_blank">View on GitHub</a></div>
+          </div>
+        `).join("");
 
       } catch (err) {
         errorEl.style.display = "block";
@@ -90,6 +140,12 @@
       } finally {
         statusEl.style.display = "none";
       }
+    }
+
+    function highlightCommits(date) {
+      const commitCards = Array.from(document.querySelectorAll(`#commit-list .commit-card`));
+      const toHighlight = commitCards.filter(el => el.dataset.date === date);
+      terminal.highlight(toHighlight);
     }
 
     // Load repo from query string

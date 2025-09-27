@@ -59,7 +59,7 @@ async function getCombinedRepos() {
 
 // Root
 app.get("/", (req, res) => {
-  res.send("✅ Dev Tracker Backend running! Try /repos or /streak/:repo");
+  res.send("✅ Personal; Tracker Backend running! Try /repos or /streak/:repo");
 });
 
 // Get repos you contributed to
