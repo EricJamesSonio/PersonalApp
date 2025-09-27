@@ -71,7 +71,6 @@ function applyFilters() {
   renderRepos(filtered);
 }
 
-// ✅ Render repos
 function renderRepos(repoWithStreaks) {
   const listEl = document.getElementById("repo-list");
   listEl.innerHTML = "";
@@ -100,6 +99,8 @@ function renderRepos(repoWithStreaks) {
       `;
 
       const statsDiv = li.querySelector(".stats");
+
+      // 🔍 View Full button
       const viewBtn = document.createElement("button");
       viewBtn.textContent = "🔍 View Full";
       viewBtn.className = "view-full-btn";
@@ -108,25 +109,36 @@ function renderRepos(repoWithStreaks) {
       });
       statsDiv.appendChild(viewBtn);
 
+      // 🌐 Open on GitHub button
+      const githubBtn = document.createElement("button");
+      githubBtn.textContent = "🌐 GitHub";
+      githubBtn.className = "github-btn";
+      githubBtn.addEventListener("click", () => {
+        window.open(repo.html_url, "_blank");
+      });
+      statsDiv.appendChild(githubBtn);
+
       listEl.appendChild(li);
 
+      // chart setup...
       if (charts.has(repo.name)) charts.get(repo.name).destroy();
-
       const ctx = document.getElementById(`chart-${repo.name}`).getContext("2d");
       const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
       const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
 
       const chart = new Chart(ctx, {
         type: "bar",
-        data: { labels: days, datasets: [{ label: 'Commits per day', data: commits, backgroundColor: '#4CAF50' }] },
+        data: { labels: days, datasets: [{ label: "Commits per day", data: commits, backgroundColor: "#4CAF50" }] },
         options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
       });
 
       charts.set(repo.name, chart);
 
     } else {
-      li.innerHTML = `<div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
-                      <div class="stat">⚠️ Streak info unavailable</div>`;
+      li.innerHTML = `
+        <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
+        <div class="stat">⚠️ Streak info unavailable</div>
+      `;
       listEl.appendChild(li);
     }
   });

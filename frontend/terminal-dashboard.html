@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terminal Dashboard</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: #1e1e1e;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 { margin-bottom: 12px; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
+    th, td { border: 1px solid #444; padding: 8px; text-align: left; vertical-align: middle; }
+    th { background: #333; }
+    input, button {
+      background: #2a2a2a;
+      border: 1px solid #444;
+      color: #fff;
+      padding: 6px 10px;
+      margin: 6px 0;
+    }
+    .form-row { margin-bottom: 10px; }
+    button[disabled] { opacity: 0.45; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <h1>Terminal Command Manager</h1>
+
+  <table id="command-table">
+    <thead>
+      <tr>
+        <th>Command</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h2>Add / Update Command</h2>
+  <div class="form-row">
+    <input id="cmd" placeholder="Command (e.g. mycmd)" />
+  </div>
+  <div class="form-row">
+    <input id="desc" placeholder="Description" />
+  </div>
+  <input id="original" type="hidden" />
+  <button id="save-btn">Save</button>
+  <button id="clear-btn">Clear</button>
+
+  <script>
+    const API_BASE = "http://localhost:4000/api/commands";
+
+    async function loadCommands() {
+      const res = await fetch(API_BASE);
+      if (!res.ok) throw new Error("Failed to fetch commands");
+      return await res.json();
+    }
+
+    async function renderTable() {
+      const commands = await loadCommands();
+      const tbody = document.querySelector("#command-table tbody");
+      tbody.innerHTML = "";
+
+      Object.entries(commands).sort((a,b) => a[0].localeCompare(b[0]))
+        .forEach(([cmd, desc]) => {
+          const tr = document.createElement("tr");
+
+          const tdCmd = document.createElement("td");
+          tdCmd.textContent = cmd;
+
+          const tdDesc = document.createElement("td");
+          tdDesc.textContent = desc;
+
+          const tdActions = document.createElement("td");
+
+          const editBtn = document.createElement("button");
+          editBtn.textContent = "Edit";
+          editBtn.addEventListener("click", () => editCommand(cmd, desc));
+          tdActions.appendChild(editBtn);
+
+          const delBtn = document.createElement("button");
+          delBtn.textContent = "Delete";
+          delBtn.addEventListener("click", () => deleteCommand(cmd));
+          tdActions.appendChild(delBtn);
+
+          tr.appendChild(tdCmd);
+          tr.appendChild(tdDesc);
+          tr.appendChild(tdActions);
+          tbody.appendChild(tr);
+        });
+    }
+
+    async function saveCommand() {
+      const original = document.getElementById("original").value || "";
+      const cmd = document.getElementById("cmd").value.trim().toLowerCase();
+      const desc = document.getElementById("desc").value.trim();
+      if (!cmd || !desc) return alert("Fill in both fields");
+
+      let payload;
+      let url = API_BASE;
+      let method = "POST";
+
+      if (original && original !== cmd) {
+        // Rename
+        url = `${API_BASE}/rename`;
+        method = "PATCH";
+        payload = { oldCmd: original, newCmd: cmd, desc };
+      } else {
+        // Add/update
+        payload = { cmd, desc };
+      }
+
+      const res = await fetch(url, {
+        method,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        return alert("Failed: " + (err.error || res.statusText));
+      }
+
+      document.getElementById("original").value = "";
+      document.getElementById("cmd").value = "";
+      document.getElementById("desc").value = "";
+      await renderTable();
+    }
+
+    function editCommand(cmd, desc) {
+      document.getElementById("cmd").value = cmd;
+      document.getElementById("desc").value = desc || "";
+      document.getElementById("original").value = cmd;
+      document.getElementById("cmd").focus();
+    }
+
+    async function deleteCommand(cmd) {
+      if (!confirm(`Delete command '${cmd}'?`)) return;
+      const res = await fetch(`${API_BASE}/${cmd}`, { method: "DELETE" });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        return alert("Failed: " + (err.error || res.statusText));
+      }
+      await renderTable();
+    }
+
+    document.getElementById("save-btn").addEventListener("click", saveCommand);
+    document.getElementById("clear-btn").addEventListener("click", () => {
+      document.getElementById("original").value = "";
+      document.getElementById("cmd").value = "";
+      document.getElementById("desc").value = "";
+    });
+
+    renderTable();
+  </script>
+</body>
+</html>

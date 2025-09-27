@@ -5,7 +5,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="../designs/styles.css">
   <style>
-    .highlight { background-color: #2ecc71; transition: background 0.3s; }
+    .highlight { background-color: #3ec777; transition: background 0.3s; }
 
     /* Commit list style */
     .commit-card { margin: 5px 0; padding: 5px; border: 1px solid #ccc; border-radius: 4px; }
@@ -84,9 +84,14 @@ document.getElementById("back-btn").addEventListener("click", () => {
         document.getElementById("repo-title").textContent = repo.name;
 
         // Stats
-        const contributorsHTML = repo.contributors?.length
-          ? `<div class="stat">👥 Contributors: ${repo.contributors.map(c => `${c.login} (${c.contributions})`).join(", ")}</div>`
-          : "";
+      const contributorsHTML = repo.contributors?.length
+        ? `<div class="stat">👥 Contributors: ${
+            repo.contributors.map(c => 
+              `<a href="https://github.com/${c.login}" target="_blank">${c.login}</a> (${c.contributions})`
+            ).join(", ")
+          }</div>`
+        : "";
+
         statsEl.innerHTML = `
           <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
           <div class="stat">🏆 Longest Streak: ${streak.longestStreak}</div>

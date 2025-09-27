@@ -11,27 +11,29 @@ export function initTerminal(options = {}) {
   if (!document.getElementById("terminal-container")) {
     const container = document.createElement("div");
     container.id = "terminal-container";
-    
+
     // HIDDEN by default
-    container.style.display = "none";             
+    container.style.display = "none";
     container.style.position = "fixed";
-    container.style.bottom = "0";
-    container.style.left = "0";
-    container.style.width = "100%";
-    container.style.height = "150px";              // Fixed height
+    container.style.bottom = "20px"; // add a little margin from bottom
+    container.style.left = "50%"; // center horizontally
+    container.style.transform = "translateX(-50%)"; // align to center
+    container.style.width = "600px"; // fixed width (not full)
+    container.style.height = "150px";
     container.style.backgroundColor = "#1e1e1e";
     container.style.color = "#fff";
     container.style.fontFamily = "monospace";
-    container.style.borderTop = "2px solid #333";
-    container.style.overflow = "hidden";           // Prevent expanding
+    container.style.border = "2px solid #333"; // border around panel
+    container.style.borderRadius = "8px"; // rounded edges
+    container.style.overflow = "hidden";
     container.style.padding = "5px";
     container.style.zIndex = "9999";
     container.style.flexDirection = "column";
 
     const output = document.createElement("div");
     output.id = "terminal-output";
-    output.style.flex = "1";                        // Fill space above input
-    output.style.overflowY = "auto";                // Scrollable content
+    output.style.flex = "1"; // Fill space above input
+    output.style.overflowY = "auto"; // Scrollable content
     container.appendChild(output);
 
     const input = document.createElement("input");
@@ -56,26 +58,58 @@ export function initTerminal(options = {}) {
 
   function appendLine(text, isCommand = false) {
     const line = document.createElement("div");
-    line.className = "terminal-line " + (isCommand ? "terminal-command" : "terminal-output");
+    line.className =
+      "terminal-line " +
+      (isCommand ? "terminal-command" : "terminal-output");
     line.textContent = text;
     terminalOutput.appendChild(line);
     terminalOutput.scrollTop = terminalOutput.scrollHeight; // Scroll to bottom
   }
 
-  function handleCommand(cmd) {
-    if (cmd === "dishl") {
-      if (currentHighlight) {
-        currentHighlight.forEach(el => el.classList.remove("highlight"));
-        appendLine("Highlight removed.");
-        currentHighlight = null;
-        highlightCallback(null);
-      } else appendLine("No highlight to remove.");
-    } else {
-      appendLine(`Unknown command: ${cmd}`);
+  async function fetchCommands() {
+    const res = await fetch("http://localhost:4000/api/commands");
+    if (!res.ok) throw new Error("Failed to fetch commands");
+    return await res.json();
+  }
+
+  async function handleCommand(cmd) {
+    try {
+      const cmds = await fetchCommands();
+
+      if (cmd === "openterminal") {
+        window.open("terminal-dashboard.html", "_blank");
+        appendLine("Opening terminal dashboard...");
+        return;
+      }
+
+      if (cmds[cmd]) {
+        const desc = cmds[cmd];
+
+        // Map description → actual function
+        if (desc.toLowerCase().includes("highlight")) {
+          // remove highlights
+          if (currentHighlight) {
+            currentHighlight.forEach((el) => el.classList.remove("highlight"));
+            appendLine("Highlight removed.");
+            currentHighlight = null;
+            highlightCallback(null);
+          } else {
+            appendLine("No highlight to remove.");
+          }
+        } else {
+          // Default: just echo description
+          appendLine(`→ ${desc}`);
+        }
+      } else {
+        appendLine(`Unknown command: ${cmd}`);
+      }
+    } catch (err) {
+      appendLine("Error: " + err.message);
     }
   }
 
-  terminalInput.addEventListener("keydown", e => {
+
+  terminalInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
       const cmd = e.target.value.trim().toLowerCase();
       if (!cmd) return;
@@ -87,7 +121,7 @@ export function initTerminal(options = {}) {
     }
   });
 
-  document.addEventListener("keydown", e => {
+  document.addEventListener("keydown", (e) => {
     // Toggle terminal: Ctrl + `
     if (e.ctrlKey && e.key === "`") {
       const isVisible = terminalContainer.style.display === "flex";
@@ -99,28 +133,33 @@ export function initTerminal(options = {}) {
     if (terminalContainer.style.display === "flex") {
       if (e.key === "ArrowUp") {
         if (historyIndex < commandHistory.length - 1) historyIndex++;
-        terminalInput.value = commandHistory[commandHistory.length - 1 - historyIndex] || "";
+        terminalInput.value =
+          commandHistory[commandHistory.length - 1 - historyIndex] || "";
       } else if (e.key === "ArrowDown") {
         if (historyIndex > 0) historyIndex--;
-        terminalInput.value = commandHistory[commandHistory.length - 1 - historyIndex] || "";
+        terminalInput.value =
+          commandHistory[commandHistory.length - 1 - historyIndex] || "";
       }
     }
   });
 
   function highlightElements(elements) {
-    if (currentHighlight) currentHighlight.forEach(el => el.classList.remove("highlight"));
+    if (currentHighlight)
+      currentHighlight.forEach((el) => el.classList.remove("highlight"));
     currentHighlight = elements;
-    if (currentHighlight) currentHighlight.forEach(el => el.classList.add("highlight"));
+    if (currentHighlight)
+      currentHighlight.forEach((el) => el.classList.add("highlight"));
     highlightCallback(currentHighlight);
   }
 
   terminalInstance = {
     highlight: highlightElements,
     removeHighlight: () => {
-      if (currentHighlight) currentHighlight.forEach(el => el.classList.remove("highlight"));
+      if (currentHighlight)
+        currentHighlight.forEach((el) => el.classList.remove("highlight"));
       currentHighlight = null;
     },
-    appendLine
+    appendLine,
   };
 
   return terminalInstance;
