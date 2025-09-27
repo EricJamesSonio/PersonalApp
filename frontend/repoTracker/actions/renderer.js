@@ -1,11 +1,14 @@
-// renderer.js
 const API_BASE = "http://localhost:4000";
-const charts = new Map(); // store Chart instances by repo name
+const charts = new Map();
+let allRepos = []; // store fetched repos for filtering
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("fullscreen-btn").addEventListener("click", () => {
     window.electronAPI.toggleFullscreen();
   });
+
+  document.getElementById("search-box").addEventListener("input", applyFilters);
+  document.getElementById("sort-select").addEventListener("change", applyFilters);
 
   loadRepos();
 });
@@ -13,18 +16,16 @@ document.addEventListener("DOMContentLoaded", () => {
 async function loadRepos() {
   const statusEl = document.getElementById("status");
   const errorEl = document.getElementById("error");
-  const listEl = document.getElementById("repo-list");
 
   statusEl.style.display = "block";
   statusEl.textContent = "Loading repos and streaks...";
   errorEl.style.display = "none";
-  listEl.innerHTML = "";
+  document.getElementById("repo-list").innerHTML = "";
 
   try {
     const res = await fetch(`${API_BASE}/repos`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const repos = await res.json();
-    if (!Array.isArray(repos)) throw new Error("Invalid repos data");
 
     const streakPromises = repos.map(async repo => {
       try {
@@ -37,8 +38,43 @@ async function loadRepos() {
       }
     });
 
-    const repoWithStreaks = await Promise.all(streakPromises);
-    repoWithStreaks.sort((a, b) => (b.streak?.currentStreak || 0) - (a.streak?.currentStreak || 0));
+    allRepos = await Promise.all(streakPromises);
+    applyFilters(); // initial render
+
+  } catch (err) {
+    errorEl.style.display = "block";
+    errorEl.textContent = `Error loading repos: ${err.message}`;
+    console.error(err);
+  } finally {
+    statusEl.style.display = "none";
+  }
+}
+
+// ✅ Filtering + sorting logic
+function applyFilters() {
+  const listEl = document.getElementById("repo-list");
+  const searchQuery = document.getElementById("search-box").value.toLowerCase();
+  const sortType = document.getElementById("sort-select").value;
+
+  let filtered = allRepos.filter(({ repo }) =>
+    repo.name.toLowerCase().includes(searchQuery)
+  );
+
+  if (sortType === "alpha") {
+    filtered.sort((a, b) => a.repo.name.localeCompare(b.repo.name));
+  } else if (sortType === "date") {
+    filtered.sort((a, b) => new Date(b.repo.created_at) - new Date(a.repo.created_at));
+  } else if (sortType === "commits") {
+    filtered.sort((a, b) => (b.streak?.totalCommits || 0) - (a.streak?.totalCommits || 0));
+  }
+
+  renderRepos(filtered);
+}
+
+// ✅ Render repos
+function renderRepos(repoWithStreaks) {
+  const listEl = document.getElementById("repo-list");
+  listEl.innerHTML = "";
 
   repoWithStreaks.forEach(({ repo, streak }) => {
     const li = document.createElement("li");
@@ -63,7 +99,6 @@ async function loadRepos() {
         <canvas id="chart-${repo.name}"></canvas>
       `;
 
-      // ✅ Now the stats div exists, append the button
       const statsDiv = li.querySelector(".stats");
       const viewBtn = document.createElement("button");
       viewBtn.textContent = "🔍 View Full";
@@ -95,13 +130,4 @@ async function loadRepos() {
       listEl.appendChild(li);
     }
   });
-
-
-  } catch (err) {
-    errorEl.style.display = "block";
-    errorEl.textContent = `Error loading repos: ${err.message}`;
-    console.error(err);
-  } finally {
-    statusEl.style.display = "none";
-  }
 }

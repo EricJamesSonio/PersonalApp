@@ -26,7 +26,6 @@ export function initTerminal(options = {}) {
     container.style.overflow = "hidden";           // Prevent expanding
     container.style.padding = "5px";
     container.style.zIndex = "9999";
-    container.style.display = "flex";
     container.style.flexDirection = "column";
 
     const output = document.createElement("div");

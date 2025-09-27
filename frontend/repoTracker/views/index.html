@@ -3,17 +3,42 @@
 <head>
   <title>Personal Tracker</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <!-- Link external CSS -->
   <link rel="stylesheet" href="../designs/styles.css">
+  <style>
+    /* Controls styling (integrated with header) */
+    .controls {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;  /* ✅ center horizontally */
+      margin-top: 10px;
+    }
+    .controls input, .controls select {
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 0.95rem;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>🚀 Personal Tracker</h1>
+
     <div class="header-buttons">
       <button onclick="loadRepos()">Refresh Repos</button>
       <button id="fullscreen-btn">Toggle Fullscreen</button>
-      <!-- ✅ Back button -->
       <button onclick="goBack()">⬅ Back</button>
+    </div>
+
+    <!-- ✅ Move filter/sort controls inside header -->
+    <div class="controls">
+      <input type="text" id="search-box" placeholder="🔎 Search by name...">
+      <select id="sort-select">
+        <option value="alpha">🔤 Alphabetical (A-Z)</option>
+        <option value="date">📅 Creation Date (Newest First)</option>
+        <option value="commits">🔥 Highest Commits</option>
+      </select>
     </div>
   </header>
 
@@ -25,8 +50,13 @@
 
   <script>
     function goBack() {
-      window.location.href = "../../index.html"; // adjust path if needed
+      window.location.href = "../../index.html";
     }
+  </script>
+
+  <script type="module">
+    import { initTerminal } from "../../terminal.js";
+    initTerminal({});
   </script>
 
   <script src="../actions/renderer.js"></script>

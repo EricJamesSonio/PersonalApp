@@ -36,6 +36,18 @@
     </section>
   </main>
 
+  <!-- Load terminal.js globally -->
+  <script type="module">
+    import { initTerminal } from "./terminal.js"; 
+
+    // Initialize once for this page
+    const terminal = initTerminal({
+      onHighlight: (elements) => {
+        console.log("Highlight triggered on main menu", elements);
+      }
+    });
+  </script>
+
   <script>
     const { ipcRenderer } = require('electron');
     function openModule(modulePath) {
