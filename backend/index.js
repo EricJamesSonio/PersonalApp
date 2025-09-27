@@ -10,8 +10,8 @@ const PORT = 4000;
 const GITHUB_API = "https://api.github.com";
 const USER = process.env.GITHUB_USER;
 const TOKEN = process.env.GITHUB_TOKEN;
+const ORG_OWNER = "college-of-mary-immaculate"; // org owner username
 
-// ✅ Check if .env variables are set
 if (!USER || !TOKEN) {
   console.error("❌ Missing GITHUB_USER or GITHUB_TOKEN in .env file!");
 } else {
@@ -20,16 +20,41 @@ if (!USER || !TOKEN) {
   console.log("   🔑 GITHUB_TOKEN length:", TOKEN.length);
 }
 
-// Helper: GitHub fetch with auth
+// GitHub fetch helper
 async function githubFetch(url) {
-  console.log("🌐 Fetching:", url);
-  const res = await fetch(url, {
-    headers: { Authorization: `token ${TOKEN}` },
-  });
+  const res = await fetch(url, { headers: { Authorization: `token ${TOKEN}` } });
   const data = await res.json();
-  console.log("📥 GitHub API response status:", res.status);
-  if (!res.ok) console.log("❌ GitHub API error response:", data);
+  if (!res.ok) console.log("❌ GitHub API error:", data);
   return { ok: res.ok, data };
+}
+
+// Format date
+function formatDate(dateStr) {
+  return new Date(dateStr).toISOString().split("T")[0];
+}
+
+// Cache combined repos to avoid duplicate API calls
+let cachedRepos = null;
+async function getCombinedRepos() {
+  if (cachedRepos) return cachedRepos;
+
+  const { ok: userOk, data: userRepos } = await githubFetch(
+    `${GITHUB_API}/user/repos?per_page=100&affiliation=owner,collaborator`
+  );
+  const { ok: orgOk, data: orgRepos } = await githubFetch(
+    `${GITHUB_API}/orgs/${ORG_OWNER}/repos?per_page=100&type=all`
+  );
+
+  const combined = [...(userOk ? userRepos : []), ...(orgOk ? orgRepos : [])];
+
+  // Deduplicate by full_name
+  const uniqueMap = new Map();
+  combined.forEach(r => {
+    if (r.full_name && !uniqueMap.has(r.full_name)) uniqueMap.set(r.full_name, r);
+  });
+
+  cachedRepos = Array.from(uniqueMap.values());
+  return cachedRepos;
 }
 
 // Root
@@ -37,50 +62,22 @@ app.get("/", (req, res) => {
   res.send("✅ Dev Tracker Backend running! Try /repos or /streak/:repo");
 });
 
-// Fetch repos
+// Get repos you contributed to
 app.get("/repos", async (req, res) => {
   try {
-    console.log("🔎 USER:", USER);
-    console.log("🔑 TOKEN loaded?", TOKEN ? "yes" : "no");
+    const allRepos = await getCombinedRepos();
+    const nonEmpty = allRepos.filter(r => r.size > 0 && r.name && r.owner?.login);
 
-    // 1️⃣ Get all user repos
-    const { ok, data } = await githubFetch(`${GITHUB_API}/users/${USER}/repos?per_page=100`);
-    if (!ok) {
-      return res.status(500).json({ error: data.message || "GitHub API error" });
-    }
-
-    if (!Array.isArray(data)) {
-      console.error("⚠️ Unexpected /repos data:", data);
-      return res.status(500).json({ error: "GitHub did not return an array" });
-    }
-
-    console.log(`📊 Found ${data.length} repos for user ${USER}`);
-
-    // 2️⃣ Filter out empty repos
-    const nonEmptyRepos = data.filter(r => r.size > 0 && r.name && r.owner?.login);
-    console.log(`📦 Non-empty repos: ${nonEmptyRepos.length}`);
-
-    // 3️⃣ Enrich with contributors
-    const enrichedRepos = await Promise.all(nonEmptyRepos.map(async repo => {
-      try {
-        const { ok: contribOk, data: contribData } = await githubFetch(
+    const enriched = await Promise.all(
+      nonEmpty.map(async repo => {
+        const { ok, data } = await githubFetch(
           `${GITHUB_API}/repos/${repo.owner.login}/${repo.name}/contributors`
         );
-
-        if (!contribOk) {
-          console.warn(`⚠️ Failed contributors fetch for ${repo.name}`);
-          return null;
-        }
-
-        const contributors = Array.isArray(contribData)
-          ? contribData.map(c => ({ login: c.login, contributions: c.contributions }))
+        if (!ok) return null;
+        const contributors = Array.isArray(data)
+          ? data.map(c => ({ login: c.login, contributions: c.contributions }))
           : [];
-
-        if (!contributors.some(c => c.login === USER)) {
-          console.log(`⏭ Skipping ${repo.name}, user not a contributor`);
-          return null;
-        }
-
+        if (!contributors.some(c => c.login === USER)) return null;
         return {
           name: repo.name,
           full_name: repo.full_name,
@@ -89,99 +86,52 @@ app.get("/repos", async (req, res) => {
           size: repo.size,
           created_at: repo.created_at,
           updated_at: repo.pushed_at,
-          contributors
+          contributors,
         };
-      } catch (err) {
-        console.error(`❌ Error enriching repo ${repo.name}:`, err.message);
-        return null;
-      }
-    }));
+      })
+    );
 
-    const finalRepos = enrichedRepos.filter(r => r !== null);
-    console.log(`✅ Final repos returned: ${finalRepos.length}`);
-    res.json(finalRepos);
+    res.json(enriched.filter(r => r));
   } catch (err) {
     console.error("❌ Error in /repos:", err);
     res.status(500).json({ error: err.message });
   }
 });
 
-// Get commits for a repo
-app.get("/commits/:repo", async (req, res) => {
-  try {
-    const { repo } = req.params;
-    const url = `${GITHUB_API}/repos/${process.env.GITHUB_USER}/${repo}/commits?per_page=100`;
-    console.log("🔎 Fetching commits:", url);
-
-    const response = await fetch(url, {
-      headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` },
-    });
-
-    const data = await response.json();
-    console.log("📥 Response from GitHub commits:", data);
-
-    if (!response.ok) {
-      return res.status(response.status).json({ error: data.message || "GitHub API error" });
-    }
-
-    res.json(data);
-  } catch (err) {
-    console.error("❌ Error in /commits/:repo:", err.message);
-    res.status(500).json({ error: err.message });
-  }
-});
-
-// Helper: format date to YYYY-MM-DD
-function formatDate(dateStr) {
-  return new Date(dateStr).toISOString().split("T")[0];
-}
-
-// Streak stats for a repo
+// Get streak info for frontend
 app.get("/streak/:repo", async (req, res) => {
   try {
     const { repo } = req.params;
-    const url = `${GITHUB_API}/repos/${process.env.GITHUB_USER}/${repo}/commits?per_page=100`;
-    console.log("🔎 Fetching commits for streak:", url);
+    const allRepos = await getCombinedRepos();
+    const match = allRepos.find(r => r.name === repo);
+    if (!match) return res.status(404).json({ error: "Repo not found" });
 
-    const response = await fetch(url, {
-      headers: { Authorization: `token ${process.env.GITHUB_TOKEN}` },
-    });
-
-    const commits = await response.json();
-    console.log("📥 Commits response:", commits);
-
-    if (!response.ok) {
-      return res.status(response.status).json({ error: commits.message || "GitHub API error" });
-    }
-
-    if (!Array.isArray(commits)) {
-      return res.status(500).json({ error: "Unexpected response from GitHub API" });
-    }
+    const owner = match.owner.login;
+    const { ok, data: commits } = await githubFetch(
+      `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=100`
+    );
+    if (!ok || !Array.isArray(commits)) return res.status(500).json({ error: "Unable to fetch commits" });
 
     const commitDates = commits.map(c => formatDate(c.commit.author.date));
     const uniqueDates = [...new Set(commitDates)].sort().reverse();
 
-    let currentStreak = 0;
-    let longestStreak = 0;
-    let prevDate = null;
-
-    for (const d of uniqueDates) {
+    let currentStreak = 0, longestStreak = 0, prevDate = null;
+    uniqueDates.forEach(d => {
       if (!prevDate) {
         currentStreak = 1;
         longestStreak = 1;
       } else {
-        const diffDays = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
-        if (diffDays === 1) {
+        const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
+        if (diff === 1) {
           currentStreak++;
           longestStreak = Math.max(longestStreak, currentStreak);
-        } else {
-          currentStreak = 1;
-        }
+        } else currentStreak = 1;
       }
       prevDate = d;
-    }
+    });
 
     res.json({
+      owner,
       repo,
       currentStreak,
       longestStreak,
@@ -193,6 +143,46 @@ app.get("/streak/:repo", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+
+// Get commits for a repo
+app.get("/commits/:repo", async (req, res) => {
+  try {
+    const { repo } = req.params;
+    const allRepos = await getCombinedRepos();
+    const match = allRepos.find(r => r.name === repo);
+    if (!match) return res.status(404).json({ error: "Repo not found" });
+
+    const owner = match.owner.login;
+    let commits = [];
+    let page = 1;
+    const perPage = 100;
+
+    while (true) {
+      const { ok, data } = await githubFetch(
+        `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
+      );
+      if (!ok || !Array.isArray(data) || data.length === 0) break;
+      commits = commits.concat(data);
+      if (data.length < perPage) break;
+      page++;
+    }
+
+    // Simplify commit info
+    const simplified = commits.map(c => ({
+      sha: c.sha,
+      message: c.commit.message,
+      author: c.commit.author.name,
+      date: c.commit.author.date,
+      url: c.html_url
+    }));
+
+    res.json(simplified);
+  } catch (err) {
+    console.error("❌ Error in /commits/:repo", err.message);
+    res.status(500).json({ error: err.message });
+  }
+});
+
 
 // Start server
 app.listen(PORT, () => console.log(`Backend running at http://localhost:${PORT}`));

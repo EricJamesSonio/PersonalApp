@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Repo Details</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="../designs/styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="repo-title">Repo Details</h1>
+    <div class="header-buttons">
+      <button onclick="goBack()">⬅ Back</button>
+      <button id="fullscreen-btn">Toggle Fullscreen</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="status" class="loading" style="display:none;"></div>
+    <div id="error" class="error" style="display:none;"></div>
+    <div class="repo-details">
+      <div id="repo-stats" class="stats"></div>
+      <canvas id="repo-chart"></canvas>
+    </div>
+  </main>
+
+  <script>
+    const API_BASE = "http://localhost:4000";
+    const charts = new Map();
+
+    document.getElementById("fullscreen-btn").addEventListener("click", () => {
+      window.electronAPI.toggleFullscreen();
+    });
+
+    function goBack() {
+      window.location.href = "./index.html"; // main repo list
+    }
+
+    async function loadRepo(repoName) {
+      const statusEl = document.getElementById("status");
+      const errorEl = document.getElementById("error");
+      const statsEl = document.getElementById("repo-stats");
+      const chartEl = document.getElementById("repo-chart");
+
+      statusEl.style.display = "block";
+      statusEl.textContent = "Loading repo details...";
+      errorEl.style.display = "none";
+
+      try {
+        const res = await fetch(`${API_BASE}/repos`);
+        const repos = await res.json();
+        const repo = repos.find(r => r.name === repoName);
+        if (!repo) throw new Error("Repo not found");
+
+        const streakRes = await fetch(`${API_BASE}/streak/${repoName}`);
+        const streak = await streakRes.json();
+
+        // Set title
+        document.getElementById("repo-title").textContent = repo.name;
+
+        // Stats
+        const contributorsHTML = repo.contributors?.length
+          ? `<div class="stat">👥 Contributors: ${repo.contributors.map(c => `${c.login} (${c.contributions})`).join(", ")}</div>`
+          : "";
+        statsEl.innerHTML = `
+          <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
+          <div class="stat">🏆 Longest Streak: ${streak.longestStreak}</div>
+          <div class="stat">🗓 Days Active: ${streak.daysActive}</div>
+          <div class="stat">📦 Total Commits: ${streak.totalCommits}</div>
+          <div class="stat">🗓 Created: ${new Date(repo.created_at).toLocaleDateString()}</div>
+          <div class="stat">🕒 Last Commit: ${new Date(repo.updated_at).toLocaleDateString()}</div>
+          ${contributorsHTML}
+        `;
+
+        // Chart
+        const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
+        const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
+
+        if (charts.has(repoName)) charts.get(repoName).destroy();
+        const ctx = chartEl.getContext("2d");
+        const chart = new Chart(ctx, {
+          type: "bar",
+          data: { labels: days, datasets: [{ label: 'Commits per day', data: commits, backgroundColor: '#4CAF50' }] },
+          options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
+        });
+        charts.set(repoName, chart);
+
+      } catch (err) {
+        errorEl.style.display = "block";
+        errorEl.textContent = err.message;
+      } finally {
+        statusEl.style.display = "none";
+      }
+    }
+
+    // Load repo from query string
+    const params = new URLSearchParams(window.location.search);
+    const repoName = params.get("repo");
+    if (repoName) loadRepo(repoName);
+  </script>
+</body>
+</html>

@@ -40,49 +40,62 @@ async function loadRepos() {
     const repoWithStreaks = await Promise.all(streakPromises);
     repoWithStreaks.sort((a, b) => (b.streak?.currentStreak || 0) - (a.streak?.currentStreak || 0));
 
-    repoWithStreaks.forEach(({ repo, streak }) => {
-      const li = document.createElement("li");
-      li.className = "repo-card";
+  repoWithStreaks.forEach(({ repo, streak }) => {
+    const li = document.createElement("li");
+    li.className = "repo-card";
 
-      if (streak) {
-        const contributorsHTML = repo.contributors?.length
-          ? `<div class="stat">👥 Contributors: ${repo.contributors.map(c => `${c.login} (${c.contributions})`).join(", ")}</div>`
-          : "";
+    if (streak) {
+      const contributorsHTML = repo.contributors?.length
+        ? `<div class="stat">👥 Contributors: ${repo.contributors.map(c => `${c.login} (${c.contributions})`).join(", ")}</div>`
+        : "";
 
-        li.innerHTML = `
-          <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
-          <div class="stats">
-            <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
-            <div class="stat">🏆 Longest Streak: ${streak.longestStreak}</div>
-            <div class="stat">🗓 Days Active: ${streak.daysActive}</div>
-            <div class="stat">📦 Total Commits: ${streak.totalCommits}</div>
-            <div class="stat">🗓 Created: ${new Date(repo.created_at).toLocaleDateString()}</div>
-            <div class="stat">🕒 Last Commit: ${new Date(repo.updated_at).toLocaleDateString()}</div>
-            ${contributorsHTML}
-          </div>
-          <canvas id="chart-${repo.name}"></canvas>
-        `;
-        listEl.appendChild(li);
+      li.innerHTML = `
+        <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
+        <div class="stats">
+          <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
+          <div class="stat">🏆 Longest Streak: ${streak.longestStreak}</div>
+          <div class="stat">🗓 Days Active: ${streak.daysActive}</div>
+          <div class="stat">📦 Total Commits: ${streak.totalCommits}</div>
+          <div class="stat">🗓 Created: ${new Date(repo.created_at).toLocaleDateString()}</div>
+          <div class="stat">🕒 Last Commit: ${new Date(repo.updated_at).toLocaleDateString()}</div>
+          ${contributorsHTML}
+        </div>
+        <canvas id="chart-${repo.name}"></canvas>
+      `;
 
-        if (charts.has(repo.name)) charts.get(repo.name).destroy();
+      // ✅ Now the stats div exists, append the button
+      const statsDiv = li.querySelector(".stats");
+      const viewBtn = document.createElement("button");
+      viewBtn.textContent = "🔍 View Full";
+      viewBtn.className = "view-full-btn";
+      viewBtn.addEventListener("click", () => {
+        window.location.href = `./repo-detail.html?repo=${repo.name}`;
+      });
+      statsDiv.appendChild(viewBtn);
 
-        const ctx = document.getElementById(`chart-${repo.name}`).getContext("2d");
-        const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
-        const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
+      listEl.appendChild(li);
 
-        const chart = new Chart(ctx, {
-          type: "bar",
-          data: { labels: days, datasets: [{ label: 'Commits per day', data: commits, backgroundColor: '#4CAF50' }] },
-          options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
-        });
+      if (charts.has(repo.name)) charts.get(repo.name).destroy();
 
-        charts.set(repo.name, chart);
-      } else {
-        li.innerHTML = `<div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
-                        <div class="stat">⚠️ Streak info unavailable</div>`;
-        listEl.appendChild(li);
-      }
-    });
+      const ctx = document.getElementById(`chart-${repo.name}`).getContext("2d");
+      const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
+      const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
+
+      const chart = new Chart(ctx, {
+        type: "bar",
+        data: { labels: days, datasets: [{ label: 'Commits per day', data: commits, backgroundColor: '#4CAF50' }] },
+        options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
+      });
+
+      charts.set(repo.name, chart);
+
+    } else {
+      li.innerHTML = `<div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
+                      <div class="stat">⚠️ Streak info unavailable</div>`;
+      listEl.appendChild(li);
+    }
+  });
+
 
   } catch (err) {
     errorEl.style.display = "block";

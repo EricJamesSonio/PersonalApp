@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📝 Notes</title>
+  <link rel="stylesheet" href="../designs/styles.css">
+  <style>
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #f5f5f5;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      border-top: 1px solid #ccc;
+    }
+    main { margin-bottom: 60px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📝 Notes</h1>
+    <div class="header-buttons">
+      <button onclick="goBack()">⬅ Back</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="folder-view">
+      <h2>📂 Note Folders</h2>
+      <ul id="folders"></ul>
+    </section>
+
+    <section id="notes-view" style="display:none;">
+      <h2 id="folder-title"></h2>
+      <textarea id="note-text" placeholder="Write your note..."></textarea>
+      <button onclick="addNote()">Add Note</button>
+      <ul id="notes"></ul>
+    </section>
+
+    <section class="timeline">
+      <h2>📜 Timeline</h2>
+      <ul id="timeline"></ul>
+    </section>
+  </main>
+
+  <div class="bottom-bar">
+    <button onclick="createFolder()">➕ Create Folder</button>
+    <button onclick="viewFolder()">📂 View Folder</button>
+    <button onclick="renameFolder()">✏ Rename Folder</button>
+    <button onclick="removeFolder()">🗑 Remove Folder</button>
+  </div>
+
+  <script>
+    function goBack() { window.location.href = "../../index.html"; }
+  </script>
+  <script src="../actions/renderer.js"></script>
+</body>
+</html>
