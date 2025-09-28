@@ -44,17 +44,28 @@ router.delete("/:cmd", async (req, res) => {
 router.patch("/rename", async (req, res) => {
   try {
     const { oldCmd, newCmd, desc } = req.body;
-    if (!oldCmd || !newCmd) return res.status(400).json({ error: "oldCmd and newCmd required" });
+    if (!oldCmd || !newCmd) {
+      return res.status(400).json({ error: "oldCmd and newCmd required" });
+    }
+
     const all = await readCommandsFile();
-    if (!all[oldCmd]) return res.status(404).json({ error: "oldCmd not found" });
-    const value = desc || all[oldCmd];
+    if (!all[oldCmd]) {
+      return res.status(404).json({ error: "oldCmd not found" });
+    }
+
+    // always delete the old one first
+    const oldDesc = all[oldCmd];
     delete all[oldCmd];
-    all[newCmd] = value;
+
+    // set new with either provided desc or oldDesc
+    all[newCmd] = desc || oldDesc;
+
     await writeCommandsFile(all);
     res.json(all);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
+
 
 module.exports = router;

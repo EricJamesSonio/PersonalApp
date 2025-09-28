@@ -11,20 +11,18 @@ export function initTerminal(options = {}) {
   if (!document.getElementById("terminal-container")) {
     const container = document.createElement("div");
     container.id = "terminal-container";
-
-    // HIDDEN by default
     container.style.display = "none";
     container.style.position = "fixed";
-    container.style.bottom = "20px"; // add a little margin from bottom
-    container.style.left = "50%"; // center horizontally
-    container.style.transform = "translateX(-50%)"; // align to center
-    container.style.width = "600px"; // fixed width (not full)
+    container.style.bottom = "20px"; 
+    container.style.left = "50%"; 
+    container.style.transform = "translateX(-50%)"; 
+    container.style.width = "600px"; 
     container.style.height = "150px";
     container.style.backgroundColor = "#1e1e1e";
     container.style.color = "#fff";
     container.style.fontFamily = "monospace";
-    container.style.border = "2px solid #333"; // border around panel
-    container.style.borderRadius = "8px"; // rounded edges
+    container.style.border = "2px solid #333"; 
+    container.style.borderRadius = "8px"; 
     container.style.overflow = "hidden";
     container.style.padding = "5px";
     container.style.zIndex = "9999";
@@ -72,42 +70,41 @@ export function initTerminal(options = {}) {
     return await res.json();
   }
 
-  async function handleCommand(cmd) {
-    try {
-      const cmds = await fetchCommands();
+async function handleCommand(cmd) {
+  try {
+    const cmds = await fetchCommands();
 
-      if (cmd === "openterminal") {
-        window.open("terminal-dashboard.html", "_blank");
-        appendLine("Opening terminal dashboard...");
-        return;
-      }
+    if (cmds[cmd]) {
+      const desc = cmds[cmd];
+      const lowerDesc = desc.toLowerCase();
 
-      if (cmds[cmd]) {
-        const desc = cmds[cmd];
-
-        // Map description → actual function
-        if (desc.toLowerCase().includes("highlight")) {
-          // remove highlights
-          if (currentHighlight) {
-            currentHighlight.forEach((el) => el.classList.remove("highlight"));
-            appendLine("Highlight removed.");
-            currentHighlight = null;
-            highlightCallback(null);
-          } else {
-            appendLine("No highlight to remove.");
-          }
+      // Map description → actual function
+      if (lowerDesc.includes("highlight")) {
+        // remove highlights
+        if (currentHighlight) {
+          currentHighlight.forEach((el) => el.classList.remove("highlight"));
+          appendLine("Highlight removed.");
+          currentHighlight = null;
+          highlightCallback(null);
         } else {
-          // Default: just echo description
-          appendLine(`→ ${desc}`);
+          appendLine("No highlight to remove.");
         }
+      } else if (lowerDesc.includes("open the terminal dashboard")) {
+        // Open dashboard
+        const baseUrl = window.location.origin;
+        window.open(`${baseUrl}/terminal-dashboard.html`, "_blank");
+        appendLine("Opening terminal dashboard...");
       } else {
-        appendLine(`Unknown command: ${cmd}`);
+        // Default: just echo description
+        appendLine(`→ ${desc}`);
       }
-    } catch (err) {
-      appendLine("Error: " + err.message);
+    } else {
+      appendLine(`Unknown command: ${cmd}`);
     }
+  } catch (err) {
+    appendLine("Error: " + err.message);
   }
-
+}
 
   terminalInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
