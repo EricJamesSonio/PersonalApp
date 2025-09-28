@@ -1,5 +1,5 @@
 const API_BASE = "http://localhost:4000"; 
-const charts = new Map();
+const charts = new Map(); // repo.full_name → Chart instance
 let allRepos = []; // store cached repos with streaks
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -32,11 +32,8 @@ async function loadRepos(refresh = false) {
     // ✅ cache repos
     allRepos = repos.map(r => ({ repo: r, streak: r.streak }));
 
-    // ✅ render all repos first
-    renderRepos(allRepos);
-
     // ✅ then apply filter/sort visibility
-    applyFilters();
+    applyFilters(allRepos);
   } catch (err) {
     errorEl.style.display = "block";
     errorEl.textContent = `Error loading repos: ${err.message}`;
@@ -56,46 +53,33 @@ function applyFilters() {
   const sortType = document.getElementById("sort-select").value;
   const filterType = document.getElementById("repo-filter").value;
 
+  // ✅ search by full_name
   let filtered = allRepos.filter(({ repo }) =>
-    repo.name.toLowerCase().includes(searchQuery)
+    repo.full_name.toLowerCase().includes(searchQuery)
   );
 
-  // ✅ Repo filter logic
   if (filterType === "mine") {
     filtered = filtered.filter(({ repo }) => repo.isOwner || repo.isContributor);
   } else if (filterType === "org") {
     filtered = filtered.filter(({ repo }) => repo.owner?.type === "Organization");
   }
 
-  // ✅ Sorting (applies only to visible repos)
   if (sortType === "alpha") {
-    filtered.sort((a, b) => a.repo.name.localeCompare(b.repo.name));
+    filtered.sort((a, b) => a.repo.full_name.localeCompare(b.repo.full_name));
   } else if (sortType === "date") {
     filtered.sort((a, b) => new Date(b.repo.created_at) - new Date(a.repo.created_at));
   } else if (sortType === "commits") {
     filtered.sort((a, b) => (b.streak?.totalCommits || 0) - (a.streak?.totalCommits || 0));
   }
 
-  // ✅ Instead of re-rendering, just toggle visibility
-  const repoList = document.getElementById("repo-list").children;
-  for (const li of repoList) li.style.display = "none";
-
-  filtered.forEach(({ repo }) => {
-    const li = document.getElementById(`repo-card-${repo.name}`);
-    if (li) li.style.display = "block";
-  });
-}
-
-function renderRepos(repoWithStreaks) {
+  // ✅ Clear and re-render in correct order
   const listEl = document.getElementById("repo-list");
+  listEl.innerHTML = "";
 
-  repoWithStreaks.forEach(({ repo, streak }) => {
-    // ✅ Prevent duplicate render
-    if (document.getElementById(`repo-card-${repo.name}`)) return;
-
+  filtered.forEach(({ repo, streak }) => {
     const li = document.createElement("li");
     li.className = "repo-card";
-    li.id = `repo-card-${repo.name}`;
+    li.id = `repo-card-${repo.full_name}`;
 
     if (streak) {
       const contributorsHTML = repo.contributors?.length
@@ -103,7 +87,7 @@ function renderRepos(repoWithStreaks) {
         : "";
 
       li.innerHTML = `
-        <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
+        <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.full_name}</a></div>
         <div class="stats">
           <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
           <div class="stat">🏆 Longest Streak: ${streak.longestStreak}</div>
@@ -113,7 +97,7 @@ function renderRepos(repoWithStreaks) {
           <div class="stat">🕒 Last Commit: ${new Date(repo.updated_at).toLocaleDateString()}</div>
           ${contributorsHTML}
         </div>
-        <canvas id="chart-${repo.name}"></canvas>
+        <canvas id="chart-${repo.full_name}"></canvas>
       `;
 
       const statsDiv = li.querySelector(".stats");
@@ -122,7 +106,8 @@ function renderRepos(repoWithStreaks) {
       viewBtn.textContent = "🔍 View Full";
       viewBtn.className = "view-full-btn";
       viewBtn.addEventListener("click", () => {
-        window.location.href = `./repo-detail.html?repo=${repo.name}`;
+        // ✅ pass full_name instead of name
+        window.location.href = `./repo-detail.html?repo=${encodeURIComponent(repo.full_name)}`;
       });
       statsDiv.appendChild(viewBtn);
 
@@ -136,25 +121,29 @@ function renderRepos(repoWithStreaks) {
 
       listEl.appendChild(li);
 
-      if (!charts.has(repo.name)) {
-        const ctx = document.getElementById(`chart-${repo.name}`).getContext("2d");
-        const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
-        const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
-
-        const chart = new Chart(ctx, {
-          type: "bar",
-          data: {
-            labels: days,
-            datasets: [{ label: "Commits per day", data: commits, backgroundColor: "#4CAF50" }]
-          },
-          options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
-        });
-
-        charts.set(repo.name, chart);
+      // 🔥 Destroy old chart if exists
+      if (charts.has(repo.full_name)) {
+        charts.get(repo.full_name).destroy();
       }
+
+      const ctx = document.getElementById(`chart-${repo.full_name}`).getContext("2d");
+      const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
+      const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
+
+      const chart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: days,
+          datasets: [{ label: "Commits per day", data: commits, backgroundColor: "#4CAF50" }]
+        },
+        options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
+      });
+
+      charts.set(repo.full_name, chart); // ✅ save instance for later reuse/destroy
+
     } else {
       li.innerHTML = `
-        <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>
+        <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.full_name}</a></div>
         <div class="stat">⚠️ Streak info unavailable</div>
       `;
       listEl.appendChild(li);
