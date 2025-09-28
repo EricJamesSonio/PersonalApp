@@ -1,0 +1,261 @@
+[
+  {
+    "sha": "1b12cb8c5b3ecca2dc79c238cd9d3a3d294011ae",
+    "message": "Cleaned up mess warnings",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T10:24:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/1b12cb8c5b3ecca2dc79c238cd9d3a3d294011ae"
+  },
+  {
+    "sha": "fb370c1c4fccb49350c67690d1e2fba07b8f53e5",
+    "message": "Add instruction",
+    "author": "JAY-AT",
+    "date": "2025-09-26T09:57:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/fb370c1c4fccb49350c67690d1e2fba07b8f53e5"
+  },
+  {
+    "sha": "636823f72b63d77d4fb98edcf55ea04675486fea",
+    "message": "Added javafx",
+    "author": "JAY-AT",
+    "date": "2025-09-26T09:50:53Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/636823f72b63d77d4fb98edcf55ea04675486fea"
+  },
+  {
+    "sha": "f93d0a314c6fa3d9ba0d03afe52ac4a5294201b0",
+    "message": "Fix to only use 1 scanner",
+    "author": "EricJames",
+    "date": "2025-09-25T13:15:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/f93d0a314c6fa3d9ba0d03afe52ac4a5294201b0"
+  },
+  {
+    "sha": "0f2a96762dafda78c62ef0035d6bf17ed9233284",
+    "message": "Fix emplyoee managemenmt s",
+    "author": "EricJames",
+    "date": "2025-09-24T05:44:04Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/0f2a96762dafda78c62ef0035d6bf17ed9233284"
+  },
+  {
+    "sha": "27a04c30cb1ace8d44be7687955fbfca6c511f14",
+    "message": "Fix the ingredient to dont contains quantity",
+    "author": "EricJames",
+    "date": "2025-09-24T04:54:21Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/27a04c30cb1ace8d44be7687955fbfca6c511f14"
+  },
+  {
+    "sha": "0456e8388fb720f2acbed946c54f77550e310b1c",
+    "message": "Name resto",
+    "author": "EricJames",
+    "date": "2025-09-24T03:43:33Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/0456e8388fb720f2acbed946c54f77550e310b1c"
+  },
+  {
+    "sha": "88a7af4cbc1dd533fcef02ee24fa75d7cf49672b",
+    "message": "Test and fix the java newer version",
+    "author": "EricSonio",
+    "date": "2025-09-24T03:38:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/88a7af4cbc1dd533fcef02ee24fa75d7cf49672b"
+  },
+  {
+    "sha": "03ee1f8eca23d22360392d37d490d8b0357c2f9c",
+    "message": "Fix order related to be solid",
+    "author": "EricJames",
+    "date": "2025-09-24T03:30:10Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/03ee1f8eca23d22360392d37d490d8b0357c2f9c"
+  },
+  {
+    "sha": "32699a9dda5e7c00c9be39c3bab32cf42c2d2f12",
+    "message": "Modulized folders",
+    "author": "EricJames",
+    "date": "2025-09-24T02:16:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/32699a9dda5e7c00c9be39c3bab32cf42c2d2f12"
+  },
+  {
+    "sha": "d79ec7652fdb29d310c0f25725a8aff215842904",
+    "message": "Fix unused lamda",
+    "author": "EricJames",
+    "date": "2025-09-24T02:12:21Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/d79ec7652fdb29d310c0f25725a8aff215842904"
+  },
+  {
+    "sha": "fdcd47c0b93a9e1afa289b294ecb4d7f44b3d110",
+    "message": "Merge branch 'main' of https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP",
+    "author": "EricJames",
+    "date": "2025-09-24T02:06:09Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/fdcd47c0b93a9e1afa289b294ecb4d7f44b3d110"
+  },
+  {
+    "sha": "1379fb7255deec114014b439836acc58f5cd940f",
+    "message": "Fix the missing start in inventory management lol",
+    "author": "EricJames",
+    "date": "2025-09-24T02:05:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/1379fb7255deec114014b439836acc58f5cd940f"
+  },
+  {
+    "sha": "02b5af13fc47ef2137c6a3c663fac618dcfff5ca",
+    "message": "Fix lambda java +9",
+    "author": "EricSonio",
+    "date": "2025-09-24T01:53:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/02b5af13fc47ef2137c6a3c663fac618dcfff5ca"
+  },
+  {
+    "sha": "3af41d0b1b9a5e899cc9da30aa4349f717ec0ec0",
+    "message": "Remove some unused imports and instances",
+    "author": "EricJames",
+    "date": "2025-09-24T01:48:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/3af41d0b1b9a5e899cc9da30aa4349f717ec0ec0"
+  },
+  {
+    "sha": "bb5c42b030a5e47a95b4258d53b67a06fb666a21",
+    "message": "Improve the compile and bat of bash and cmd version and have modulized folders",
+    "author": "EricJames",
+    "date": "2025-09-24T01:37:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/bb5c42b030a5e47a95b4258d53b67a06fb666a21"
+  },
+  {
+    "sha": "d517ae4a1d21f862e41665a4d87a10b1bc46c649",
+    "message": "Fix and remove the unnecesary hardocded discount to rely now in discount managemer",
+    "author": "EricJames",
+    "date": "2025-09-24T00:53:52Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/d517ae4a1d21f862e41665a4d87a10b1bc46c649"
+  },
+  {
+    "sha": "c0a3cfc49e9b9f8832a023a5f05addd7db14dc4b",
+    "message": "Clean the order",
+    "author": "EricJames",
+    "date": "2025-09-24T00:38:29Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/c0a3cfc49e9b9f8832a023a5f05addd7db14dc4b"
+  },
+  {
+    "sha": "68c7209f991f297259ca10792278e2399861a290",
+    "message": "Fix make it compatible in orlder java",
+    "author": "EricJames",
+    "date": "2025-09-19T17:01:01Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/68c7209f991f297259ca10792278e2399861a290"
+  },
+  {
+    "sha": "3c404fec08771d6ecd648c282e54ee9b587cb488",
+    "message": "Added module sfor cahsier tui",
+    "author": "EricJames",
+    "date": "2025-09-19T16:39:24Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/3c404fec08771d6ecd648c282e54ee9b587cb488"
+  },
+  {
+    "sha": "0a33f1ed7b0ffb93eb4b5f94c5a60ffca15cffc0",
+    "message": "Fix business logic and ui int omuch cleaner approache",
+    "author": "EricJames",
+    "date": "2025-09-19T15:59:04Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/0a33f1ed7b0ffb93eb4b5f94c5a60ffca15cffc0"
+  },
+  {
+    "sha": "03a8a25c67be04d1a102c7ddc911daa6876d29e5",
+    "message": "nah",
+    "author": "EricJames",
+    "date": "2025-09-19T15:20:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/03a8a25c67be04d1a102c7ddc911daa6876d29e5"
+  },
+  {
+    "sha": "72213f0d64e4c72d12953cdb195e91c55daa011c",
+    "message": "Refctor cashier dashboard since it doesnt directly call managementtui",
+    "author": "EricJames",
+    "date": "2025-09-19T15:19:41Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/72213f0d64e4c72d12953cdb195e91c55daa011c"
+  },
+  {
+    "sha": "602c27eea57da3d3801546bfa37aee7c8a6d6a6c",
+    "message": "Have sales repor tservice for business logics",
+    "author": "EricJames",
+    "date": "2025-09-19T13:56:04Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/602c27eea57da3d3801546bfa37aee7c8a6d6a6c"
+  },
+  {
+    "sha": "2ba92e575cc450c91ff4c849a4e358011731b984",
+    "message": "Merge branch 'main' of https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP",
+    "author": "EricJames",
+    "date": "2025-09-19T13:43:07Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/2ba92e575cc450c91ff4c849a4e358011731b984"
+  },
+  {
+    "sha": "dbef782fee2c77d4e9f88bf1e4ba4c91b6e89ad4",
+    "message": "Update the seeder to seed instances not plain text and have serializer descriptor",
+    "author": "EricJames",
+    "date": "2025-09-19T13:42:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/dbef782fee2c77d4e9f88bf1e4ba4c91b6e89ad4"
+  },
+  {
+    "sha": "fecd8cfaf1e81e6d8c6bc097651417be6114308a",
+    "message": "Fix compile so it works inside codespace",
+    "author": "EricSonio",
+    "date": "2025-09-19T13:34:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/fecd8cfaf1e81e6d8c6bc097651417be6114308a"
+  },
+  {
+    "sha": "d8d5c4712dd8a1aadf4b93896c6993f1078b7c6e",
+    "message": "Include in my compile and run the repository folder in javac, and added repository files for servidces",
+    "author": "EricJames",
+    "date": "2025-09-19T12:44:17Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/d8d5c4712dd8a1aadf4b93896c6993f1078b7c6e"
+  },
+  {
+    "sha": "2869bd09db58050f98db83c835407f5885744842",
+    "message": "Updated structure , uses bin so .classes dont get save along in repo, and some modification in files",
+    "author": "EricJames",
+    "date": "2025-09-19T12:03:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/2869bd09db58050f98db83c835407f5885744842"
+  },
+  {
+    "sha": "a8f2c9a1aa12aebe0f4c3adfc6a897a345b7e905",
+    "message": "Added some changes that reshape some classes in order to work wiht new classes such as order management and inventory management",
+    "author": "EricJames",
+    "date": "2025-08-27T01:33:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/a8f2c9a1aa12aebe0f4c3adfc6a897a345b7e905"
+  },
+  {
+    "sha": "fbc807f404782dad39e0350453198e64f2878c3a",
+    "message": "Added some auth, employee management class",
+    "author": "EricJames",
+    "date": "2025-08-26T12:15:24Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/fbc807f404782dad39e0350453198e64f2878c3a"
+  },
+  {
+    "sha": "2a4942edc2d7da688486be81e3a4d07005f7a146",
+    "message": "Table and table management",
+    "author": "EricJames",
+    "date": "2025-08-25T11:55:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/2a4942edc2d7da688486be81e3a4d07005f7a146"
+  },
+  {
+    "sha": "18d7ef86efed17b4d3b6d4f21169ca15ebd15e09",
+    "message": "I just thought that i should convert the menuitem into orderitem so that it wraps the data so only needed is get",
+    "author": "EricJames",
+    "date": "2025-08-24T11:59:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/18d7ef86efed17b4d3b6d4f21169ca15ebd15e09"
+  },
+  {
+    "sha": "7912998b5847a8210b4dc85e2c5eaf4c61e780b3",
+    "message": "Added Admin, Receipt repo, Sales report and table. also added date in receipt",
+    "author": "EricJames",
+    "date": "2025-08-24T11:35:44Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/7912998b5847a8210b4dc85e2c5eaf4c61e780b3"
+  },
+  {
+    "sha": "56f0abba87f8d0a7b2b1fe8c3a3f5af34b30272a",
+    "message": "Added restaurant class for details of the restaurant only and also a address for the restaurant",
+    "author": "EricJames",
+    "date": "2025-08-24T10:22:02Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/56f0abba87f8d0a7b2b1fe8c3a3f5af34b30272a"
+  },
+  {
+    "sha": "faa3d653adf3bc1aff55a02dfecd85172e330946",
+    "message": "Added some classes ,still thinkign of better way designing classes",
+    "author": "EricJames",
+    "date": "2025-08-24T10:11:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/faa3d653adf3bc1aff55a02dfecd85172e330946"
+  },
+  {
+    "sha": "aa7514c9ec285f94b9f8b22ee21e44beaa5a6c11",
+    "message": "Menuitem, order, id, discount, orderlist, ingredients",
+    "author": "EricJames",
+    "date": "2025-08-24T04:31:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/Sonio_Entileso_OOP/commit/aa7514c9ec285f94b9f8b22ee21e44beaa5a6c11"
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "sha": "b8145119c86478fa51e5e6d99f080aafc0a1334b",
+    "message": "Update README.md",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-25T03:22:25Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/b8145119c86478fa51e5e6d99f080aafc0a1334b"
+  },
+  {
+    "sha": "0952faf8c3b49d160d8a0bba1190d8fd4ee9c63c",
+    "message": "Update main.py\n\n- fix wave files not playing due to getting its duration.\r\n- added pydub for getting wave file duration\r\n- plays next song if an error was encountered\r\n- minor widget changes",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-25T03:20:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/0952faf8c3b49d160d8a0bba1190d8fd4ee9c63c"
+  },
+  {
+    "sha": "7b47808fdb49c853e72fabb376d9f21dfe3e2c33",
+    "message": "Update README.md",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-22T09:56:00Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/7b47808fdb49c853e72fabb376d9f21dfe3e2c33"
+  },
+  {
+    "sha": "6d4137f9c2fa746f854c9494809c10d084d5000b",
+    "message": "play time & next song\n\n- GUI update\r\n- plays next song after a song is played\r\n- added play time of a playing song",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-22T09:43:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/6d4137f9c2fa746f854c9494809c10d084d5000b"
+  },
+  {
+    "sha": "e402edbd71b576d1015991b1c891b8fc9c6a0e3e",
+    "message": "Update README.md",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-17T12:24:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/e402edbd71b576d1015991b1c891b8fc9c6a0e3e"
+  },
+  {
+    "sha": "5f0ac5dea891a53d1f1614244836c43b1713d419",
+    "message": "Update main.py",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-16T07:50:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/5f0ac5dea891a53d1f1614244836c43b1713d419"
+  },
+  {
+    "sha": "bf3a0b881291b0311813480f61cfbdef3b8b26b8",
+    "message": "Update README.md",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-14T07:04:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/bf3a0b881291b0311813480f61cfbdef3b8b26b8"
+  },
+  {
+    "sha": "d655c42bdde8852f6029a64fc580b2114b699baf",
+    "message": "Update main.py",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-14T05:19:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/d655c42bdde8852f6029a64fc580b2114b699baf"
+  },
+  {
+    "sha": "849e151f42f0418b0f2330ab99a392b07168e280",
+    "message": "Update main.py",
+    "author": "John Paul Zoleta",
+    "date": "2020-03-13T17:03:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/849e151f42f0418b0f2330ab99a392b07168e280"
+  },
+  {
+    "sha": "30766d882ea4c2f989db20825cfd526a33be9281",
+    "message": "Update README.md",
+    "author": "johnpaul_GZ",
+    "date": "2020-03-12T12:50:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/30766d882ea4c2f989db20825cfd526a33be9281"
+  },
+  {
+    "sha": "1a2457bea5de368598e232c98167bad5c5eddf9f",
+    "message": "Update README.md",
+    "author": "johnpaul_GZ",
+    "date": "2020-03-12T12:39:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/1a2457bea5de368598e232c98167bad5c5eddf9f"
+  },
+  {
+    "sha": "c0e74bf58129ae21442babcfd8c907dd87d2df34",
+    "message": "Update README.md",
+    "author": "johnpaul_GZ",
+    "date": "2020-03-12T12:38:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/c0e74bf58129ae21442babcfd8c907dd87d2df34"
+  },
+  {
+    "sha": "ccd4f76b83f6aee12e10bbdafc9caf62a99ff44a",
+    "message": "Update README.md",
+    "author": "johnpaul_GZ",
+    "date": "2020-03-12T12:38:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/ccd4f76b83f6aee12e10bbdafc9caf62a99ff44a"
+  },
+  {
+    "sha": "ae183c5a87bb30ee5864ef6872652f1949807de2",
+    "message": "Rename BSCS-19-MusicPlayer.py to main.py",
+    "author": "johnpaul_GZ",
+    "date": "2020-03-12T11:57:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/ae183c5a87bb30ee5864ef6872652f1949807de2"
+  },
+  {
+    "sha": "5278397cf0666f69745761ab1a869070056ea7d6",
+    "message": "Create BSCS-19-MusicPlayer.py",
+    "author": "johnpaul_GZ",
+    "date": "2020-03-12T11:52:20Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/5278397cf0666f69745761ab1a869070056ea7d6"
+  },
+  {
+    "sha": "0282da785e15715f0cb3163d541974d9ac3f7b13",
+    "message": "Initial commit",
+    "author": "johnpaul_GZ",
+    "date": "2020-03-12T11:38:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/BSCS-19-MusicPlayer/commit/0282da785e15715f0cb3163d541974d9ac3f7b13"
+  }
+]

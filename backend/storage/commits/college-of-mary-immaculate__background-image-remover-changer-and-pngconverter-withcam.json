@@ -1,0 +1,58 @@
+[
+  {
+    "sha": "fdc235ed040fca498a891fd89ef6a864f90afe60",
+    "message": "Merge pull request #1 from college-of-mary-immaculate/dependabot/pip/protobuf-5.29.5\n\nBump protobuf from 5.27.3 to 5.29.5",
+    "author": "jabsalicante",
+    "date": "2025-06-23T13:23:29Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/fdc235ed040fca498a891fd89ef6a864f90afe60"
+  },
+  {
+    "sha": "cf96f6c888f7588eb56589cf09ab17d2c0ecced5",
+    "message": "Bump protobuf from 5.27.3 to 5.29.5\n\nBumps [protobuf](https://github.com/protocolbuffers/protobuf) from 5.27.3 to 5.29.5.\n- [Release notes](https://github.com/protocolbuffers/protobuf/releases)\n- [Changelog](https://github.com/protocolbuffers/protobuf/blob/main/protobuf_release.bzl)\n- [Commits](https://github.com/protocolbuffers/protobuf/compare/v5.27.3...v5.29.5)\n\n---\nupdated-dependencies:\n- dependency-name: protobuf\n  dependency-version: 5.29.5\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+    "author": "dependabot[bot]",
+    "date": "2025-06-23T13:22:52Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/cf96f6c888f7588eb56589cf09ab17d2c0ecced5"
+  },
+  {
+    "sha": "6af05871b142ee7eb0746e731b211b2caba135de",
+    "message": "Update README.md",
+    "author": "jabsalicante",
+    "date": "2025-03-23T04:05:07Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/6af05871b142ee7eb0746e731b211b2caba135de"
+  },
+  {
+    "sha": "1320aee17a55d2e21eea601bba6ebad5ee95f7f9",
+    "message": "Update README.md",
+    "author": "jabsalicante",
+    "date": "2025-03-23T04:04:10Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/1320aee17a55d2e21eea601bba6ebad5ee95f7f9"
+  },
+  {
+    "sha": "a932802ae0ed0edc9beaacaa2c8a5a9ed1ed0bba",
+    "message": "Update README.md",
+    "author": "jabsalicante",
+    "date": "2024-09-01T09:42:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/a932802ae0ed0edc9beaacaa2c8a5a9ed1ed0bba"
+  },
+  {
+    "sha": "a3412236cb5f428b93e6f9ce3bfdce40b07d2c86",
+    "message": "Rembgwithcam",
+    "author": "Jabby Alicante",
+    "date": "2024-09-01T09:40:29Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/a3412236cb5f428b93e6f9ce3bfdce40b07d2c86"
+  },
+  {
+    "sha": "7e6d309d7a4be11aeafb316ac8e740aebb4c798b",
+    "message": "Update README.md",
+    "author": "jabsalicante",
+    "date": "2024-09-01T09:28:02Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/7e6d309d7a4be11aeafb316ac8e740aebb4c798b"
+  },
+  {
+    "sha": "48aa7d2c1cc650b7763f9f94d703ef90fe313374",
+    "message": "Initial commit",
+    "author": "jabsalicante",
+    "date": "2024-09-01T09:26:07Z",
+    "url": "https://github.com/college-of-mary-immaculate/background-image-remover-changer-and-pngconverter-withcam/commit/48aa7d2c1cc650b7763f9f94d703ef90fe313374"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "sha": "0e066957af161dceba665cdd8cc27976717a9118",
+    "message": "Avoided using * imports so it doesnt slow down the compiling",
+    "author": "EricJames",
+    "date": "2025-09-19T11:06:44Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/0e066957af161dceba665cdd8cc27976717a9118"
+  },
+  {
+    "sha": "1c4a74a0b5cb6a73de542bb8499c14d32d1305a8",
+    "message": "Updated uses txt file storage instead of json since im gettign problmes using jar lol and make it simpler",
+    "author": "EricJames",
+    "date": "2025-09-19T10:28:17Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/1c4a74a0b5cb6a73de542bb8499c14d32d1305a8"
+  },
+  {
+    "sha": "591ce169adb86c87820cc0d9720d04861386fe4d",
+    "message": "Initial commit",
+    "author": "EricJames",
+    "date": "2025-09-17T13:15:25Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/591ce169adb86c87820cc0d9720d04861386fe4d"
+  },
+  {
+    "sha": "55dd03b7889e93e30133c1e2dde8b578cb8080e4",
+    "message": "Building the needed managements and json loaders",
+    "author": "EricJames",
+    "date": "2025-09-12T10:56:50Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/55dd03b7889e93e30133c1e2dde8b578cb8080e4"
+  },
+  {
+    "sha": "beda1b663779694a9db1f09417385f7918c77e6a",
+    "message": "Updated files and fodler structure and i remove temporary the customer class since i change my mind",
+    "author": "EricJames",
+    "date": "2025-09-12T03:54:55Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/beda1b663779694a9db1f09417385f7918c77e6a"
+  },
+  {
+    "sha": "a8f2c9a1aa12aebe0f4c3adfc6a897a345b7e905",
+    "message": "Added some changes that reshape some classes in order to work wiht new classes such as order management and inventory management",
+    "author": "EricJames",
+    "date": "2025-08-27T01:33:28Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/a8f2c9a1aa12aebe0f4c3adfc6a897a345b7e905"
+  },
+  {
+    "sha": "fbc807f404782dad39e0350453198e64f2878c3a",
+    "message": "Added some auth, employee management class",
+    "author": "EricJames",
+    "date": "2025-08-26T12:15:24Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/fbc807f404782dad39e0350453198e64f2878c3a"
+  },
+  {
+    "sha": "2a4942edc2d7da688486be81e3a4d07005f7a146",
+    "message": "Table and table management",
+    "author": "EricJames",
+    "date": "2025-08-25T11:55:28Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/2a4942edc2d7da688486be81e3a4d07005f7a146"
+  },
+  {
+    "sha": "18d7ef86efed17b4d3b6d4f21169ca15ebd15e09",
+    "message": "I just thought that i should convert the menuitem into orderitem so that it wraps the data so only needed is get",
+    "author": "EricJames",
+    "date": "2025-08-24T11:59:14Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/18d7ef86efed17b4d3b6d4f21169ca15ebd15e09"
+  },
+  {
+    "sha": "7912998b5847a8210b4dc85e2c5eaf4c61e780b3",
+    "message": "Added Admin, Receipt repo, Sales report and table. also added date in receipt",
+    "author": "EricJames",
+    "date": "2025-08-24T11:35:44Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/7912998b5847a8210b4dc85e2c5eaf4c61e780b3"
+  },
+  {
+    "sha": "56f0abba87f8d0a7b2b1fe8c3a3f5af34b30272a",
+    "message": "Added restaurant class for details of the restaurant only and also a address for the restaurant",
+    "author": "EricJames",
+    "date": "2025-08-24T10:22:02Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/56f0abba87f8d0a7b2b1fe8c3a3f5af34b30272a"
+  },
+  {
+    "sha": "faa3d653adf3bc1aff55a02dfecd85172e330946",
+    "message": "Added some classes ,still thinkign of better way designing classes",
+    "author": "EricJames",
+    "date": "2025-08-24T10:11:54Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/faa3d653adf3bc1aff55a02dfecd85172e330946"
+  },
+  {
+    "sha": "aa7514c9ec285f94b9f8b22ee21e44beaa5a6c11",
+    "message": "Menuitem, order, id, discount, orderlist, ingredients",
+    "author": "EricJames",
+    "date": "2025-08-24T04:31:46Z",
+    "url": "https://github.com/EricJamesSonio/oop_SOLID/commit/aa7514c9ec285f94b9f8b22ee21e44beaa5a6c11"
+  }
+]

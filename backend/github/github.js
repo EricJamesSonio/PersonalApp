@@ -22,7 +22,6 @@ async function ensureCommitsDir() {
 }
 
 function getCommitFileName(repo, owner) {
-  // safe filename: owner__repo.json
   return path.join(COMMITS_DIR, `${owner}__${repo}.json`);
 }
 
@@ -37,9 +36,7 @@ async function loadCommits(repo, owner) {
     const file = getCommitFileName(repo, owner);
     const data = await fs.readFile(file, "utf-8");
     return JSON.parse(data);
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
 async function saveCache(data) {
@@ -83,21 +80,70 @@ async function getCombinedRepos() {
   return cachedRepos;
 }
 
-// --- Enrich repos (contributors + streaks) ---
+// --- Fetch commits helper ---
+async function fetchCommits(owner, repo) {
+  let commits = [];
+  let page = 1, perPage = 100;
+
+  while (true) {
+    const { ok, data } = await githubFetch(
+      `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
+    );
+    if (!ok || !Array.isArray(data) || data.length === 0) break;
+    commits = commits.concat(data);
+    if (data.length < perPage) break;
+    page++;
+  }
+
+  return commits.map(c => ({
+    sha: c.sha,
+    message: c.commit.message,
+    author: c.commit.author.name,
+    date: c.commit.author.date,
+    url: c.html_url
+  }));
+}
+
+// --- Calculate streak ---
+async function calculateStreak(repoFullName) {
+  const [owner, repo] = repoFullName.split("/");
+  await ensureCommitsDir();
+
+  let commits = await loadCommits(repo, owner);
+  if (!commits) {
+    commits = await fetchCommits(owner, repo);
+    await saveCommits(repo, owner, commits);
+  }
+
+  const commitDates = commits.map(c => formatDate(c.date));
+  const uniqueDates = [...new Set(commitDates)].sort().reverse();
+
+  let currentStreak = 0, longestStreak = 0, prevDate = null;
+  uniqueDates.forEach(d => {
+    if (!prevDate) { currentStreak = 1; longestStreak = 1; }
+    else {
+      const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
+      if (diff === 1) { currentStreak++; longestStreak = Math.max(longestStreak, currentStreak); }
+      else currentStreak = 1;
+    }
+    prevDate = d;
+  });
+
+  return { repo: repoFullName, currentStreak, longestStreak, totalCommits: commitDates.length, daysActive: uniqueDates.length };
+}
+
+// --- Enrich repos ---
 async function enrichRepos(repos) {
   return await Promise.all(
     repos.map(async repo => {
       const { ok, data } = await githubFetch(
         `${GITHUB_API}/repos/${repo.owner.login}/${repo.name}/contributors`
       );
-      if (!ok) return null;
-
-      const contributors = Array.isArray(data)
+      const contributors = (ok && Array.isArray(data)) 
         ? data.map(c => ({ login: c.login, contributions: c.contributions }))
         : [];
 
-      // streak data
-      const streak = await calculateStreak(repo.name, repo.owner.login);
+      const streak = await calculateStreak(repo.full_name);
 
       return {
         name: repo.name,
@@ -111,72 +157,13 @@ async function enrichRepos(repos) {
         contributors,
         streak,
         isOwner: repo.owner.login.toLowerCase() === USER.toLowerCase(),
-        isContributor: contributors.some(
-          c => c.login.toLowerCase() === USER.toLowerCase()
-        )
+        isContributor: contributors.some(c => c.login.toLowerCase() === USER.toLowerCase())
       };
     })
   ).then(arr => arr.filter(r => r));
 }
 
-// --- helper to compute streak ---
-async function calculateStreak(repo, owner) {
-  await ensureCommitsDir();
-
-  let commits = await loadCommits(repo, owner);
-  if (!commits) {
-    let all = [], page = 1, perPage = 100;
-    while (true) {
-      const { ok, data } = await githubFetch(
-        `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
-      );
-      if (!ok || !Array.isArray(data) || data.length === 0) break;
-      all = all.concat(data);
-      if (data.length < perPage) break;
-      page++;
-    }
-
-    commits = all.map(c => ({
-      sha: c.sha,
-      message: c.commit.message,
-      author: c.commit.author.name,
-      date: c.commit.author.date,
-      url: c.html_url
-    }));
-
-    await saveCommits(repo, owner, commits);
-  }
-
-  const commitDates = commits.map(c => formatDate(c.date));
-  const uniqueDates = [...new Set(commitDates)].sort().reverse();
-
-  let currentStreak = 0, longestStreak = 0, prevDate = null;
-  uniqueDates.forEach(d => {
-    if (!prevDate) {
-      currentStreak = 1;
-      longestStreak = 1;
-    } else {
-      const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
-      if (diff === 1) {
-        currentStreak++;
-        longestStreak = Math.max(longestStreak, currentStreak);
-      } else {
-        currentStreak = 1;
-      }
-    }
-    prevDate = d;
-  });
-
-  return {
-    repo,
-    currentStreak,
-    longestStreak,
-    totalCommits: commitDates.length,
-    daysActive: uniqueDates.length
-  };
-}
-
-// --- /repos (cache) ---
+// --- Routes ---
 router.get("/repos", async (req, res) => {
   try {
     const cached = await loadCache();
@@ -201,105 +188,37 @@ router.get("/repos/refresh", async (req, res) => {
   } catch (err) { res.status(500).json({ error: err.message }); }
 });
 
-// --- /commits/:repo ---
 router.get("/commits/:repo", async (req, res) => {
   try {
-    const { repo } = req.params;
-
+    const repoParam = decodeURIComponent(req.params.repo);
     const allRepos = await getCombinedRepos();
-    const match = allRepos.find(r => r.name === repo);
+
+    const match = allRepos.find(r => r.full_name === repoParam || r.name === repoParam);
     if (!match) return res.status(404).json({ error: "Repo not found" });
 
-    const owner = match.owner.login;
-
-    const cached = await loadCommits(repo, owner);
-    if (cached) return res.json(cached);
-
-    let commits = [], page = 1, perPage = 100;
-    while (true) {
-      const { ok, data } = await githubFetch(
-        `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
-      );
-      if (!ok || !Array.isArray(data) || data.length === 0) break;
-      commits = commits.concat(data);
-      if (data.length < perPage) break;
-      page++;
-    }
-
-    const simplified = commits.map(c => ({
-      sha: c.sha,
-      message: c.commit.message,
-      author: c.commit.author.name,
-      date: c.commit.author.date,
-      url: c.html_url
-    }));
-
-    await saveCommits(repo, owner, simplified);
-    res.json(simplified);
-  } catch (err) { res.status(500).json({ error: err.message }); }
-});
-
-// --- /streak/:repo ---
-router.get("/streak/:repo", async (req, res) => {
-  try {
-    const { repo } = req.params;
-    const allRepos = await getCombinedRepos();
-    const match = allRepos.find(r => r.name === repo);
-    if (!match) return res.status(404).json({ error: "Repo not found" });
-
-    const owner = match.owner.login;
+    const [owner, repo] = match.full_name.split("/");
     let commits = await loadCommits(repo, owner);
-
     if (!commits) {
-      let all = [], page = 1, perPage = 100;
-      while (true) {
-        const { ok, data } = await githubFetch(
-          `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
-        );
-        if (!ok || !Array.isArray(data) || data.length === 0) break;
-        all = all.concat(data);
-        if (data.length < perPage) break;
-        page++;
-      }
-
-      commits = all.map(c => ({
-        sha: c.sha,
-        message: c.commit.message,
-        author: c.commit.author.name,
-        date: c.commit.author.date,
-        url: c.html_url
-      }));
-
+      commits = await fetchCommits(owner, repo);
       await saveCommits(repo, owner, commits);
     }
 
-    const commitDates = commits.map(c => formatDate(c.date));
-    const uniqueDates = [...new Set(commitDates)].sort().reverse();
+    res.json(commits);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
 
-    let currentStreak = 0, longestStreak = 0, prevDate = null;
-    uniqueDates.forEach(d => {
-      if (!prevDate) {
-        currentStreak = 1;
-        longestStreak = 1;
-      } else {
-        const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
-        if (diff === 1) {
-          currentStreak++;
-          longestStreak = Math.max(longestStreak, currentStreak);
-        } else {
-          currentStreak = 1;
-        }
-      }
-      prevDate = d;
-    });
+router.get("/streak/:repo", async (req, res) => {
+  try {
+    const repoParam = decodeURIComponent(req.params.repo);
+    const allRepos = await getCombinedRepos();
 
-    res.json({
-      repo,
-      currentStreak,
-      longestStreak,
-      totalCommits: commitDates.length,
-      daysActive: uniqueDates.length
-    });
+    const match = allRepos.find(r => r.full_name === repoParam || r.name === repoParam);
+    if (!match) return res.status(404).json({ error: "Repo not found" });
+
+    const streak = await calculateStreak(match.full_name);
+    res.json(streak);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

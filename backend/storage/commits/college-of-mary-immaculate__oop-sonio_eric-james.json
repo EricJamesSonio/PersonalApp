@@ -1,0 +1,590 @@
+[
+  {
+    "sha": "7e87960589bbde089a6c3c7ad9f6d2d24dcc2158",
+    "message": "Update uuuuuuser.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-22T16:18:29Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/7e87960589bbde089a6c3c7ad9f6d2d24dcc2158"
+  },
+  {
+    "sha": "22311f3db1edc4ad9c7eaeb241a9b128cbdb4334",
+    "message": "Update product.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-21T12:15:25Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/22311f3db1edc4ad9c7eaeb241a9b128cbdb4334"
+  },
+  {
+    "sha": "c3d0f4058539b0eadd902e0a74fe56493e1aef4b",
+    "message": "Update static.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-21T12:15:00Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/c3d0f4058539b0eadd902e0a74fe56493e1aef4b"
+  },
+  {
+    "sha": "2e426b4d514f961e2e3b1e5a4fafb4b72cd13de1",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-21T12:14:40Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/2e426b4d514f961e2e3b1e5a4fafb4b72cd13de1"
+  },
+  {
+    "sha": "577312e0de599a5e7733db1c323aab32db2a1ff1",
+    "message": "Update production.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-21T12:14:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/577312e0de599a5e7733db1c323aab32db2a1ff1"
+  },
+  {
+    "sha": "f533644796b4253d9787e0f31a512c57a6dadce1",
+    "message": "Update user.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-21T12:13:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/f533644796b4253d9787e0f31a512c57a6dadce1"
+  },
+  {
+    "sha": "f65c6f614d7d71f7f8af16c8350540ebd544aa18",
+    "message": "change name to FINALS",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T22:42:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/f65c6f614d7d71f7f8af16c8350540ebd544aa18"
+  },
+  {
+    "sha": "94857ae73ebd685f228584084632c8a766f49880",
+    "message": "final.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T22:38:03Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/94857ae73ebd685f228584084632c8a766f49880"
+  },
+  {
+    "sha": "236c2fd087ac776540f331e58489731c0595eba0",
+    "message": "final.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T22:37:40Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/236c2fd087ac776540f331e58489731c0595eba0"
+  },
+  {
+    "sha": "91840d2bb39c7779ba9353e658c640b549f558de",
+    "message": "final.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T22:37:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/91840d2bb39c7779ba9353e658c640b549f558de"
+  },
+  {
+    "sha": "0fbcea0f95b076136a616c17e2c1bbaadbb3a57b",
+    "message": "final.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T22:36:40Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/0fbcea0f95b076136a616c17e2c1bbaadbb3a57b"
+  },
+  {
+    "sha": "26e8d164c1b5485d3a7f4a4feb4e4f8e04b7171d",
+    "message": "final.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T22:36:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/26e8d164c1b5485d3a7f4a4feb4e4f8e04b7171d"
+  },
+  {
+    "sha": "c192e6f387fb6bc0b3bf56bfd7501bab55f10f7b",
+    "message": "Create transactions.json",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:54:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/c192e6f387fb6bc0b3bf56bfd7501bab55f10f7b"
+  },
+  {
+    "sha": "78663768ae08b3512513d14776784521a5b37292",
+    "message": "Create cart.json",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:53:51Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/78663768ae08b3512513d14776784521a5b37292"
+  },
+  {
+    "sha": "0c107580d75a5d235f2a77403fef12f0b28c6cca",
+    "message": "Create inventory.json",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:53:32Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/0c107580d75a5d235f2a77403fef12f0b28c6cca"
+  },
+  {
+    "sha": "13feeffe2958cd8312c9c93591131bb282a1beba",
+    "message": "Update user.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:40:44Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/13feeffe2958cd8312c9c93591131bb282a1beba"
+  },
+  {
+    "sha": "ccd3d469a83c1e99ab7e3514b0e2732f8d816cd8",
+    "message": "Update static.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:39:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/ccd3d469a83c1e99ab7e3514b0e2732f8d816cd8"
+  },
+  {
+    "sha": "95dad3fbdbcfbfeee02968438606dd0616a791c9",
+    "message": "Update production.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:39:40Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/95dad3fbdbcfbfeee02968438606dd0616a791c9"
+  },
+  {
+    "sha": "aaec3263be5b1a97ddb02c1b50e9d7d8278d31fa",
+    "message": "Update product.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:39:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/aaec3263be5b1a97ddb02c1b50e9d7d8278d31fa"
+  },
+  {
+    "sha": "8d14a7e9af7bec74ffac1b9cf7462bceb5a89cc3",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-15T03:38:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/8d14a7e9af7bec74ffac1b9cf7462bceb5a89cc3"
+  },
+  {
+    "sha": "929dfb0a77aaf05cad11012f155876e1591128f6",
+    "message": "Update user.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-12T06:39:23Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/929dfb0a77aaf05cad11012f155876e1591128f6"
+  },
+  {
+    "sha": "2f65a20e71f515936a90ffaca6b3f418c6d67bfd",
+    "message": "Update static.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-12T06:39:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/2f65a20e71f515936a90ffaca6b3f418c6d67bfd"
+  },
+  {
+    "sha": "033c41a4573523d0b6e82df404dcb9d4d87c303c",
+    "message": "Update production.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-12T06:38:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/033c41a4573523d0b6e82df404dcb9d4d87c303c"
+  },
+  {
+    "sha": "080cbef07825e6b39709723c7f1ebe181270199e",
+    "message": "Update product.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-12T06:38:33Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/080cbef07825e6b39709723c7f1ebe181270199e"
+  },
+  {
+    "sha": "9f1349062d4a8ee435a2731714a844bc52e8cf49",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2024-11-12T06:38:01Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/9f1349062d4a8ee435a2731714a844bc52e8cf49"
+  },
+  {
+    "sha": "9ad2b93595f0e3610afd9511788db2920f66a28c",
+    "message": "change the name to activity instead of pre final to avoid confusion",
+    "author": "SonioEricJames",
+    "date": "2024-11-09T01:06:34Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/9ad2b93595f0e3610afd9511788db2920f66a28c"
+  },
+  {
+    "sha": "b689d3df69e80a783565401ae0244f7487aed466",
+    "message": "updated the name according to what u suggest which is it should be pre final instead of pos :>",
+    "author": "SonioEricJames",
+    "date": "2024-11-09T01:05:06Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/b689d3df69e80a783565401ae0244f7487aed466"
+  },
+  {
+    "sha": "741197e2d7f206ea67d652243e62a8d2c96a9ebe",
+    "message": "Update user.py\n\nchange the customer login to new customer",
+    "author": "SonioEricJames",
+    "date": "2024-11-05T07:27:24Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/741197e2d7f206ea67d652243e62a8d2c96a9ebe"
+  },
+  {
+    "sha": "619a04ed72cba4e07b8b55976b6fafb731a51e4b",
+    "message": "Update user.py",
+    "author": "SonioEricJames",
+    "date": "2024-10-25T23:40:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/619a04ed72cba4e07b8b55976b6fafb731a51e4b"
+  },
+  {
+    "sha": "c49ae28762712b2bea7aa8751b7f1f408c29ea58",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2024-10-25T23:40:16Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/c49ae28762712b2bea7aa8751b7f1f408c29ea58"
+  },
+  {
+    "sha": "365345d6295b49055245f4a87aca5cce726245eb",
+    "message": "pos",
+    "author": "SonioEricJames",
+    "date": "2024-10-25T23:33:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/365345d6295b49055245f4a87aca5cce726245eb"
+  },
+  {
+    "sha": "018f481eff5f250810f28ebd504d23876e3656f5",
+    "message": "Updated main.py",
+    "author": "SonioEricJames",
+    "date": "2024-10-25T00:52:04Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/018f481eff5f250810f28ebd504d23876e3656f5"
+  },
+  {
+    "sha": "9b955b22808ca4cb85979a37de36a7a823c249e9",
+    "message": "singletonstore.py",
+    "author": "SonioEricJames",
+    "date": "2024-10-25T00:51:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/9b955b22808ca4cb85979a37de36a7a823c249e9"
+  },
+  {
+    "sha": "b2a0367a73f4af5fb56baa514e83a5093bc0edb1",
+    "message": "deleted",
+    "author": "SonioEricJames",
+    "date": "2024-10-19T02:54:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/b2a0367a73f4af5fb56baa514e83a5093bc0edb1"
+  },
+  {
+    "sha": "eb1140ac6acfd1b1f7e341fd22cc4a2b9ce9f026",
+    "message": "behavioral and structural.py",
+    "author": "SonioEricJames",
+    "date": "2024-10-19T02:35:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/eb1140ac6acfd1b1f7e341fd22cc4a2b9ce9f026"
+  },
+  {
+    "sha": "67df6e4a7fb325d11e25f185ef38494a572f9a52",
+    "message": "Add files via upload",
+    "author": "SonioEricJames",
+    "date": "2024-10-19T02:29:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/67df6e4a7fb325d11e25f185ef38494a572f9a52"
+  },
+  {
+    "sha": "11d46963e2dab3daf5b91ca2af8cfca6cdd75c6b",
+    "message": "Update Semi-Finals-Sonio.py\n\nCreational Design pattern",
+    "author": "SonioEricJames",
+    "date": "2024-10-13T03:19:27Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/11d46963e2dab3daf5b91ca2af8cfca6cdd75c6b"
+  },
+  {
+    "sha": "25a354e4616d94d792f629031f916e2028f81bd7",
+    "message": "Merge branch 'main' of github.com:college-of-mary-immaculate/oop-sonio_eric-james",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-12T02:58:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/25a354e4616d94d792f629031f916e2028f81bd7"
+  },
+  {
+    "sha": "73953134bf444c7876385c80fa470979b9af6117",
+    "message": "notes",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-12T02:58:39Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/73953134bf444c7876385c80fa470979b9af6117"
+  },
+  {
+    "sha": "028b1db6360a5a9518fb76aea4ea9f2bd82e3ad1",
+    "message": "prefinals",
+    "author": "SonioEricJames",
+    "date": "2024-10-12T02:57:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/028b1db6360a5a9518fb76aea4ea9f2bd82e3ad1"
+  },
+  {
+    "sha": "435901cdf3a117fa11c73d3578dafdd9f283d4af",
+    "message": "semis",
+    "author": "SonioEricJames",
+    "date": "2024-10-12T00:20:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/435901cdf3a117fa11c73d3578dafdd9f283d4af"
+  },
+  {
+    "sha": "20f1dd83cfca3810cd6f30dab1a6c5db4d4c0a62",
+    "message": "Create README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-11T15:51:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/20f1dd83cfca3810cd6f30dab1a6c5db4d4c0a62"
+  },
+  {
+    "sha": "940896aa62e53277688d2c48733c334b451c38cf",
+    "message": "prefinal",
+    "author": "SonioEricJames",
+    "date": "2024-10-05T03:11:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/940896aa62e53277688d2c48733c334b451c38cf"
+  },
+  {
+    "sha": "444e5fc5c29490c6b79ed78d15c30a0f52c0abc4",
+    "message": "design patterns",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-04T13:01:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/444e5fc5c29490c6b79ed78d15c30a0f52c0abc4"
+  },
+  {
+    "sha": "133f9448b2a2fb6a40890fff891272d635f5d746",
+    "message": "Update abstract2.py",
+    "author": "SonioEricJames",
+    "date": "2024-09-07T02:33:45Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/133f9448b2a2fb6a40890fff891272d635f5d746"
+  },
+  {
+    "sha": "eee7ca6868bacde58639e1dcadc418d11c956357",
+    "message": "Update abstract1.py",
+    "author": "SonioEricJames",
+    "date": "2024-09-07T01:51:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/eee7ca6868bacde58639e1dcadc418d11c956357"
+  },
+  {
+    "sha": "bf0042367ff06a4896275e2aa19c8fb37479017b",
+    "message": "Merge branch 'main' of https://github.com/college-of-mary-immaculate/oop-sonio_eric-james",
+    "author": "ERIC JAMES",
+    "date": "2024-09-07T16:48:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/bf0042367ff06a4896275e2aa19c8fb37479017b"
+  },
+  {
+    "sha": "45c603392b2f2d86ff717ddaffc6ecc0c86d3bbc",
+    "message": "Merge branch 'main' of https://github.com/college-of-mary-immaculate/oop-2024",
+    "author": "ERIC JAMES",
+    "date": "2024-09-07T14:41:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/45c603392b2f2d86ff717ddaffc6ecc0c86d3bbc"
+  },
+  {
+    "sha": "1476893d38020a1e5835511753d5ffb74781342c",
+    "message": ":art: abstract classes",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-06T14:58:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/1476893d38020a1e5835511753d5ffb74781342c"
+  },
+  {
+    "sha": "61ea8369b295067395479c051bec051dbb6fc07a",
+    "message": "prelim exam grade",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-01T02:54:55Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/61ea8369b295067395479c051bec051dbb6fc07a"
+  },
+  {
+    "sha": "e9b7990a8e64ad99f46f2c4fb195831b5588c69f",
+    "message": "Merge branch 'main' of https://github.com/college-of-mary-immaculate/oop-2024",
+    "author": "ERIC JAMES",
+    "date": "2024-08-31T16:28:23Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/e9b7990a8e64ad99f46f2c4fb195831b5588c69f"
+  },
+  {
+    "sha": "e07246159880c010c83e83af4d9c6d0372674d8c",
+    "message": "Update README.md",
+    "author": "SonioEricJames",
+    "date": "2024-08-31T02:55:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/e07246159880c010c83e83af4d9c6d0372674d8c"
+  },
+  {
+    "sha": "ca8b6ffc84dcb953eef788fc19fe773b37414039",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2024-08-31T02:54:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/ca8b6ffc84dcb953eef788fc19fe773b37414039"
+  },
+  {
+    "sha": "e7602ff09a24ebc4b345cada790b309557a27f83",
+    "message": ":egg: prelim exam",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-30T23:55:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/e7602ff09a24ebc4b345cada790b309557a27f83"
+  },
+  {
+    "sha": "f88dfc29fbf4496f61f59e85419189f4d056c175",
+    "message": "update now\n\ndiko napasa code ko kanina sir kase ayaw gumana nung unang pc na ginamit ko kaya ngayon kolang napasa yung pangalawang pc naman ayaw gumana ng google diko din po maopen git hub thanks po",
+    "author": "SonioEricJames",
+    "date": "2024-08-24T03:32:33Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/f88dfc29fbf4496f61f59e85419189f4d056c175"
+  },
+  {
+    "sha": "007259679990c5de1efdf4b20e3ee146240ece26",
+    "message": "Update inheritance3.py",
+    "author": "SonioEricJames",
+    "date": "2024-08-24T03:30:15Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/007259679990c5de1efdf4b20e3ee146240ece26"
+  },
+  {
+    "sha": "788fd87d99cff17fd26f7a1fedd7f6a18576e2e3",
+    "message": "Update inheritance2.py",
+    "author": "SonioEricJames",
+    "date": "2024-08-24T03:29:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/788fd87d99cff17fd26f7a1fedd7f6a18576e2e3"
+  },
+  {
+    "sha": "58c39e7158d859cf67c10f8474d6ece7c7b7320d",
+    "message": "Merge branch 'main' of https://github.com/college-of-mary-immaculate/oop-2024",
+    "author": "EricJamesSonio",
+    "date": "2024-08-24T02:46:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/58c39e7158d859cf67c10f8474d6ece7c7b7320d"
+  },
+  {
+    "sha": "23c444fc6e23d3dd93b770f72810b9ef1a9ddef4",
+    "message": ":bulb: inheritance",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-23T02:34:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/23c444fc6e23d3dd93b770f72810b9ef1a9ddef4"
+  },
+  {
+    "sha": "d9c1ca6da9a7d22d4b6e0c4d615740785426038a",
+    "message": "Update 01_uml.md",
+    "author": "SonioEricJames",
+    "date": "2024-08-17T14:16:20Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/d9c1ca6da9a7d22d4b6e0c4d615740785426038a"
+  },
+  {
+    "sha": "7c3be33e47ea5f1cec90648b7982524cd663b1d1",
+    "message": "Update encapsulation2.py",
+    "author": "SonioEricJames",
+    "date": "2024-08-17T13:19:23Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/7c3be33e47ea5f1cec90648b7982524cd663b1d1"
+  },
+  {
+    "sha": "ea5a8706fce46919a7f24554c0b7067c467f62d0",
+    "message": "Update encapsulation1.py",
+    "author": "SonioEricJames",
+    "date": "2024-08-17T13:18:40Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/ea5a8706fce46919a7f24554c0b7067c467f62d0"
+  },
+  {
+    "sha": "2beb22ad3daa99b6c28a54c2ef68709ef05b3346",
+    "message": "Pull",
+    "author": "ERIC JAMES",
+    "date": "2024-08-18T05:16:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/2beb22ad3daa99b6c28a54c2ef68709ef05b3346"
+  },
+  {
+    "sha": "7eb74ff975d505860ec791f604eeba78450de075",
+    "message": "Update constructor2.py",
+    "author": "SonioEricJames",
+    "date": "2024-08-17T02:31:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/7eb74ff975d505860ec791f604eeba78450de075"
+  },
+  {
+    "sha": "a0254e8cf91a7c1b184c4b8e34d9b8c4a2e6edc0",
+    "message": "Update constructor1.py",
+    "author": "SonioEricJames",
+    "date": "2024-08-17T02:30:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/a0254e8cf91a7c1b184c4b8e34d9b8c4a2e6edc0"
+  },
+  {
+    "sha": "51025e77d9a15954efdac0b17ac463bc776383f1",
+    "message": ":bug: encapsulation and uml rename",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-16T13:40:45Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/51025e77d9a15954efdac0b17ac463bc776383f1"
+  },
+  {
+    "sha": "15eb064268dd4229c2bd1019f46918b1420052b8",
+    "message": "Update 01_uml.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-15T14:34:27Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/15eb064268dd4229c2bd1019f46918b1420052b8"
+  },
+  {
+    "sha": "052cb908c708f98527e2d90d038e159eacca8213",
+    "message": ":art: uml exercise",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-15T14:24:41Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/052cb908c708f98527e2d90d038e159eacca8213"
+  },
+  {
+    "sha": "f5aca9a3f6229173e5b91349b7c2a49c51970c28",
+    "message": "updated",
+    "author": "ERIC JAMES",
+    "date": "2024-08-15T02:29:39Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/f5aca9a3f6229173e5b91349b7c2a49c51970c28"
+  },
+  {
+    "sha": "0fdafc2ba81777248332642ed1706970d57e8477",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-13T11:51:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/0fdafc2ba81777248332642ed1706970d57e8477"
+  },
+  {
+    "sha": "bf95435d75c440addda5f9fa2745cde0edf6c4de",
+    "message": "sonio_eric-james",
+    "author": "ERIC JAMES",
+    "date": "2024-08-12T06:21:25Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/bf95435d75c440addda5f9fa2745cde0edf6c4de"
+  },
+  {
+    "sha": "28f409006c0a0bdf390998535a18051957c265a4",
+    "message": "Deleted because its outside of the provided exercises folder",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T23:31:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/28f409006c0a0bdf390998535a18051957c265a4"
+  },
+  {
+    "sha": "28005941e556956b9db90bd8db0306d4ff44443a",
+    "message": "Sonio_eric-james",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T23:22:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/28005941e556956b9db90bd8db0306d4ff44443a"
+  },
+  {
+    "sha": "bdf3758a360c384bd0c447eefad1832fe8706f6b",
+    "message": "Deleted",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T06:37:53Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/bdf3758a360c384bd0c447eefad1832fe8706f6b"
+  },
+  {
+    "sha": "039bbe91d8212c928f4f14b03cc0b8403a53de88",
+    "message": "Delete",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T06:37:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/039bbe91d8212c928f4f14b03cc0b8403a53de88"
+  },
+  {
+    "sha": "d64a086f1c17c982fd0453a0fe9ea227ed580dab",
+    "message": "Deleted",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T06:34:21Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/d64a086f1c17c982fd0453a0fe9ea227ed580dab"
+  },
+  {
+    "sha": "3fa047e93ed2de8fd6228d3ce0e71c8b7592b726",
+    "message": "Sonio",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T06:05:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/3fa047e93ed2de8fd6228d3ce0e71c8b7592b726"
+  },
+  {
+    "sha": "3700e55a6dc8b90df5ea7fad3102fb94a69f12d1",
+    "message": "Sonio",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T05:55:24Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/3700e55a6dc8b90df5ea7fad3102fb94a69f12d1"
+  },
+  {
+    "sha": "964b2fead8026478d9e24b07cd847834bb480655",
+    "message": "First Activity",
+    "author": "ERIC JAMES",
+    "date": "2024-08-11T02:58:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/964b2fead8026478d9e24b07cd847834bb480655"
+  },
+  {
+    "sha": "475dc2bc1dc9991c80b9d07131f5d66f5b2db458",
+    "message": ":rocket: to the moon!",
+    "author": "ERIC JAMES",
+    "date": "2024-08-10T20:56:16Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/475dc2bc1dc9991c80b9d07131f5d66f5b2db458"
+  },
+  {
+    "sha": "79ff16713e45e0c938b29e08f4ff6a953d00cbc6",
+    "message": ":bug: fix type annotation for subjects",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-10T02:51:51Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/79ff16713e45e0c938b29e08f4ff6a953d00cbc6"
+  },
+  {
+    "sha": "28660e0df5fba21b0cfaa1d71cce9eff74a8036d",
+    "message": ":bug: constructors",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-07T15:27:45Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/28660e0df5fba21b0cfaa1d71cce9eff74a8036d"
+  },
+  {
+    "sha": "e1ebc8572f1187b3b912faf57d08c2de7979fca6",
+    "message": "Create README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-07-31T14:32:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/e1ebc8572f1187b3b912faf57d08c2de7979fca6"
+  },
+  {
+    "sha": "2aacd2b659a2c0b59b071865ea176d6005ac29f1",
+    "message": ":rocket: initial commit",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-07-15T12:44:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-sonio_eric-james/commit/2aacd2b659a2c0b59b071865ea176d6005ac29f1"
+  }
+]

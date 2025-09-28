@@ -1,0 +1,506 @@
+[
+  {
+    "sha": "cdeda4e00fe1cd4e94db92ff005a43ba268767c1",
+    "message": "Delete CODE1 directory",
+    "author": "SonioEricJames",
+    "date": "2025-05-09T01:54:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/cdeda4e00fe1cd4e94db92ff005a43ba268767c1"
+  },
+  {
+    "sha": "ed003dc3f060fec2095bdca325c59681875160c6",
+    "message": "Update cashier.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T14:47:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/ed003dc3f060fec2095bdca325c59681875160c6"
+  },
+  {
+    "sha": "b32907d42f6f0d02cdaeef13ae0d800de712cbe8",
+    "message": "Update README.md",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T11:14:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/b32907d42f6f0d02cdaeef13ae0d800de712cbe8"
+  },
+  {
+    "sha": "7f98493b5bbc49b830284d054b46b505e1e1e1b5",
+    "message": "Update tables.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T11:04:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/7f98493b5bbc49b830284d054b46b505e1e1e1b5"
+  },
+  {
+    "sha": "7f92fe314385a32b4a3dc4d21d57ae7f21185fd3",
+    "message": "Update sales_report.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T11:03:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/7f92fe314385a32b4a3dc4d21d57ae7f21185fd3"
+  },
+  {
+    "sha": "1aafb7d1acb7fcaf8f20dfc4030b82ae324e653f",
+    "message": "Update receipts.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T11:02:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/1aafb7d1acb7fcaf8f20dfc4030b82ae324e653f"
+  },
+  {
+    "sha": "35abe0cd797121c02ef2eb52d22a179767f1eca5",
+    "message": "Update kitchen_orders.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:47:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/35abe0cd797121c02ef2eb52d22a179767f1eca5"
+  },
+  {
+    "sha": "3b4f2e50e878023a49c1b4a24309d58c0bca5e6b",
+    "message": "Update order_history.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:47:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/3b4f2e50e878023a49c1b4a24309d58c0bca5e6b"
+  },
+  {
+    "sha": "7f85bbff7e4fd63a02ad9fd66147fc9c776f6cc7",
+    "message": "Update worksheet.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:45:06Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/7f85bbff7e4fd63a02ad9fd66147fc9c776f6cc7"
+  },
+  {
+    "sha": "2e998ac2b3c8d547ea4aaf793780e963527286f5",
+    "message": "Update return_report.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:44:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/2e998ac2b3c8d547ea4aaf793780e963527286f5"
+  },
+  {
+    "sha": "0c8d317e7e841e0ddf3e4235ef420ac5dbd8b6f7",
+    "message": "Update admin_requests.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:43:39Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/0c8d317e7e841e0ddf3e4235ef420ac5dbd8b6f7"
+  },
+  {
+    "sha": "622663b28dcc476fb2ff2a1a85ee825a7b6a543f",
+    "message": "Update admin_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:43:23Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/622663b28dcc476fb2ff2a1a85ee825a7b6a543f"
+  },
+  {
+    "sha": "f1071be004d4fee888d458d0273d84ce5445cbfb",
+    "message": "Update admin.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:43:09Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/f1071be004d4fee888d458d0273d84ce5445cbfb"
+  },
+  {
+    "sha": "60d842e761ed5f93b9e967394ceebe75690d693c",
+    "message": "Update cashier_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:42:45Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/60d842e761ed5f93b9e967394ceebe75690d693c"
+  },
+  {
+    "sha": "40501ac42fc35591ca22524ea6e80768106369a8",
+    "message": "Update cashier.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:42:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/40501ac42fc35591ca22524ea6e80768106369a8"
+  },
+  {
+    "sha": "50500ebc937b582345fbbf222c29d7f6af20c066",
+    "message": "Update cart.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:37:48Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/50500ebc937b582345fbbf222c29d7f6af20c066"
+  },
+  {
+    "sha": "bbecdd037f2a154016151eccba65ec6510247615",
+    "message": "Update receipts.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T10:18:42Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/bbecdd037f2a154016151eccba65ec6510247615"
+  },
+  {
+    "sha": "ae40d9146cdf2540962a865aaa9d6614cee3c078",
+    "message": "fix bug",
+    "author": "RjDiaz",
+    "date": "2025-04-03T09:53:59Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/ae40d9146cdf2540962a865aaa9d6614cee3c078"
+  },
+  {
+    "sha": "a25fa4cc1bbb2139aa3272c737f51375431ea45a",
+    "message": "Update README.md",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T08:46:39Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/a25fa4cc1bbb2139aa3272c737f51375431ea45a"
+  },
+  {
+    "sha": "9be4648e517233f10b76184d12117f2d898d49ba",
+    "message": "Update oopCOPY.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T08:41:40Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/9be4648e517233f10b76184d12117f2d898d49ba"
+  },
+  {
+    "sha": "922d2a8dc58d0fbfa6d0b8813f5c01977e6298b6",
+    "message": "Update food_menu.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:50:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/922d2a8dc58d0fbfa6d0b8813f5c01977e6298b6"
+  },
+  {
+    "sha": "e9700bcd4d0422aca1135c4714f768d3a378e1f2",
+    "message": "Update return_report.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:50:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/e9700bcd4d0422aca1135c4714f768d3a378e1f2"
+  },
+  {
+    "sha": "37e3a3df3af4ba8d9d390c993ddcc2660d47679c",
+    "message": "Update tables.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:49:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/37e3a3df3af4ba8d9d390c993ddcc2660d47679c"
+  },
+  {
+    "sha": "766d0fe9571fbe85af71b834c56db70d58503d47",
+    "message": "Update receipts.json",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:48:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/766d0fe9571fbe85af71b834c56db70d58503d47"
+  },
+  {
+    "sha": "bc39474349094c5fe757a64bff32b51115ac8b74",
+    "message": "Update oopCOPY.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:48:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/bc39474349094c5fe757a64bff32b51115ac8b74"
+  },
+  {
+    "sha": "dc7a2cf839066c7f7eea7b14588e31545d519d66",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:47:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/dc7a2cf839066c7f7eea7b14588e31545d519d66"
+  },
+  {
+    "sha": "903e06509e8cf43f337ac840184d5c5162e2992c",
+    "message": "Update cashier.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:47:19Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/903e06509e8cf43f337ac840184d5c5162e2992c"
+  },
+  {
+    "sha": "cb53fc9fd955af62ab2aeebc3857b2e89e82b51f",
+    "message": "Update cashier_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:46:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/cb53fc9fd955af62ab2aeebc3857b2e89e82b51f"
+  },
+  {
+    "sha": "75f1536813401c0e1f9abce5e5e74bb6a8480bc4",
+    "message": "Update admin.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:46:16Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/75f1536813401c0e1f9abce5e5e74bb6a8480bc4"
+  },
+  {
+    "sha": "fef0d87e504905d4db00a07dd365844d1a2738b0",
+    "message": "Update admin_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-04-03T07:45:41Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/fef0d87e504905d4db00a07dd365844d1a2738b0"
+  },
+  {
+    "sha": "e910f5d664c8e585f4ece0cc16afaac723865f36",
+    "message": "Update ingredients_inventory.json",
+    "author": "Johpaulcastro",
+    "date": "2025-04-03T06:46:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/e910f5d664c8e585f4ece0cc16afaac723865f36"
+  },
+  {
+    "sha": "e51003c6b3bc4a6214f0512254e1ba8b1340c5eb",
+    "message": "Update return_report.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:40:44Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/e51003c6b3bc4a6214f0512254e1ba8b1340c5eb"
+  },
+  {
+    "sha": "cebc6dd83ef114a349bb82884aaf47f8d0bbc585",
+    "message": "Update receipts.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:40:17Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/cebc6dd83ef114a349bb82884aaf47f8d0bbc585"
+  },
+  {
+    "sha": "e8bfce39bae75928cd7bb2b94d5c9f05b92bef58",
+    "message": "Update oopCOPY.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:39:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/e8bfce39bae75928cd7bb2b94d5c9f05b92bef58"
+  },
+  {
+    "sha": "fc760308ee9b6b222b5c75464e7dbf354f7a7668",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:38:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/fc760308ee9b6b222b5c75464e7dbf354f7a7668"
+  },
+  {
+    "sha": "d5606fb95cf8a9499257e65ddcab2ece4546dfa6",
+    "message": "Update cashier.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:38:25Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/d5606fb95cf8a9499257e65ddcab2ece4546dfa6"
+  },
+  {
+    "sha": "54618f8c3f303d014581b116d62141bb7bdc87c5",
+    "message": "Update cashier_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:38:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/54618f8c3f303d014581b116d62141bb7bdc87c5"
+  },
+  {
+    "sha": "06fb331ffe59a444a0e148805a4101cd5dd57506",
+    "message": "Update",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:37:48Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/06fb331ffe59a444a0e148805a4101cd5dd57506"
+  },
+  {
+    "sha": "f1fc2e8cea6694eefc334807a2496b1ee299af88",
+    "message": "update\n\nthis",
+    "author": "SonioEricJames",
+    "date": "2025-03-31T10:37:21Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/f1fc2e8cea6694eefc334807a2496b1ee299af88"
+  },
+  {
+    "sha": "53fd524cfca0d9e55c6eda98b600f11a1be62de1",
+    "message": "Update admin_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-30T07:17:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/53fd524cfca0d9e55c6eda98b600f11a1be62de1"
+  },
+  {
+    "sha": "b14501caea22ee699c147541c8b78e260b00f85d",
+    "message": "Update oopCOPY.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:57:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/b14501caea22ee699c147541c8b78e260b00f85d"
+  },
+  {
+    "sha": "43b1b189bdd616d903e15959a77e9f069aaf21e3",
+    "message": "Update worksheet.json",
+    "author": "Johpaulcastro",
+    "date": "2025-03-29T04:16:52Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/43b1b189bdd616d903e15959a77e9f069aaf21e3"
+  },
+  {
+    "sha": "af2953215b18a9509102d2430642f1bfd1725ec8",
+    "message": "Update sales_report.json",
+    "author": "Johpaulcastro",
+    "date": "2025-03-29T04:15:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/af2953215b18a9509102d2430642f1bfd1725ec8"
+  },
+  {
+    "sha": "0f8a60b39ee81176fdd120e60c70fb3894ffe19e",
+    "message": "Update tables.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:14:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/0f8a60b39ee81176fdd120e60c70fb3894ffe19e"
+  },
+  {
+    "sha": "16127aba781edc2bcd4427ad78c8aa39df6ade49",
+    "message": "Update return_report.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:12:23Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/16127aba781edc2bcd4427ad78c8aa39df6ade49"
+  },
+  {
+    "sha": "de3865c681919bff5966581e1124364b632420c4",
+    "message": "Update restaurant_info.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:11:15Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/de3865c681919bff5966581e1124364b632420c4"
+  },
+  {
+    "sha": "7433cfee4c3c8116b70e1d5ff12f54aa1d11b286",
+    "message": "Create order_history.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:10:44Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/7433cfee4c3c8116b70e1d5ff12f54aa1d11b286"
+  },
+  {
+    "sha": "102b65b4077341203d16f6260c8959400ff69f80",
+    "message": "Update ingredients_inventory.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:09:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/102b65b4077341203d16f6260c8959400ff69f80"
+  },
+  {
+    "sha": "58fe50f33bf71546abfb007a1eceb3ea8a2dc103",
+    "message": "Update food_menu.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:09:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/58fe50f33bf71546abfb007a1eceb3ea8a2dc103"
+  },
+  {
+    "sha": "778c63c1e7cebce43cd52ec5ff3b787027c72c57",
+    "message": "Update employees.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:08:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/778c63c1e7cebce43cd52ec5ff3b787027c72c57"
+  },
+  {
+    "sha": "8ef4df12ecdb0e0bcd49c00249c8062fe512c3e5",
+    "message": "Update categories.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:08:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/8ef4df12ecdb0e0bcd49c00249c8062fe512c3e5"
+  },
+  {
+    "sha": "04496c8788f88780714a447de8fe7f609042909b",
+    "message": "Update cart.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:07:55Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/04496c8788f88780714a447de8fe7f609042909b"
+  },
+  {
+    "sha": "c4b6d20111433dfac32541c0530dc37d9db5b379",
+    "message": "Update tables.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:07:30Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/c4b6d20111433dfac32541c0530dc37d9db5b379"
+  },
+  {
+    "sha": "88e603b558661acde62407fd02de0b59081e4c50",
+    "message": "Create admin_requests.json",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:03:42Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/88e603b558661acde62407fd02de0b59081e4c50"
+  },
+  {
+    "sha": "a3c482217bf5c4dd8f899d577e69d35b7d70f165",
+    "message": "Create cashier_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:02:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/a3c482217bf5c4dd8f899d577e69d35b7d70f165"
+  },
+  {
+    "sha": "23dfa3e432b27e7ca8ecd476317f9afc8957e973",
+    "message": "Update admin_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:02:16Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/23dfa3e432b27e7ca8ecd476317f9afc8957e973"
+  },
+  {
+    "sha": "a3b506a62673241a36b236cfb7254285036f8bb0",
+    "message": "Create admin_ui.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:01:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/a3b506a62673241a36b236cfb7254285036f8bb0"
+  },
+  {
+    "sha": "e9a3149066f986a6be7d97e2258bbc64ffb551b9",
+    "message": "Update cashier.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T04:01:03Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/e9a3149066f986a6be7d97e2258bbc64ffb551b9"
+  },
+  {
+    "sha": "ae12e3cf4db501ca03a1109be18e136cfda88d4c",
+    "message": "Update cashier.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T03:59:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/ae12e3cf4db501ca03a1109be18e136cfda88d4c"
+  },
+  {
+    "sha": "0b4611a1d1f15d9b81437bb6a54dc40c258ad219",
+    "message": "Update admin.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T03:58:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/0b4611a1d1f15d9b81437bb6a54dc40c258ad219"
+  },
+  {
+    "sha": "2b933dee2bd76c7fbed6cc14f1a02cf5f0b2ea43",
+    "message": "Update oopCOPY.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T03:58:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/2b933dee2bd76c7fbed6cc14f1a02cf5f0b2ea43"
+  },
+  {
+    "sha": "5b3d434de03b3203d0792b8352c2fc66b463eae4",
+    "message": "Update main.py",
+    "author": "SonioEricJames",
+    "date": "2025-03-29T03:57:30Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/5b3d434de03b3203d0792b8352c2fc66b463eae4"
+  },
+  {
+    "sha": "ac498ffac3cbf43cc7d609134f18fd2ab0a3dad7",
+    "message": "HELLO SIR! HERE IS OUR FIRST REPO\n\ndipokami gumawa ng mga changes kanina sa room so andito po lahat ng commits.. clone lang po namin sya dito sa new repo namin kase hindi po pala namin sya nakapasok sa CMI kaya nagclone pokami..",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T07:32:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/ac498ffac3cbf43cc7d609134f18fd2ab0a3dad7"
+  },
+  {
+    "sha": "f53c3c1a4ca7ee0aa81e0d00ef0eb90fad2bf592",
+    "message": "Create design GUI",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T06:21:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/f53c3c1a4ca7ee0aa81e0d00ef0eb90fad2bf592"
+  },
+  {
+    "sha": "5cb99996536722b2b0430ebf32ce88d1b7108334",
+    "message": "Delete POS DESIGN",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T06:21:10Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/5cb99996536722b2b0430ebf32ce88d1b7108334"
+  },
+  {
+    "sha": "748ed0fa42b20a6f7fa55c0356fc8b7664299012",
+    "message": "m",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T06:19:32Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/748ed0fa42b20a6f7fa55c0356fc8b7664299012"
+  },
+  {
+    "sha": "7d3538ddc357acfd4e8fb332094fd7a40ba673b6",
+    "message": "m",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T06:16:59Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/7d3538ddc357acfd4e8fb332094fd7a40ba673b6"
+  },
+  {
+    "sha": "9e7e2d9668219b8fe4085c26ea1f06817970e68a",
+    "message": "changes",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T06:09:01Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/9e7e2d9668219b8fe4085c26ea1f06817970e68a"
+  },
+  {
+    "sha": "a5fbdbb3ad7c5e0892a455c97a12114f010a63c0",
+    "message": "Update POS DESIGN",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T06:08:47Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/a5fbdbb3ad7c5e0892a455c97a12114f010a63c0"
+  },
+  {
+    "sha": "000dc69996886edb2d9977aa91ea8966427d836e",
+    "message": "update",
+    "author": "EricJamesSonio",
+    "date": "2025-03-22T05:19:01Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/000dc69996886edb2d9977aa91ea8966427d836e"
+  },
+  {
+    "sha": "54dee15fcb5b8b5dbf9d477c93fcc8bfd86e2d29",
+    "message": "Update README.md",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T05:05:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/54dee15fcb5b8b5dbf9d477c93fcc8bfd86e2d29"
+  },
+  {
+    "sha": "40763e8c6d8c94ad5bfcded93a57941e81269ec6",
+    "message": "Initial commit",
+    "author": "SonioEricJames",
+    "date": "2025-03-22T05:05:20Z",
+    "url": "https://github.com/college-of-mary-immaculate/eric_johnpaul_exam/commit/40763e8c6d8c94ad5bfcded93a57941e81269ec6"
+  }
+]

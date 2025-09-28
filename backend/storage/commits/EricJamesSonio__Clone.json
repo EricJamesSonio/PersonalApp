@@ -1,0 +1,296 @@
+[
+  {
+    "sha": "eb2fde36f15af7e61547732ba320cbdd1af054b3",
+    "message": "Fixe rely on config.js to connect base path",
+    "author": "rhiodelacruz",
+    "date": "2025-08-20T06:51:32Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/eb2fde36f15af7e61547732ba320cbdd1af054b3"
+  },
+  {
+    "sha": "0050d27b90085c169b8bad0bb48cda99aacefb1e",
+    "message": "Fix ingredients and item connected functions",
+    "author": "EricJames",
+    "date": "2025-08-19T14:22:30Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/0050d27b90085c169b8bad0bb48cda99aacefb1e"
+  },
+  {
+    "sha": "ab195c0475d3003ea6a5c6c61c9b8370e7933221",
+    "message": "Files",
+    "author": "EricJames",
+    "date": "2025-08-19T11:35:38Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/ab195c0475d3003ea6a5c6c61c9b8370e7933221"
+  },
+  {
+    "sha": "9602766205882c46c568f5c9b283a9f149008ff3",
+    "message": "Clone starbucks",
+    "author": "EricJames",
+    "date": "2025-08-19T08:31:52Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/9602766205882c46c568f5c9b283a9f149008ff3"
+  },
+  {
+    "sha": "47018ed9eeba680af0e10f430d098f049e92008e",
+    "message": "Fix",
+    "author": "EricJames",
+    "date": "2025-08-18T02:42:05Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/47018ed9eeba680af0e10f430d098f049e92008e"
+  },
+  {
+    "sha": "19ed9a1f4ab8809ed59421139fe4277316b6c128",
+    "message": "'assets'",
+    "author": "VitenteIan",
+    "date": "2025-08-15T09:49:29Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/19ed9a1f4ab8809ed59421139fe4277316b6c128"
+  },
+  {
+    "sha": "992b57dfc7368d72cf28a6aa6a1e15516e77d7d8",
+    "message": "add js",
+    "author": "VitenteIan",
+    "date": "2025-08-15T09:34:07Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/992b57dfc7368d72cf28a6aa6a1e15516e77d7d8"
+  },
+  {
+    "sha": "713d9b260f428cc249abad302a56596bf269ba3d",
+    "message": "Just fix bug in auth.js",
+    "author": "EricJames",
+    "date": "2025-08-14T02:27:46Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/713d9b260f428cc249abad302a56596bf269ba3d"
+  },
+  {
+    "sha": "5c33fe7ef0ad61dfdca453603de7ac50bd4303f0",
+    "message": "Applied oop and refactor some reusable codes",
+    "author": "EricJames",
+    "date": "2025-08-14T02:06:08Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/5c33fe7ef0ad61dfdca453603de7ac50bd4303f0"
+  },
+  {
+    "sha": "e1d05d92ff79975118ac0fb3fad0d3c26891832a",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "EricJames",
+    "date": "2025-08-13T14:17:19Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/e1d05d92ff79975118ac0fb3fad0d3c26891832a"
+  },
+  {
+    "sha": "f4240034b3a2f9d5a8041ce151fbe28ace71b89f",
+    "message": "Added basic serach function in menu and item management",
+    "author": "EricJames",
+    "date": "2025-08-13T14:17:08Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/f4240034b3a2f9d5a8041ce151fbe28ace71b89f"
+  },
+  {
+    "sha": "90772b4333237d552c321a91523e53cd2e3275e4",
+    "message": "Try Resp",
+    "author": "VitenteIan",
+    "date": "2025-08-11T16:19:15Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/90772b4333237d552c321a91523e53cd2e3275e4"
+  },
+  {
+    "sha": "8ea8b30983178272e83c7bfadcc3cd60e77e317e",
+    "message": "Slight fix inadmin  panels",
+    "author": "EricJames",
+    "date": "2025-08-11T12:41:38Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/8ea8b30983178272e83c7bfadcc3cd60e77e317e"
+  },
+  {
+    "sha": "cd02841d76e72f4b823affe4d8575fc3a241af7b",
+    "message": "Just adding admin panel item management sales report and some routes and database table ivnentory settings ,, etc. just to make it work",
+    "author": "EricJames",
+    "date": "2025-08-11T09:15:17Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/cd02841d76e72f4b823affe4d8575fc3a241af7b"
+  },
+  {
+    "sha": "b076bec9501ae620368faee0e91ff834983eddcf",
+    "message": "Added login filtering checking if the user is admin then admin panel and inventory settings for threshold",
+    "author": "EricJames",
+    "date": "2025-08-11T03:47:50Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/b076bec9501ae620368faee0e91ff834983eddcf"
+  },
+  {
+    "sha": "f426860482c958704d86bae48ce420acdfc958b5",
+    "message": "Added subcategory function filter in menu",
+    "author": "EricJames",
+    "date": "2025-08-10T11:42:13Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/f426860482c958704d86bae48ce420acdfc958b5"
+  },
+  {
+    "sha": "5f2e89c1cfcaeb196f4134ff30854bd1917846cc",
+    "message": "Just make the phone to strict only 11 digits",
+    "author": "EricJames",
+    "date": "2025-08-10T10:50:34Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/5f2e89c1cfcaeb196f4134ff30854bd1917846cc"
+  },
+  {
+    "sha": "04c423fd69ecb358e947c227ae3a87f1aee1ad7b",
+    "message": "Added database for address such as country, city, and province and tis own postal code",
+    "author": "EricJames",
+    "date": "2025-08-10T10:42:45Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/04c423fd69ecb358e947c227ae3a87f1aee1ad7b"
+  },
+  {
+    "sha": "fab344a670145b0773c2286b24f23e1417e1c15a",
+    "message": "asd\nMerge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "rj",
+    "date": "2025-08-10T05:27:48Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/fab344a670145b0773c2286b24f23e1417e1c15a"
+  },
+  {
+    "sha": "b5afda4518a6361447f8bea18610fd0403774b0e",
+    "message": "signup",
+    "author": "rj",
+    "date": "2025-08-09T10:41:46Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/b5afda4518a6361447f8bea18610fd0403774b0e"
+  },
+  {
+    "sha": "94d026d9791d32eb785697421d14e2b6ccd7ec01",
+    "message": "cart, home, menu html",
+    "author": "rj",
+    "date": "2025-08-09T09:43:54Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/94d026d9791d32eb785697421d14e2b6ccd7ec01"
+  },
+  {
+    "sha": "ff2abfc7f492345d253817db4de6877b06664638",
+    "message": "Make the website connection with other folder such as backend and frontend robust, andadded api fodler contaisn .htaccess that will be the security of the interaction of frontend and backend etc.",
+    "author": "EricJames",
+    "date": "2025-08-07T08:09:25Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/ff2abfc7f492345d253817db4de6877b06664638"
+  },
+  {
+    "sha": "4e4341c1e2ca6e79f29ae8c48a00666075412ca3",
+    "message": "Renamed Code-temp back to Code",
+    "author": "EricJames",
+    "date": "2025-08-07T06:04:56Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/4e4341c1e2ca6e79f29ae8c48a00666075412ca3"
+  },
+  {
+    "sha": "6909753f5dcb7269185f209dbbc5f3f610a0d3db",
+    "message": "Re-added Code as a normal directory",
+    "author": "EricJames",
+    "date": "2025-08-07T06:04:55Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/6909753f5dcb7269185f209dbbc5f3f610a0d3db"
+  },
+  {
+    "sha": "817b571619ccf46c3e3ec09c22a32e809f95f6b5",
+    "message": "Fully removed Code as submodule",
+    "author": "EricJames",
+    "date": "2025-08-07T06:04:55Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/817b571619ccf46c3e3ec09c22a32e809f95f6b5"
+  },
+  {
+    "sha": "c301a6132d948cdc852eda46bde0315af2531058",
+    "message": "Removed .gitmodules file",
+    "author": "EricJames",
+    "date": "2025-08-07T05:58:09Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/c301a6132d948cdc852eda46bde0315af2531058"
+  },
+  {
+    "sha": "8141bdc97e2f485df6536a2a7dd467361423c327",
+    "message": "Restored Code folder",
+    "author": "EricJames",
+    "date": "2025-08-07T05:48:56Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/8141bdc97e2f485df6536a2a7dd467361423c327"
+  },
+  {
+    "sha": "ef1ddff387f0d2b1544c58f79d05bea112804c0f",
+    "message": "Re-add Code folder as normal directory",
+    "author": "EricJames",
+    "date": "2025-08-07T05:44:25Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/ef1ddff387f0d2b1544c58f79d05bea112804c0f"
+  },
+  {
+    "sha": "937cf0e57be66f9c7785b4b13ea06c00aeba125b",
+    "message": "Fixed File path dependent server",
+    "author": "EricJames",
+    "date": "2025-08-07T05:37:32Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/937cf0e57be66f9c7785b4b13ea06c00aeba125b"
+  },
+  {
+    "sha": "65902cf5fffb81e2af2018fbc93c1879d1118962",
+    "message": "Updated version",
+    "author": "EricJames",
+    "date": "2025-08-07T05:31:59Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/65902cf5fffb81e2af2018fbc93c1879d1118962"
+  },
+  {
+    "sha": "d5724117bbd29aeb66b7a1aaac5b60417343f206",
+    "message": "Fixed versionvodfe",
+    "author": "rhiodelacruz",
+    "date": "2025-08-06T06:02:26Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/d5724117bbd29aeb66b7a1aaac5b60417343f206"
+  },
+  {
+    "sha": "0010ef2eeaf22a6ffefed85487621ae2030a1b9f",
+    "message": "Put code sources",
+    "author": "EricJames",
+    "date": "2025-07-31T12:31:14Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/0010ef2eeaf22a6ffefed85487621ae2030a1b9f"
+  },
+  {
+    "sha": "98ea4ce6072d14e75ad4eb9a9efa2239de3e4374",
+    "message": "Turn 'code' folder into normal folder by removing inner Git repo",
+    "author": "EricJames",
+    "date": "2025-07-31T12:23:24Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/98ea4ce6072d14e75ad4eb9a9efa2239de3e4374"
+  },
+  {
+    "sha": "610941397fae625576341f8e7fca90ef853c180b",
+    "message": "homepage html",
+    "author": "rj",
+    "date": "2025-07-30T07:38:15Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/610941397fae625576341f8e7fca90ef853c180b"
+  },
+  {
+    "sha": "de5e18a01abb893c751c7f32278df3ddb7ed2228",
+    "message": "Add files via upload\n\nUPDATED PDF",
+    "author": "Diaz RobertJames",
+    "date": "2025-07-09T06:51:51Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/de5e18a01abb893c751c7f32278df3ddb7ed2228"
+  },
+  {
+    "sha": "0516b27daad189493cce0ff80de0350c7baf94f4",
+    "message": "add schedule",
+    "author": "rj",
+    "date": "2025-07-02T07:55:53Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/0516b27daad189493cce0ff80de0350c7baf94f4"
+  },
+  {
+    "sha": "2adc5b417228f64fd82f4b3a06f227b3c72c4949",
+    "message": "other pages",
+    "author": "RjDiaz",
+    "date": "2025-06-25T16:10:07Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/2adc5b417228f64fd82f4b3a06f227b3c72c4949"
+  },
+  {
+    "sha": "9abf6a0209f52dd1df5c3503177dd0fe62a25f21",
+    "message": "assets",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:18:15Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/9abf6a0209f52dd1df5c3503177dd0fe62a25f21"
+  },
+  {
+    "sha": "f21b2cf4a046ad4ed3115ce4a9ae859ecdc64d42",
+    "message": "cartpage",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:15:43Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/f21b2cf4a046ad4ed3115ce4a9ae859ecdc64d42"
+  },
+  {
+    "sha": "69fc6db48897f68551aa4267383aac1b184c7f0d",
+    "message": "homepage-jpg",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:15:20Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/69fc6db48897f68551aa4267383aac1b184c7f0d"
+  },
+  {
+    "sha": "d79837b77aadbec2d36b7eb5bd221e8eb6eaab59",
+    "message": "homepage-psd",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:15:04Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/d79837b77aadbec2d36b7eb5bd221e8eb6eaab59"
+  },
+  {
+    "sha": "9749b9ce75459502e7fee707863e26f6966c2d7c",
+    "message": "Scope and Limitations",
+    "author": "RjDiaz",
+    "date": "2025-06-24T11:07:01Z",
+    "url": "https://github.com/EricJamesSonio/Clone/commit/9749b9ce75459502e7fee707863e26f6966c2d7c"
+  }
+]

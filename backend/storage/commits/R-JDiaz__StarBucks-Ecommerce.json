@@ -1,0 +1,1213 @@
+[
+  {
+    "sha": "97bf61577bd0728904e80631172d1604df12727d",
+    "message": "use auth.js logout in new home",
+    "author": "EricJames",
+    "date": "2025-09-23T14:42:26Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/97bf61577bd0728904e80631172d1604df12727d"
+  },
+  {
+    "sha": "58375fa7c1fab9ef19ab95ecefbc624a96822d39",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "EricJames",
+    "date": "2025-09-23T13:37:07Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/58375fa7c1fab9ef19ab95ecefbc624a96822d39"
+  },
+  {
+    "sha": "ba75514b281f0216a24b1adf680b99dcb90ab309",
+    "message": "fix ing, sess;",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T13:25:56Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/ba75514b281f0216a24b1adf680b99dcb90ab309"
+  },
+  {
+    "sha": "021ffd48a897dd3e08c1cf2d7d8b832dee4e8a4b",
+    "message": "Auto reload chekc in panel since it already have a guard",
+    "author": "EricJames",
+    "date": "2025-09-23T13:16:13Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/021ffd48a897dd3e08c1cf2d7d8b832dee4e8a4b"
+  },
+  {
+    "sha": "88012605002d842c0c1de22b511bfc038d95ac07",
+    "message": "fix errors",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T12:09:10Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/88012605002d842c0c1de22b511bfc038d95ac07"
+  },
+  {
+    "sha": "4d7aaa769cca8db25555bc45b7534a4fc7668d7d",
+    "message": "fix cart ui",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T12:02:20Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/4d7aaa769cca8db25555bc45b7534a4fc7668d7d"
+  },
+  {
+    "sha": "46c95d6df708104f0a7f3573ece787a4f6f5ec6f",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T11:59:17Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/46c95d6df708104f0a7f3573ece787a4f6f5ec6f"
+  },
+  {
+    "sha": "c16f7e606aef50b219af4b5c69a10de24abe46c9",
+    "message": "remove redundancy menu",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T10:23:05Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/c16f7e606aef50b219af4b5c69a10de24abe46c9"
+  },
+  {
+    "sha": "b684504ac3e4f5319bbfe7c8bd2d40a152204dfc",
+    "message": "fix rersp header",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T10:13:47Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b684504ac3e4f5319bbfe7c8bd2d40a152204dfc"
+  },
+  {
+    "sha": "901981d47e3426ac5c43e5ba2204a4ab76b7b305",
+    "message": " remove profile image in profile",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T09:51:31Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/901981d47e3426ac5c43e5ba2204a4ab76b7b305"
+  },
+  {
+    "sha": "9c6904645633cb006d557db78b556c00d8379faa",
+    "message": "remove top selling",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T09:51:10Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9c6904645633cb006d557db78b556c00d8379faa"
+  },
+  {
+    "sha": "a2ed241ed4b02a612570c51d0c168860dcd2a306",
+    "message": "update ui",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T09:28:46Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/a2ed241ed4b02a612570c51d0c168860dcd2a306"
+  },
+  {
+    "sha": "1a3989761b21e6d1d25a1e55e0b5a452e55968a5",
+    "message": "fix top selling",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T09:05:40Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/1a3989761b21e6d1d25a1e55e0b5a452e55968a5"
+  },
+  {
+    "sha": "e7a59b6608ecfbc195f8c39a7ef93a04e6d17cbe",
+    "message": "fix login logout button",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T07:25:14Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/e7a59b6608ecfbc195f8c39a7ef93a04e6d17cbe"
+  },
+  {
+    "sha": "0dd8ca110e8132396cfaaed5c374aa826126ff10",
+    "message": "add images in about us",
+    "author": "R-JDiaz",
+    "date": "2025-09-23T07:09:09Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/0dd8ca110e8132396cfaaed5c374aa826126ff10"
+  },
+  {
+    "sha": "5cf20cb6d1182a546935188a3b1e0580b6153118",
+    "message": "Make the loading screen immediately after clikcing send otp",
+    "author": "EricJames",
+    "date": "2025-09-23T06:59:11Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/5cf20cb6d1182a546935188a3b1e0580b6153118"
+  },
+  {
+    "sha": "19ba6d82d5906dca4eae96b8e07e09951e36cf5d",
+    "message": "sale sreprot now include full receipt view details",
+    "author": "EricJames",
+    "date": "2025-09-23T06:28:20Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/19ba6d82d5906dca4eae96b8e07e09951e36cf5d"
+  },
+  {
+    "sha": "b63511edeb3012acc806c6996c3b8991b1b5b627",
+    "message": "Fix user.png placementss",
+    "author": "EricJames",
+    "date": "2025-09-23T04:53:00Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b63511edeb3012acc806c6996c3b8991b1b5b627"
+  },
+  {
+    "sha": "050eb3dc491e7785db1e94dbd7493d7ec3a851a5",
+    "message": "Remove threshold managament then put trehshold inthe ingredneits management with 3 selections , g, ml , pcs",
+    "author": "EricJames",
+    "date": "2025-09-23T01:30:31Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/050eb3dc491e7785db1e94dbd7493d7ec3a851a5"
+  },
+  {
+    "sha": "d72cc7bd32b011ad61dc2453758ab481a8557a7a",
+    "message": "Added seed for ready item stocks and have threshold hardcoded inside stock management",
+    "author": "EricJames",
+    "date": "2025-09-22T07:38:41Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d72cc7bd32b011ad61dc2453758ab481a8557a7a"
+  },
+  {
+    "sha": "f04a42854baf0bee71a2149e97deb999e273c569",
+    "message": "added admin dashboad button in the home if the user is admin, checkign via localstorage then fix the duplication of the add t ocart call in dispaly top selling since when cloc kthe add to cart button, it calls another add tocart",
+    "author": "EricJames",
+    "date": "2025-09-22T06:57:40Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/f04a42854baf0bee71a2149e97deb999e273c569"
+  },
+  {
+    "sha": "aa6f732b2a1f53b7a6629034518cf0b559d22487",
+    "message": "Make the admins unable to add to cart via guarding the frontend Localstorage and guarding in backend by session",
+    "author": "EricJames",
+    "date": "2025-09-22T06:07:40Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/aa6f732b2a1f53b7a6629034518cf0b559d22487"
+  },
+  {
+    "sha": "c536afaa227e63fd9fa8f0e496d4a8b7cf63fd18",
+    "message": ".asdasd",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T18:41:50Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/c536afaa227e63fd9fa8f0e496d4a8b7cf63fd18"
+  },
+  {
+    "sha": "9a063e083ee5fc8a75b1f8b3abeb730a130d18eb",
+    "message": "viewable receipt",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T18:07:13Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9a063e083ee5fc8a75b1f8b3abeb730a130d18eb"
+  },
+  {
+    "sha": "ec52f252028096b746614b40b96feae777af8561",
+    "message": "about us",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T16:15:44Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/ec52f252028096b746614b40b96feae777af8561"
+  },
+  {
+    "sha": "614bfc34c0c47524d0a39accfb9f194490b3147c",
+    "message": "fix resp header",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T15:55:30Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/614bfc34c0c47524d0a39accfb9f194490b3147c"
+  },
+  {
+    "sha": "e7ce5491ede51f9bdd3314921f898cd1abb93c92",
+    "message": "fix resp home",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T15:55:15Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/e7ce5491ede51f9bdd3314921f898cd1abb93c92"
+  },
+  {
+    "sha": "6a1679053fa6367c15d423f39e33be6e2791db7c",
+    "message": "top selling",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T14:47:13Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/6a1679053fa6367c15d423f39e33be6e2791db7c"
+  },
+  {
+    "sha": "4f7b1c1d92c6f949030be0dd0776a026941ae347",
+    "message": "top selling",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T14:47:04Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/4f7b1c1d92c6f949030be0dd0776a026941ae347"
+  },
+  {
+    "sha": "732c574c155dd6d9531e20b8da1237bb988314c7",
+    "message": "fix total amount , set disc and del fee to 0",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T13:45:32Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/732c574c155dd6d9531e20b8da1237bb988314c7"
+  },
+  {
+    "sha": "d529522684649bf626cf700c2573c60b34c3f573",
+    "message": "fix header of signup",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T13:45:01Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d529522684649bf626cf700c2573c60b34c3f573"
+  },
+  {
+    "sha": "eac7984c485c7adf63f2364fe13622bfef9e69dc",
+    "message": "fix cart contents",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T08:51:21Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/eac7984c485c7adf63f2364fe13622bfef9e69dc"
+  },
+  {
+    "sha": "dd8364f798d9adc3caeab13158c5eb6d15d9ba2e",
+    "message": "fix x",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T08:51:01Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/dd8364f798d9adc3caeab13158c5eb6d15d9ba2e"
+  },
+  {
+    "sha": "53786c03c0ac80128c9a486dccf182308a10c2fd",
+    "message": "fix total showing the exact amt",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T08:50:46Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/53786c03c0ac80128c9a486dccf182308a10c2fd"
+  },
+  {
+    "sha": "1ef324fccbcc0b85aa14c274510cb4c801996b2c",
+    "message": "fix login",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T01:16:18Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/1ef324fccbcc0b85aa14c274510cb4c801996b2c"
+  },
+  {
+    "sha": "a6173fbdcaf182f8b86118240721a1452ab4eec8",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T01:15:25Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/a6173fbdcaf182f8b86118240721a1452ab4eec8"
+  },
+  {
+    "sha": "abe22c42f35d71138e09424ba21e46a18d5b9785",
+    "message": "fix cart ui",
+    "author": "R-JDiaz",
+    "date": "2025-09-09T01:13:00Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/abe22c42f35d71138e09424ba21e46a18d5b9785"
+  },
+  {
+    "sha": "61d7b2affe0d5a6570abf329d93e9b4a1705d759",
+    "message": "Fix signup",
+    "author": "EricJames",
+    "date": "2025-09-09T01:09:28Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/61d7b2affe0d5a6570abf329d93e9b4a1705d759"
+  },
+  {
+    "sha": "2554f2824dd87f4d73cfd15c4b0daf7d36c4aadf",
+    "message": "Fix address in profile to work and updating works now",
+    "author": "EricJames",
+    "date": "2025-09-09T00:48:32Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/2554f2824dd87f4d73cfd15c4b0daf7d36c4aadf"
+  },
+  {
+    "sha": "acbfd7a57cfdec14c3ee1a033c17d334efee38b7",
+    "message": "fix unmatched sec scrollable x",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T22:59:38Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/acbfd7a57cfdec14c3ee1a033c17d334efee38b7"
+  },
+  {
+    "sha": "9960c533ca06d30020442abfb0e1a7f8089400a7",
+    "message": "fix home",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T08:30:58Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9960c533ca06d30020442abfb0e1a7f8089400a7"
+  },
+  {
+    "sha": "a9e13d47f993ad26c0b82f526cb44c9d0d15a2b0",
+    "message": "integrate to login",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T08:30:27Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/a9e13d47f993ad26c0b82f526cb44c9d0d15a2b0"
+  },
+  {
+    "sha": "8767be2955e5effc47981fceabfa014be7c415a9",
+    "message": "intergrate to menu",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T08:30:12Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/8767be2955e5effc47981fceabfa014be7c415a9"
+  },
+  {
+    "sha": "4c1d690b3fd7ddc34ba7fb30186fbfa23b1d1294",
+    "message": "integrate header in cart",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T08:30:00Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/4c1d690b3fd7ddc34ba7fb30186fbfa23b1d1294"
+  },
+  {
+    "sha": "334831cb8576ae9b9b6637fecc35d311b982c1ac",
+    "message": "header modulized",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T08:29:35Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/334831cb8576ae9b9b6637fecc35d311b982c1ac"
+  },
+  {
+    "sha": "889ccffd2370ad65cd1413d15b287ebd92c2f9ad",
+    "message": "update api for it",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T04:27:37Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/889ccffd2370ad65cd1413d15b287ebd92c2f9ad"
+  },
+  {
+    "sha": "231f00b15ca4ab48a139e64889c25b6ac6a78deb",
+    "message": "topselling method fix(not yet tested)",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T04:27:20Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/231f00b15ca4ab48a139e64889c25b6ac6a78deb"
+  },
+  {
+    "sha": "e9daa5384592c0c325f8b4d5a907d6bbf0fff7d1",
+    "message": "fix home path",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T04:04:01Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/e9daa5384592c0c325f8b4d5a907d6bbf0fff7d1"
+  },
+  {
+    "sha": "d681df049ae17e3a4ad828c6341fb61bae8293c9",
+    "message": "acc header to menu",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T04:03:21Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d681df049ae17e3a4ad828c6341fb61bae8293c9"
+  },
+  {
+    "sha": "f8516ebd2c52eab577fc73d04bb8de89d58cf4c3",
+    "message": "acc header to cart",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T04:03:05Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/f8516ebd2c52eab577fc73d04bb8de89d58cf4c3"
+  },
+  {
+    "sha": "d9c71d6beae07e732df0819b6e32e563cb37add4",
+    "message": "header",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T03:49:45Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d9c71d6beae07e732df0819b6e32e563cb37add4"
+  },
+  {
+    "sha": "a78155870494ec9d4944a5cf845b6f4a18e225f7",
+    "message": "rm resp, fix layout",
+    "author": "R-JDiaz",
+    "date": "2025-09-08T03:49:31Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/a78155870494ec9d4944a5cf845b6f4a18e225f7"
+  },
+  {
+    "sha": "9603c17345f633532bcbebb427aad90348927d63",
+    "message": "behaviour of menu",
+    "author": "R-JDiaz",
+    "date": "2025-09-07T10:38:55Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9603c17345f633532bcbebb427aad90348927d63"
+  },
+  {
+    "sha": "8d4a60367532c2ad8e5f928f1b01ea7528f338f3",
+    "message": "resp, ui of menu",
+    "author": "R-JDiaz",
+    "date": "2025-09-07T10:38:09Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/8d4a60367532c2ad8e5f928f1b01ea7528f338f3"
+  },
+  {
+    "sha": "3143390527a947b80d69b317b75eb9b02e97495b",
+    "message": "improve menu.html",
+    "author": "R-JDiaz",
+    "date": "2025-09-07T10:37:47Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/3143390527a947b80d69b317b75eb9b02e97495b"
+  },
+  {
+    "sha": "aa706ce5d4d9455483c2c9e1f5f6de448228179b",
+    "message": "default.png and remoive from url button",
+    "author": "EricJames",
+    "date": "2025-09-05T06:35:15Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/aa706ce5d4d9455483c2c9e1f5f6de448228179b"
+  },
+  {
+    "sha": "885073149c3362f2f357583f2655138f19c341dd",
+    "message": "Fix otp ,, it needs the .env file to work",
+    "author": "EricJames",
+    "date": "2025-09-04T15:53:22Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/885073149c3362f2f357583f2655138f19c341dd"
+  },
+  {
+    "sha": "3374e7a65dc407aab6c766215aad092de131b33e",
+    "message": "Fix logout bug",
+    "author": "EricJames",
+    "date": "2025-09-04T11:28:42Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/3374e7a65dc407aab6c766215aad092de131b33e"
+  },
+  {
+    "sha": "5626661f563e28376ffbe8982a15874569c07fa1",
+    "message": "Added profile in user panel",
+    "author": "EricJames",
+    "date": "2025-09-04T04:18:18Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/5626661f563e28376ffbe8982a15874569c07fa1"
+  },
+  {
+    "sha": "0322fe8c028bf8b32df86191b795b9f6a55548f6",
+    "message": "Fix bug and add instruction",
+    "author": "EricJames",
+    "date": "2025-09-04T02:10:40Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/0322fe8c028bf8b32df86191b795b9f6a55548f6"
+  },
+  {
+    "sha": "a0a7207f312eec3330c89308bfc571c56dedd61b",
+    "message": "Apply git ignore , .env file for gmail and app password",
+    "author": "EricJames",
+    "date": "2025-09-04T01:54:34Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/a0a7207f312eec3330c89308bfc571c56dedd61b"
+  },
+  {
+    "sha": "db0dfc82d9781b50d8cbea2b7e9a39b9dcef5643",
+    "message": "Added otp verification",
+    "author": "EricJames",
+    "date": "2025-09-03T15:53:39Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/db0dfc82d9781b50d8cbea2b7e9a39b9dcef5643"
+  },
+  {
+    "sha": "7a8ac7368cb5f64b08de852fc328f1bbb6e263cf",
+    "message": "Money format and remove harcoded discount",
+    "author": "EricJames",
+    "date": "2025-09-03T01:55:10Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/7a8ac7368cb5f64b08de852fc328f1bbb6e263cf"
+  },
+  {
+    "sha": "3bb7e11a3a54498d580e43e6027e8f255889b36f",
+    "message": " Added some ingredients to other items",
+    "author": "EricJames",
+    "date": "2025-09-02T13:57:44Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/3bb7e11a3a54498d580e43e6027e8f255889b36f"
+  },
+  {
+    "sha": "b4b5dc72e62b99d6ea14658c27029117073a2fac",
+    "message": "Fix bug in security",
+    "author": "EricJames",
+    "date": "2025-09-02T12:48:55Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b4b5dc72e62b99d6ea14658c27029117073a2fac"
+  },
+  {
+    "sha": "84e441bf61ad9caba8ceecf8a9b3d4bb70feb488",
+    "message": "Money format correctly",
+    "author": "EricJames",
+    "date": "2025-09-02T12:24:43Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/84e441bf61ad9caba8ceecf8a9b3d4bb70feb488"
+  },
+  {
+    "sha": "1816280917be2689b8c42c30537fad0024b69cc4",
+    "message": "added security in admin panles",
+    "author": "EricJames",
+    "date": "2025-09-02T12:07:59Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/1816280917be2689b8c42c30537fad0024b69cc4"
+  },
+  {
+    "sha": "d3763dfa7ba3104753600180fbbba0c3896ddaef",
+    "message": "Make validation in password and if email already existi",
+    "author": "EricJames",
+    "date": "2025-09-02T11:38:30Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d3763dfa7ba3104753600180fbbba0c3896ddaef"
+  },
+  {
+    "sha": "bbb187766aca8099f3033704875be56b29cee3b9",
+    "message": "Merge branch 'R-JDiaz:main' into main",
+    "author": "EricSonio",
+    "date": "2025-09-01T02:10:21Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/bbb187766aca8099f3033704875be56b29cee3b9"
+  },
+  {
+    "sha": "23b0030e7e00fd211502ef68022042a393e72beb",
+    "message": "Added account management and fix searching in menu",
+    "author": "EricJames",
+    "date": "2025-09-01T02:00:54Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/23b0030e7e00fd211502ef68022042a393e72beb"
+  },
+  {
+    "sha": "6a3ca2b8cb9108e7b7dbceba49027f1a1df04531",
+    "message": "make the seach not automatically display when click category",
+    "author": "EricJames",
+    "date": "2025-08-30T10:02:00Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/6a3ca2b8cb9108e7b7dbceba49027f1a1df04531"
+  },
+  {
+    "sha": "9233b768696659510f84675c93223b2354dc44ce",
+    "message": "Added account management and fix searching in menu",
+    "author": "EricJames",
+    "date": "2025-09-01T02:00:54Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9233b768696659510f84675c93223b2354dc44ce"
+  },
+  {
+    "sha": "f46b7145b7e7703dbd540c8cc4502a860cff6bd4",
+    "message": "make the seach not automatically display when click category",
+    "author": "EricJames",
+    "date": "2025-08-30T10:02:00Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/f46b7145b7e7703dbd540c8cc4502a860cff6bd4"
+  },
+  {
+    "sha": "7074539704ea98e4a696b92253461693abf6bd41",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "EricJames",
+    "date": "2025-08-30T09:43:34Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/7074539704ea98e4a696b92253461693abf6bd41"
+  },
+  {
+    "sha": "2c47ac92155302f6cdda86a49ffbea4afe3bf667",
+    "message": "Merge branch 'R-JDiaz:main' into main",
+    "author": "EricSonio",
+    "date": "2025-08-30T09:38:41Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/2c47ac92155302f6cdda86a49ffbea4afe3bf667"
+  },
+  {
+    "sha": "007d22e0cb070a30c27d455eaf947460b68a549d",
+    "message": "Makethe search adpat to categrory choosen",
+    "author": "EricJames",
+    "date": "2025-08-30T09:37:13Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/007d22e0cb070a30c27d455eaf947460b68a549d"
+  },
+  {
+    "sha": "02ade0738f0aaa2042449f4128aaddde2d57cb76",
+    "message": "Responsive home",
+    "author": "rhiodelacruz",
+    "date": "2025-08-27T07:51:33Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/02ade0738f0aaa2042449f4128aaddde2d57cb76"
+  },
+  {
+    "sha": "c4dc32018b212cd6ee66769fac0a82ffd637a61f",
+    "message": "Adapt the sizes Tall, grande, venti only for beverages and efault for foods and small, medium large for merchandise",
+    "author": "EricJames",
+    "date": "2025-08-27T05:15:51Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/c4dc32018b212cd6ee66769fac0a82ffd637a61f"
+  },
+  {
+    "sha": "57ed27e51435c1baf68a4863d75956914239ed56",
+    "message": "Add merchandies in admin panel",
+    "author": "EricJames",
+    "date": "2025-08-26T05:46:32Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/57ed27e51435c1baf68a4863d75956914239ed56"
+  },
+  {
+    "sha": "d37b3edc7b591c55ea2fe18892886bb5ff07ba35",
+    "message": "Adapat the seraching of item include merchandise and also the updated add to cart",
+    "author": "EricJames",
+    "date": "2025-08-26T04:33:36Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d37b3edc7b591c55ea2fe18892886bb5ff07ba35"
+  },
+  {
+    "sha": "4976b3581533de830101995341ec4c49c379ee55",
+    "message": "Apply the new starvbuycksitem and merchandise and adpat the backend to include it PAYMENT,CART,RECEIPT,ORDERITEM etc.",
+    "author": "EricJames",
+    "date": "2025-08-26T04:19:18Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/4976b3581533de830101995341ec4c49c379ee55"
+  },
+  {
+    "sha": "c369a16e24dc16f33f1cd93ec36ade10ab631901",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "R-JDiaz",
+    "date": "2025-08-24T12:45:45Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/c369a16e24dc16f33f1cd93ec36ade10ab631901"
+  },
+  {
+    "sha": "5e9b56d439feb535e08738dbe8dcd1581a2bfd25",
+    "message": "the title change when btn were clicked",
+    "author": "R-JDiaz",
+    "date": "2025-08-24T12:44:56Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/5e9b56d439feb535e08738dbe8dcd1581a2bfd25"
+  },
+  {
+    "sha": "3490d934ab36a822a77a4ba224bc937fd487474b",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "EricJames",
+    "date": "2025-08-24T12:27:14Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/3490d934ab36a822a77a4ba224bc937fd487474b"
+  },
+  {
+    "sha": "5f1ae014060b02f76d72bb737ec477072c66783a",
+    "message": "Just move the search input",
+    "author": "EricJames",
+    "date": "2025-08-24T12:27:00Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/5f1ae014060b02f76d72bb737ec477072c66783a"
+  },
+  {
+    "sha": "12caef9785b0668d8ebc6c9e7d673310eff94d84",
+    "message": "fix viewing in cart/ move history inside the cart",
+    "author": "R-JDiaz",
+    "date": "2025-08-24T12:19:30Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/12caef9785b0668d8ebc6c9e7d673310eff94d84"
+  },
+  {
+    "sha": "c47fda0a7d179a1c3a9f1e727fa913c18ff82873",
+    "message": "add side nav in cart",
+    "author": "R-JDiaz",
+    "date": "2025-08-23T07:36:29Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/c47fda0a7d179a1c3a9f1e727fa913c18ff82873"
+  },
+  {
+    "sha": "bcc767907f2fde2d1a99a46459d3708ef402b27b",
+    "message": "remove additional increment in updating item",
+    "author": "R-JDiaz",
+    "date": "2025-08-23T03:03:31Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/bcc767907f2fde2d1a99a46459d3708ef402b27b"
+  },
+  {
+    "sha": "ee1eb858b5da3307a5061494d19365d9f9948de5",
+    "message": "add increment and decrement functions",
+    "author": "R-JDiaz",
+    "date": "2025-08-23T03:00:06Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/ee1eb858b5da3307a5061494d19365d9f9948de5"
+  },
+  {
+    "sha": "09c293bf01b3583155be56356a41445254b07a7f",
+    "message": "update deleteitem functions",
+    "author": "R-JDiaz",
+    "date": "2025-08-23T02:35:20Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/09c293bf01b3583155be56356a41445254b07a7f"
+  },
+  {
+    "sha": "47112c7958f4355faf09d41a7f867303fbd1f79b",
+    "message": "update deleteItem add sizeId",
+    "author": "R-JDiaz",
+    "date": "2025-08-23T02:34:32Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/47112c7958f4355faf09d41a7f867303fbd1f79b"
+  },
+  {
+    "sha": "81ccde4338200847a70e27fc9fe89ff30d7fb015",
+    "message": "fix indentation",
+    "author": "rj",
+    "date": "2025-08-23T00:40:34Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/81ccde4338200847a70e27fc9fe89ff30d7fb015"
+  },
+  {
+    "sha": "2828328b169c57487dfc2f11e60a8fdc3f56d8ae",
+    "message": "add eventListener for removing item",
+    "author": "rj",
+    "date": "2025-08-23T00:38:05Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/2828328b169c57487dfc2f11e60a8fdc3f56d8ae"
+  },
+  {
+    "sha": "98f3598ebf23a608e01a4cb69684b56aad926617",
+    "message": "add handleDeleteItem function",
+    "author": "rj",
+    "date": "2025-08-23T00:28:31Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/98f3598ebf23a608e01a4cb69684b56aad926617"
+  },
+  {
+    "sha": "77e9d2628885f2942767a6d9459d2fcd98eb2dc5",
+    "message": "Wehn checking out, it cehckgs in stock first if has stock then deduct the stock if not then directly deduct the ingredeitns,, also remoe tthe item stock in table if quantity reaches 0",
+    "author": "EricJames",
+    "date": "2025-08-22T11:22:44Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/77e9d2628885f2942767a6d9459d2fcd98eb2dc5"
+  },
+  {
+    "sha": "58619a088a4baf085898e31a05730cbaba23e476",
+    "message": "Fix search in ingredient management",
+    "author": "EricJames",
+    "date": "2025-08-22T11:05:38Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/58619a088a4baf085898e31a05730cbaba23e476"
+  },
+  {
+    "sha": "d29d51f27cdb2239602bc8e2047ec96ca4cd0f00",
+    "message": "Fix automatic guest treatment for defualt users",
+    "author": "EricJames",
+    "date": "2025-08-22T10:20:31Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d29d51f27cdb2239602bc8e2047ec96ca4cd0f00"
+  },
+  {
+    "sha": "74eecc8a4e0647598835b987c1f493c738971b73",
+    "message": "Make phone should be 09 or +63",
+    "author": "EricJames",
+    "date": "2025-08-22T09:57:13Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/74eecc8a4e0647598835b987c1f493c738971b73"
+  },
+  {
+    "sha": "fc44eeab9a6756a6fba40d7c45c2fd9c3d1b2897",
+    "message": "Add validation in sign ups",
+    "author": "EricJames",
+    "date": "2025-08-22T09:44:24Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/fc44eeab9a6756a6fba40d7c45c2fd9c3d1b2897"
+  },
+  {
+    "sha": "bc310735513ebc3daf118780cdd484346a8355b8",
+    "message": "Automatically treat the user to be a guest even if not yet'CONTINUE AS GUEST'",
+    "author": "EricJames",
+    "date": "2025-08-22T08:50:32Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/bc310735513ebc3daf118780cdd484346a8355b8"
+  },
+  {
+    "sha": "b09897a49507fc497f8ba3808fe32a5eb2b38e1c",
+    "message": "REmove seeds of user 1",
+    "author": "EricJames",
+    "date": "2025-08-22T04:09:20Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b09897a49507fc497f8ba3808fe32a5eb2b38e1c"
+  },
+  {
+    "sha": "86d25ef880adbaa74d323cc1b47330f78462b0fc",
+    "message": "Fix edit and remove function in ingredient managemnet",
+    "author": "EricJames",
+    "date": "2025-08-22T03:22:58Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/86d25ef880adbaa74d323cc1b47330f78462b0fc"
+  },
+  {
+    "sha": "3a6a19b478fec55b9e261cf1559ef0a88d36a9e7",
+    "message": "Include images",
+    "author": "EricJames",
+    "date": "2025-08-22T02:49:25Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/3a6a19b478fec55b9e261cf1559ef0a88d36a9e7"
+  },
+  {
+    "sha": "92fd2df02d35d2289fd04ac5f2169ee55bcc0abd",
+    "message": "Make the threshold better by having 2 separate threhold for stock and ingredient instead ofusing gloabal threhold as one",
+    "author": "EricJames",
+    "date": "2025-08-22T02:25:10Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/92fd2df02d35d2289fd04ac5f2169ee55bcc0abd"
+  },
+  {
+    "sha": "22168e9be0cbc97a6bc46082b484de579d1467ab",
+    "message": "Make the update and remove stock working fine now",
+    "author": "EricJames",
+    "date": "2025-08-22T01:29:59Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/22168e9be0cbc97a6bc46082b484de579d1467ab"
+  },
+  {
+    "sha": "0e45556235f26f5c7149054afdc596e6137c63c2",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "EricJames",
+    "date": "2025-08-21T12:30:18Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/0e45556235f26f5c7149054afdc596e6137c63c2"
+  },
+  {
+    "sha": "8df4d789ace417f3386ccb171833eef4901c89a1",
+    "message": " Ingredients management, add ingrdeients, add stock, view low stock",
+    "author": "EricJames",
+    "date": "2025-08-21T12:30:03Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/8df4d789ace417f3386ccb171833eef4901c89a1"
+  },
+  {
+    "sha": "7f2a86a2143b605bb1b73d620cee9609253c28fa",
+    "message": "remove outside uncessary files",
+    "author": "rj",
+    "date": "2025-08-21T11:06:35Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/7f2a86a2143b605bb1b73d620cee9609253c28fa"
+  },
+  {
+    "sha": "25f32b3bfacf42c545a24d709a364672d1074782",
+    "message": "modal connected",
+    "author": "rj",
+    "date": "2025-08-21T11:03:12Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/25f32b3bfacf42c545a24d709a364672d1074782"
+  },
+  {
+    "sha": "aa7f4d4cfe195344e96ec8580a11f308681bd3b3",
+    "message": "cart",
+    "author": "rj",
+    "date": "2025-08-21T10:55:40Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/aa7f4d4cfe195344e96ec8580a11f308681bd3b3"
+  },
+  {
+    "sha": "8d0d7d434fee344e284d8d9a60c44f1bd09d3c59",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "rj",
+    "date": "2025-08-21T10:54:57Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/8d0d7d434fee344e284d8d9a60c44f1bd09d3c59"
+  },
+  {
+    "sha": "fb4971fc02bcb80b26e5dd26757a3a42351cb086",
+    "message": "fix conflict",
+    "author": "rj",
+    "date": "2025-08-21T10:08:56Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/fb4971fc02bcb80b26e5dd26757a3a42351cb086"
+  },
+  {
+    "sha": "025e544281a9155362c89e1ef5acd2d400b87e84",
+    "message": "Added image url in history",
+    "author": "EricJames",
+    "date": "2025-08-21T10:06:37Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/025e544281a9155362c89e1ef5acd2d400b87e84"
+  },
+  {
+    "sha": "a5de0345df16f3a39eebfd5c07dc45a3841b3426",
+    "message": "cart-implementation",
+    "author": "rj",
+    "date": "2025-08-21T09:59:35Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/a5de0345df16f3a39eebfd5c07dc45a3841b3426"
+  },
+  {
+    "sha": "c0849e871cb5964d86aedcfa2f48e63571c8cff9",
+    "message": "Include image url in cart",
+    "author": "EricJames",
+    "date": "2025-08-21T09:51:32Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/c0849e871cb5964d86aedcfa2f48e63571c8cff9"
+  },
+  {
+    "sha": "b5035155a32a3dc4fbc5c45f1e20f262285a302c",
+    "message": "Fix added image url in fetching items in database",
+    "author": "EricJames",
+    "date": "2025-08-21T09:39:11Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b5035155a32a3dc4fbc5c45f1e20f262285a302c"
+  },
+  {
+    "sha": "9e73a4fe1472d63df3ac345d8b98daf888f7a7cd",
+    "message": "Remove hardcoded image paths, instead get the image of item via image url in table",
+    "author": "EricJames",
+    "date": "2025-08-21T05:44:33Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9e73a4fe1472d63df3ac345d8b98daf888f7a7cd"
+  },
+  {
+    "sha": "766955c612573a8e97df6d918b23b2a46210d63c",
+    "message": "Refactor search function",
+    "author": "EricJames",
+    "date": "2025-08-21T04:52:43Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/766955c612573a8e97df6d918b23b2a46210d63c"
+  },
+  {
+    "sha": "3de4e71cf305dddab8dff38c28020732c212b72c",
+    "message": "Added view recipe in admin panel",
+    "author": "EricJames",
+    "date": "2025-08-21T04:29:57Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/3de4e71cf305dddab8dff38c28020732c212b72c"
+  },
+  {
+    "sha": "65d4c590d62ef1296373ed1d48e2c53b74d5bf4a",
+    "message": "Merge",
+    "author": "EricJames",
+    "date": "2025-08-20T13:32:23Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/65d4c590d62ef1296373ed1d48e2c53b74d5bf4a"
+  },
+  {
+    "sha": "ddd963d9d49cb7ddbcfaf281afe24952638a0110",
+    "message": "Updated the admin panel added stock item function",
+    "author": "EricJames",
+    "date": "2025-08-20T13:31:01Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/ddd963d9d49cb7ddbcfaf281afe24952638a0110"
+  },
+  {
+    "sha": "d7c1f7533dc513b92d3e6a886cb8ceb51f8d411c",
+    "message": "fix signup header",
+    "author": "rj",
+    "date": "2025-08-20T10:57:08Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d7c1f7533dc513b92d3e6a886cb8ceb51f8d411c"
+  },
+  {
+    "sha": "442beadd91ce88fe94abcb544ba075dc2d68aad3",
+    "message": "fix signin",
+    "author": "rj",
+    "date": "2025-08-20T10:52:26Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/442beadd91ce88fe94abcb544ba075dc2d68aad3"
+  },
+  {
+    "sha": "a2f4491caad8a50c372fbabe73deec9eda6e9b17",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "EricJames",
+    "date": "2025-08-20T09:28:19Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/a2f4491caad8a50c372fbabe73deec9eda6e9b17"
+  },
+  {
+    "sha": "79fe9cbe1a1acf067ec639749b6a708176291292",
+    "message": "Fix validationm in adding item, price cant be negative, and names should only be strings",
+    "author": "EricJames",
+    "date": "2025-08-20T09:28:08Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/79fe9cbe1a1acf067ec639749b6a708176291292"
+  },
+  {
+    "sha": "1bc69efb965beb9976d30797628c0efe850c77e6",
+    "message": "new home",
+    "author": "rj",
+    "date": "2025-08-20T09:23:10Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/1bc69efb965beb9976d30797628c0efe850c77e6"
+  },
+  {
+    "sha": "e649c9b28f19f13c3a3bfbb12a32836ae4b4d6e1",
+    "message": "move prevHome to About",
+    "author": "rj",
+    "date": "2025-08-20T09:19:15Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/e649c9b28f19f13c3a3bfbb12a32836ae4b4d6e1"
+  },
+  {
+    "sha": "7806c3dc209f238480fe9af34daf14b22d4bb138",
+    "message": "move tester files too annoying",
+    "author": "rj",
+    "date": "2025-08-20T09:18:22Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/7806c3dc209f238480fe9af34daf14b22d4bb138"
+  },
+  {
+    "sha": "921c02fcb39a4087b2f8e2c9d1b3b1a057761440",
+    "message": "Updated",
+    "author": "EricJames",
+    "date": "2025-08-20T09:04:41Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/921c02fcb39a4087b2f8e2c9d1b3b1a057761440"
+  },
+  {
+    "sha": "3368d8b041d37cc6f85247f3e497f46c274a4a0c",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "Omarjamin",
+    "date": "2025-08-20T07:29:05Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/3368d8b041d37cc6f85247f3e497f46c274a4a0c"
+  },
+  {
+    "sha": "15accf5dab8667ecd683c512a0ef836353cbd6e6",
+    "message": "'james'",
+    "author": "Omarjamin",
+    "date": "2025-08-20T07:28:14Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/15accf5dab8667ecd683c512a0ef836353cbd6e6"
+  },
+  {
+    "sha": "eb930a3436a0b7ce439e713fb7f58d911ba31ba4",
+    "message": "fix code",
+    "author": "rhiodelacruz",
+    "date": "2025-08-20T07:13:54Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/eb930a3436a0b7ce439e713fb7f58d911ba31ba4"
+  },
+  {
+    "sha": "9e8c41e4b2d31832dc9ccdeb2c44f2b224be88d5",
+    "message": "deleted",
+    "author": "rhiodelacruz",
+    "date": "2025-08-20T07:00:44Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9e8c41e4b2d31832dc9ccdeb2c44f2b224be88d5"
+  },
+  {
+    "sha": "7ad8f2a1cd73d6dae620abf3a6d062f10031ba9d",
+    "message": " Pleas the commit message for your changes. Lines starting",
+    "author": "rhiodelacruz",
+    "date": "2025-08-20T06:58:40Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/7ad8f2a1cd73d6dae620abf3a6d062f10031ba9d"
+  },
+  {
+    "sha": "b66d41617c6878bad863a74d665677a3cdc8f05c",
+    "message": "Update",
+    "author": "VitenteIan",
+    "date": "2025-08-18T13:15:22Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b66d41617c6878bad863a74d665677a3cdc8f05c"
+  },
+  {
+    "sha": "47018ed9eeba680af0e10f430d098f049e92008e",
+    "message": "Fix",
+    "author": "EricJames",
+    "date": "2025-08-18T02:42:05Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/47018ed9eeba680af0e10f430d098f049e92008e"
+  },
+  {
+    "sha": "19ed9a1f4ab8809ed59421139fe4277316b6c128",
+    "message": "'assets'",
+    "author": "VitenteIan",
+    "date": "2025-08-15T09:49:29Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/19ed9a1f4ab8809ed59421139fe4277316b6c128"
+  },
+  {
+    "sha": "992b57dfc7368d72cf28a6aa6a1e15516e77d7d8",
+    "message": "add js",
+    "author": "VitenteIan",
+    "date": "2025-08-15T09:34:07Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/992b57dfc7368d72cf28a6aa6a1e15516e77d7d8"
+  },
+  {
+    "sha": "713d9b260f428cc249abad302a56596bf269ba3d",
+    "message": "Just fix bug in auth.js",
+    "author": "EricJames",
+    "date": "2025-08-14T02:27:46Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/713d9b260f428cc249abad302a56596bf269ba3d"
+  },
+  {
+    "sha": "5c33fe7ef0ad61dfdca453603de7ac50bd4303f0",
+    "message": "Applied oop and refactor some reusable codes",
+    "author": "EricJames",
+    "date": "2025-08-14T02:06:08Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/5c33fe7ef0ad61dfdca453603de7ac50bd4303f0"
+  },
+  {
+    "sha": "e1d05d92ff79975118ac0fb3fad0d3c26891832a",
+    "message": "Merge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "EricJames",
+    "date": "2025-08-13T14:17:19Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/e1d05d92ff79975118ac0fb3fad0d3c26891832a"
+  },
+  {
+    "sha": "f4240034b3a2f9d5a8041ce151fbe28ace71b89f",
+    "message": "Added basic serach function in menu and item management",
+    "author": "EricJames",
+    "date": "2025-08-13T14:17:08Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/f4240034b3a2f9d5a8041ce151fbe28ace71b89f"
+  },
+  {
+    "sha": "90772b4333237d552c321a91523e53cd2e3275e4",
+    "message": "Try Resp",
+    "author": "VitenteIan",
+    "date": "2025-08-11T16:19:15Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/90772b4333237d552c321a91523e53cd2e3275e4"
+  },
+  {
+    "sha": "8ea8b30983178272e83c7bfadcc3cd60e77e317e",
+    "message": "Slight fix inadmin  panels",
+    "author": "EricJames",
+    "date": "2025-08-11T12:41:38Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/8ea8b30983178272e83c7bfadcc3cd60e77e317e"
+  },
+  {
+    "sha": "cd02841d76e72f4b823affe4d8575fc3a241af7b",
+    "message": "Just adding admin panel item management sales report and some routes and database table ivnentory settings ,, etc. just to make it work",
+    "author": "EricJames",
+    "date": "2025-08-11T09:15:17Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/cd02841d76e72f4b823affe4d8575fc3a241af7b"
+  },
+  {
+    "sha": "b076bec9501ae620368faee0e91ff834983eddcf",
+    "message": "Added login filtering checking if the user is admin then admin panel and inventory settings for threshold",
+    "author": "EricJames",
+    "date": "2025-08-11T03:47:50Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b076bec9501ae620368faee0e91ff834983eddcf"
+  },
+  {
+    "sha": "f426860482c958704d86bae48ce420acdfc958b5",
+    "message": "Added subcategory function filter in menu",
+    "author": "EricJames",
+    "date": "2025-08-10T11:42:13Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/f426860482c958704d86bae48ce420acdfc958b5"
+  },
+  {
+    "sha": "5f2e89c1cfcaeb196f4134ff30854bd1917846cc",
+    "message": "Just make the phone to strict only 11 digits",
+    "author": "EricJames",
+    "date": "2025-08-10T10:50:34Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/5f2e89c1cfcaeb196f4134ff30854bd1917846cc"
+  },
+  {
+    "sha": "04c423fd69ecb358e947c227ae3a87f1aee1ad7b",
+    "message": "Added database for address such as country, city, and province and tis own postal code",
+    "author": "EricJames",
+    "date": "2025-08-10T10:42:45Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/04c423fd69ecb358e947c227ae3a87f1aee1ad7b"
+  },
+  {
+    "sha": "fab344a670145b0773c2286b24f23e1417e1c15a",
+    "message": "asd\nMerge branch 'main' of https://github.com/R-JDiaz/StarBucks-Ecommerce",
+    "author": "rj",
+    "date": "2025-08-10T05:27:48Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/fab344a670145b0773c2286b24f23e1417e1c15a"
+  },
+  {
+    "sha": "b5afda4518a6361447f8bea18610fd0403774b0e",
+    "message": "signup",
+    "author": "rj",
+    "date": "2025-08-09T10:41:46Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/b5afda4518a6361447f8bea18610fd0403774b0e"
+  },
+  {
+    "sha": "94d026d9791d32eb785697421d14e2b6ccd7ec01",
+    "message": "cart, home, menu html",
+    "author": "rj",
+    "date": "2025-08-09T09:43:54Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/94d026d9791d32eb785697421d14e2b6ccd7ec01"
+  },
+  {
+    "sha": "ff2abfc7f492345d253817db4de6877b06664638",
+    "message": "Make the website connection with other folder such as backend and frontend robust, andadded api fodler contaisn .htaccess that will be the security of the interaction of frontend and backend etc.",
+    "author": "EricJames",
+    "date": "2025-08-07T08:09:25Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/ff2abfc7f492345d253817db4de6877b06664638"
+  },
+  {
+    "sha": "4e4341c1e2ca6e79f29ae8c48a00666075412ca3",
+    "message": "Renamed Code-temp back to Code",
+    "author": "EricJames",
+    "date": "2025-08-07T06:04:56Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/4e4341c1e2ca6e79f29ae8c48a00666075412ca3"
+  },
+  {
+    "sha": "6909753f5dcb7269185f209dbbc5f3f610a0d3db",
+    "message": "Re-added Code as a normal directory",
+    "author": "EricJames",
+    "date": "2025-08-07T06:04:55Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/6909753f5dcb7269185f209dbbc5f3f610a0d3db"
+  },
+  {
+    "sha": "817b571619ccf46c3e3ec09c22a32e809f95f6b5",
+    "message": "Fully removed Code as submodule",
+    "author": "EricJames",
+    "date": "2025-08-07T06:04:55Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/817b571619ccf46c3e3ec09c22a32e809f95f6b5"
+  },
+  {
+    "sha": "c301a6132d948cdc852eda46bde0315af2531058",
+    "message": "Removed .gitmodules file",
+    "author": "EricJames",
+    "date": "2025-08-07T05:58:09Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/c301a6132d948cdc852eda46bde0315af2531058"
+  },
+  {
+    "sha": "8141bdc97e2f485df6536a2a7dd467361423c327",
+    "message": "Restored Code folder",
+    "author": "EricJames",
+    "date": "2025-08-07T05:48:56Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/8141bdc97e2f485df6536a2a7dd467361423c327"
+  },
+  {
+    "sha": "ef1ddff387f0d2b1544c58f79d05bea112804c0f",
+    "message": "Re-add Code folder as normal directory",
+    "author": "EricJames",
+    "date": "2025-08-07T05:44:25Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/ef1ddff387f0d2b1544c58f79d05bea112804c0f"
+  },
+  {
+    "sha": "937cf0e57be66f9c7785b4b13ea06c00aeba125b",
+    "message": "Fixed File path dependent server",
+    "author": "EricJames",
+    "date": "2025-08-07T05:37:32Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/937cf0e57be66f9c7785b4b13ea06c00aeba125b"
+  },
+  {
+    "sha": "65902cf5fffb81e2af2018fbc93c1879d1118962",
+    "message": "Updated version",
+    "author": "EricJames",
+    "date": "2025-08-07T05:31:59Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/65902cf5fffb81e2af2018fbc93c1879d1118962"
+  },
+  {
+    "sha": "d5724117bbd29aeb66b7a1aaac5b60417343f206",
+    "message": "Fixed versionvodfe",
+    "author": "rhiodelacruz",
+    "date": "2025-08-06T06:02:26Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d5724117bbd29aeb66b7a1aaac5b60417343f206"
+  },
+  {
+    "sha": "0010ef2eeaf22a6ffefed85487621ae2030a1b9f",
+    "message": "Put code sources",
+    "author": "EricJames",
+    "date": "2025-07-31T12:31:14Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/0010ef2eeaf22a6ffefed85487621ae2030a1b9f"
+  },
+  {
+    "sha": "98ea4ce6072d14e75ad4eb9a9efa2239de3e4374",
+    "message": "Turn 'code' folder into normal folder by removing inner Git repo",
+    "author": "EricJames",
+    "date": "2025-07-31T12:23:24Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/98ea4ce6072d14e75ad4eb9a9efa2239de3e4374"
+  },
+  {
+    "sha": "610941397fae625576341f8e7fca90ef853c180b",
+    "message": "homepage html",
+    "author": "rj",
+    "date": "2025-07-30T07:38:15Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/610941397fae625576341f8e7fca90ef853c180b"
+  },
+  {
+    "sha": "de5e18a01abb893c751c7f32278df3ddb7ed2228",
+    "message": "Add files via upload\n\nUPDATED PDF",
+    "author": "Diaz RobertJames",
+    "date": "2025-07-09T06:51:51Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/de5e18a01abb893c751c7f32278df3ddb7ed2228"
+  },
+  {
+    "sha": "0516b27daad189493cce0ff80de0350c7baf94f4",
+    "message": "add schedule",
+    "author": "rj",
+    "date": "2025-07-02T07:55:53Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/0516b27daad189493cce0ff80de0350c7baf94f4"
+  },
+  {
+    "sha": "2adc5b417228f64fd82f4b3a06f227b3c72c4949",
+    "message": "other pages",
+    "author": "RjDiaz",
+    "date": "2025-06-25T16:10:07Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/2adc5b417228f64fd82f4b3a06f227b3c72c4949"
+  },
+  {
+    "sha": "9abf6a0209f52dd1df5c3503177dd0fe62a25f21",
+    "message": "assets",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:18:15Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9abf6a0209f52dd1df5c3503177dd0fe62a25f21"
+  },
+  {
+    "sha": "f21b2cf4a046ad4ed3115ce4a9ae859ecdc64d42",
+    "message": "cartpage",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:15:43Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/f21b2cf4a046ad4ed3115ce4a9ae859ecdc64d42"
+  },
+  {
+    "sha": "69fc6db48897f68551aa4267383aac1b184c7f0d",
+    "message": "homepage-jpg",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:15:20Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/69fc6db48897f68551aa4267383aac1b184c7f0d"
+  },
+  {
+    "sha": "d79837b77aadbec2d36b7eb5bd221e8eb6eaab59",
+    "message": "homepage-psd",
+    "author": "RjDiaz",
+    "date": "2025-06-24T13:15:04Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/d79837b77aadbec2d36b7eb5bd221e8eb6eaab59"
+  },
+  {
+    "sha": "9749b9ce75459502e7fee707863e26f6966c2d7c",
+    "message": "Scope and Limitations",
+    "author": "RjDiaz",
+    "date": "2025-06-24T11:07:01Z",
+    "url": "https://github.com/R-JDiaz/StarBucks-Ecommerce/commit/9749b9ce75459502e7fee707863e26f6966c2d7c"
+  }
+]

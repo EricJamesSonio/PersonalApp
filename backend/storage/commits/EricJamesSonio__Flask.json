@@ -1,0 +1,79 @@
+[
+  {
+    "sha": "b5604d1c8ac5e0ed5d56e83e4886e95ef7311e3e",
+    "message": "Just a random practice of inventory",
+    "author": "EricJames",
+    "date": "2025-06-30T02:10:16Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/b5604d1c8ac5e0ed5d56e83e4886e95ef7311e3e"
+  },
+  {
+    "sha": "e528223170f790f443711dbf6571ecf31ddbd379",
+    "message": "See you next time, im busy now",
+    "author": "EricJames",
+    "date": "2025-06-19T00:39:04Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/e528223170f790f443711dbf6571ecf31ddbd379"
+  },
+  {
+    "sha": "45f8172f17e438b19bc39ae5b8e387a57f6010be",
+    "message": "Addded Notes and database samples",
+    "author": "EricJames",
+    "date": "2025-06-18T18:52:42Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/45f8172f17e438b19bc39ae5b8e387a57f6010be"
+  },
+  {
+    "sha": "ac2feb87d97f7bdd9d428698fb3243c7b34f094c",
+    "message": "Order processor created and folders are separeted",
+    "author": "EricJames",
+    "date": "2025-06-17T16:16:41Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/ac2feb87d97f7bdd9d428698fb3243c7b34f094c"
+  },
+  {
+    "sha": "d699feaa05edf40d533f6e2c80219955c26d61d6",
+    "message": "Added htmls &  routes",
+    "author": "EricJames",
+    "date": "2025-06-16T20:28:08Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/d699feaa05edf40d533f6e2c80219955c26d61d6"
+  },
+  {
+    "sha": "7d814fde21f979667854a6e0b7d40af0efa57202",
+    "message": "Hey",
+    "author": "EricJames",
+    "date": "2025-06-16T17:42:34Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/7d814fde21f979667854a6e0b7d40af0efa57202"
+  },
+  {
+    "sha": "822144a4e2cbf39294a9daae35c73af19f839015",
+    "message": "Created inventory no finished",
+    "author": "EricJames",
+    "date": "2025-06-14T20:21:16Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/822144a4e2cbf39294a9daae35c73af19f839015"
+  },
+  {
+    "sha": "1004a8b3bc3fdd88186c7510fa4e4083c4d2396d",
+    "message": "Added database models and confi",
+    "author": "EricJames",
+    "date": "2025-06-14T19:17:05Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/1004a8b3bc3fdd88186c7510fa4e4083c4d2396d"
+  },
+  {
+    "sha": "8aad70af12317142a10e9ed6540362034dc94f21",
+    "message": "NeWQ",
+    "author": "EricJames",
+    "date": "2025-06-14T18:16:24Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/8aad70af12317142a10e9ed6540362034dc94f21"
+  },
+  {
+    "sha": "c550bb697172271fc444052f7323fb800f5c7d93",
+    "message": "Starting file",
+    "author": "EricJames",
+    "date": "2025-06-14T18:10:20Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/c550bb697172271fc444052f7323fb800f5c7d93"
+  },
+  {
+    "sha": "7c89ea877175d66cd0e0730de12bf2c892914d89",
+    "message": "Initial commit",
+    "author": "SonioEricJames",
+    "date": "2025-06-13T11:08:16Z",
+    "url": "https://github.com/EricJamesSonio/Flask/commit/7c89ea877175d66cd0e0730de12bf2c892914d89"
+  }
+]

@@ -6,8 +6,6 @@
   <link rel="stylesheet" href="../designs/styles.css">
   <style>
     .highlight { background-color: #3ec777; transition: background 0.3s; }
-
-    /* Commit list style */
     .commit-card { margin: 5px 0; padding: 5px; border: 1px solid #ccc; border-radius: 4px; }
   </style>
 </head>
@@ -16,7 +14,6 @@
     <h1 id="repo-title">Repo Details</h1>
     <div class="header-buttons">
       <button id="back-btn">⬅ Back</button>
-
       <button id="fullscreen-btn">Toggle Fullscreen</button>
     </div>
   </header>
@@ -32,15 +29,12 @@
   </main>
 
 <script type="module">
-
-
   import { initTerminal } from "../../terminal.js"; // root path
 
   const API_BASE = "http://localhost:4000";
   let chartInstance = null;
   let commitsData = [];
 
-  // Initialize terminal
   const terminal = initTerminal({
     onHighlight: (elements) => {
       if (elements && elements.length) elements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -50,7 +44,6 @@
   document.getElementById("fullscreen-btn").addEventListener("click", () => {
     window.electronAPI.toggleFullscreen();
   });
-
   document.getElementById("back-btn").addEventListener("click", () => {
     window.location.href = "./index.html";
   });
@@ -58,7 +51,6 @@
   function calculateStreak(commits) {
     const commitDates = commits.map(c => new Date(c.date).toISOString().split("T")[0]);
     const uniqueDates = [...new Set(commitDates)].sort().reverse();
-
     let currentStreak = 0, longestStreak = 0, prevDate = null;
     uniqueDates.forEach(d => {
       if (!prevDate) { currentStreak = 1; longestStreak = 1; }
@@ -69,13 +61,7 @@
       }
       prevDate = d;
     });
-
-    return {
-      currentStreak,
-      longestStreak,
-      totalCommits: commitDates.length,
-      daysActive: uniqueDates.length
-    };
+    return { currentStreak, longestStreak, totalCommits: commitDates.length, daysActive: uniqueDates.length };
   }
 
   async function loadRepo(repoName) {
@@ -90,30 +76,31 @@
     errorEl.style.display = "none";
 
     try {
-      // Fetch repo metadata (contributors, created_at, etc)
+      // Fetch repo metadata
       const reposRes = await fetch(`${API_BASE}/repos`);
       const repos = await reposRes.json();
-      const repo = repos.find(r => r.name === repoName);
+      const repo = repos.find(r => r.full_name === repoName);
       if (!repo) throw new Error("Repo not found");
 
-      // Fetch commits (cached by backend)
-      const commitsRes = await fetch(`${API_BASE}/commits/${repoName}`);
+      // Fetch commits with encoded repoName
+      const encodedName = encodeURIComponent(repoName);
+      const commitsRes = await fetch(`${API_BASE}/commits/${encodedName}`);
+      if (!commitsRes.ok) throw new Error(`Failed to fetch commits: ${commitsRes.status}`);
       commitsData = await commitsRes.json();
 
-      // Compute streak locally
+      // Compute streak
       const streak = calculateStreak(commitsData);
 
       // Set title
-      document.getElementById("repo-title").textContent = repo.name;
+      document.getElementById("repo-title").textContent = repo.full_name;
 
-      // Stats
+      // Render stats
       const contributorsHTML = repo.contributors?.length
         ? `<div class="stat">👥 Contributors: ${
             repo.contributors.map(c => 
               `<a href="https://github.com/${c.login}" target="_blank">${c.login}</a> (${c.contributions})`
             ).join(", ")
-          }</div>`
-        : "";
+          }</div>` : "";
 
       statsEl.innerHTML = `
         <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
@@ -147,8 +134,7 @@
           onClick: (evt, elements) => {
             if (!elements.length) return;
             const idx = elements[0].index;
-            const selectedDate = sortedDays[idx];
-            highlightCommits(selectedDate);
+            highlightCommits(sortedDays[idx]);
           }
         }
       });
@@ -181,6 +167,5 @@
   const repoName = params.get("repo");
   if (repoName) loadRepo(repoName);
 </script>
-
 </body>
 </html>

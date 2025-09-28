@@ -1,0 +1,44 @@
+[
+  {
+    "sha": "df5291b4f22c873f3a9f6b7c2482b6587ec11a32",
+    "message": "Update README.md",
+    "author": "Izyne Gallardo",
+    "date": "2024-08-15T13:44:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/iNotes/commit/df5291b4f22c873f3a9f6b7c2482b6587ec11a32"
+  },
+  {
+    "sha": "509b051a5b46c3045754f9be98f82ff8a6900f90",
+    "message": "Update README.md\n\nadded description and Contributor section.",
+    "author": "Izyne Gallardo",
+    "date": "2024-08-15T13:42:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/iNotes/commit/509b051a5b46c3045754f9be98f82ff8a6900f90"
+  },
+  {
+    "sha": "a3256b1a7c3bb3cf9f0f9a9dd0a9a4d4bf1be440",
+    "message": "Create iNotes_classes.py\n\nuploaded iNotes_classes python file",
+    "author": "Izyne Gallardo",
+    "date": "2024-08-15T13:41:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/iNotes/commit/a3256b1a7c3bb3cf9f0f9a9dd0a9a4d4bf1be440"
+  },
+  {
+    "sha": "89f76177e705d16171f41766362a7f56e724d7b0",
+    "message": "Created inotes.py\n\nuploaded inotes python file",
+    "author": "Izyne Gallardo",
+    "date": "2024-08-15T13:40:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/iNotes/commit/89f76177e705d16171f41766362a7f56e724d7b0"
+  },
+  {
+    "sha": "20b216a674187647a154c7908492e6314bad7177",
+    "message": "Update README.md",
+    "author": "Izyne Gallardo",
+    "date": "2024-06-05T12:55:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/iNotes/commit/20b216a674187647a154c7908492e6314bad7177"
+  },
+  {
+    "sha": "51aaec53fe1527137adc3126534278212e481723",
+    "message": "Initial commit",
+    "author": "Izyne Gallardo",
+    "date": "2024-06-05T12:52:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/iNotes/commit/51aaec53fe1527137adc3126534278212e481723"
+  }
+]

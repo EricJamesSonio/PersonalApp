@@ -1,0 +1,44 @@
+[
+  {
+    "sha": "edb4796d89457f5a5688cc420d376f7dd026bef8",
+    "message": "database1.sql",
+    "author": "Dante Progio",
+    "date": "2020-03-22T11:06:47Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-2018-POSSystem/commit/edb4796d89457f5a5688cc420d376f7dd026bef8"
+  },
+  {
+    "sha": "70b83fa690b9e2fd624444a4486c23aa86ae70ca",
+    "message": "frmUserAcc.vb",
+    "author": "Dante Progio",
+    "date": "2020-03-22T01:52:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-2018-POSSystem/commit/70b83fa690b9e2fd624444a4486c23aa86ae70ca"
+  },
+  {
+    "sha": "bc1eba120f84cee18b773f86faed02bb32ca5c55",
+    "message": "README: formatting update",
+    "author": "Dante Progio",
+    "date": "2020-03-21T23:38:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-2018-POSSystem/commit/bc1eba120f84cee18b773f86faed02bb32ca5c55"
+  },
+  {
+    "sha": "e54e5d5611c39289839e19ee076510b721276c8c",
+    "message": "README: formatting update",
+    "author": "Dante Progio",
+    "date": "2020-03-21T02:45:19Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-2018-POSSystem/commit/e54e5d5611c39289839e19ee076510b721276c8c"
+  },
+  {
+    "sha": "4c24a2e7bde1e3978f4b071d25db5768b8b11c4a",
+    "message": "Initial commit",
+    "author": "Dante Progio",
+    "date": "2020-03-21T02:36:34Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-2018-POSSystem/commit/4c24a2e7bde1e3978f4b071d25db5768b8b11c4a"
+  },
+  {
+    "sha": "dc7a9748e4fa29c3175f19fc776bfc57a2db67bc",
+    "message": "Initial commit",
+    "author": "danteprogio",
+    "date": "2020-03-20T23:18:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-2018-POSSystem/commit/dc7a9748e4fa29c3175f19fc776bfc57a2db67bc"
+  }
+]

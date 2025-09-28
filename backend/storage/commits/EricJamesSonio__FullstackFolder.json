@@ -1,0 +1,58 @@
+[
+  {
+    "sha": "41796bbceab08e4043d1c88e7d51b5d9e129fd35",
+    "message": "Deleted duplication",
+    "author": "EricJames",
+    "date": "2025-05-03T20:39:41Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/41796bbceab08e4043d1c88e7d51b5d9e129fd35"
+  },
+  {
+    "sha": "83539bbb153884560bee634b878aa3b9e0920dd2",
+    "message": "Full",
+    "author": "EricJames",
+    "date": "2025-05-03T00:08:05Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/83539bbb153884560bee634b878aa3b9e0920dd2"
+  },
+  {
+    "sha": "691e89f76a15c75a6578641dc2a9e6f4403dc0ed",
+    "message": "Fullstack Folder",
+    "author": "EricJames",
+    "date": "2025-05-02T23:57:55Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/691e89f76a15c75a6578641dc2a9e6f4403dc0ed"
+  },
+  {
+    "sha": "aa1f7c639282d26a02b416f6d7281b9a8f808890",
+    "message": "Create README.md",
+    "author": "SonioEricJames",
+    "date": "2025-05-02T07:53:55Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/aa1f7c639282d26a02b416f6d7281b9a8f808890"
+  },
+  {
+    "sha": "fb3d8ddeb6df0f0b1d160f3531df833e1cc9e160",
+    "message": "Changes committed",
+    "author": "EricJames",
+    "date": "2025-04-30T03:43:26Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/fb3d8ddeb6df0f0b1d160f3531df833e1cc9e160"
+  },
+  {
+    "sha": "1e6fa54ca6027d8b358b590fcf45da5c21ca233b",
+    "message": "Merge branch 'main' of https://github.com/EricJamesSonio/fullstack",
+    "author": "EricJames",
+    "date": "2025-04-29T01:48:51Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/1e6fa54ca6027d8b358b590fcf45da5c21ca233b"
+  },
+  {
+    "sha": "da43e7d99a6b1e31a950efbcf12a7baf2d97cb78",
+    "message": "Files needed",
+    "author": "EricJames",
+    "date": "2025-04-29T01:48:00Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/da43e7d99a6b1e31a950efbcf12a7baf2d97cb78"
+  },
+  {
+    "sha": "354ff18d14cbfb005f8f4273d6bd354b5251821d",
+    "message": "Initial commit",
+    "author": "SonioEricJames",
+    "date": "2025-04-28T09:41:22Z",
+    "url": "https://github.com/EricJamesSonio/FullstackFolder/commit/354ff18d14cbfb005f8f4273d6bd354b5251821d"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "sha": "bce13abe2a195df48fc44464758c0d3476150778",
+    "message": "Note",
+    "author": "EricJames",
+    "date": "2025-08-29T00:16:10Z",
+    "url": "https://github.com/EricJamesSonio/DB_2/commit/bce13abe2a195df48fc44464758c0d3476150778"
+  },
+  {
+    "sha": "148dc28e2151463884c98fde6f7d745bb71f2d47",
+    "message": "Added instructions",
+    "author": "EricJames",
+    "date": "2025-08-29T00:12:44Z",
+    "url": "https://github.com/EricJamesSonio/DB_2/commit/148dc28e2151463884c98fde6f7d745bb71f2d47"
+  },
+  {
+    "sha": "1925234ed392747c264bb5ff77f1c44746e98b38",
+    "message": "Added database tables such as cart, cart_items, customer addresses and its seeds updated to wokr together",
+    "author": "EricJames",
+    "date": "2025-08-29T00:04:48Z",
+    "url": "https://github.com/EricJamesSonio/DB_2/commit/1925234ed392747c264bb5ff77f1c44746e98b38"
+  },
+  {
+    "sha": "0ef5ff2bfedc9d9007a18237342ddaa8ae7c2297",
+    "message": "base Database",
+    "author": "EricJames",
+    "date": "2025-08-28T22:33:49Z",
+    "url": "https://github.com/EricJamesSonio/DB_2/commit/0ef5ff2bfedc9d9007a18237342ddaa8ae7c2297"
+  }
+]

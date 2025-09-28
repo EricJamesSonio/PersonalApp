@@ -1,0 +1,366 @@
+[
+  {
+    "sha": "6ade67d2b1962a8511917eb749acfb8cd5330966",
+    "message": "Fix the deduction to use the actual size value instead of fixed integer",
+    "author": "EricJames",
+    "date": "2025-09-21T10:08:14Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/6ade67d2b1962a8511917eb749acfb8cd5330966"
+  },
+  {
+    "sha": "dfab6cf4cf167a2b3566ab633dbea26588bf5353",
+    "message": "Fix add new product",
+    "author": "EricJames",
+    "date": "2025-09-17T09:43:20Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/dfab6cf4cf167a2b3566ab633dbea26588bf5353"
+  },
+  {
+    "sha": "39511f5e7e29472cf9034059bcf81f3b7f864fb2",
+    "message": "Fix profile radio button",
+    "author": "EricJames",
+    "date": "2025-09-16T15:15:23Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/39511f5e7e29472cf9034059bcf81f3b7f864fb2"
+  },
+  {
+    "sha": "a5870ffbd1946636ea2e41bf54be23423e06bc0e",
+    "message": "Fix product table added 2 option size instead of double production",
+    "author": "EricJames",
+    "date": "2025-09-14T10:11:24Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/a5870ffbd1946636ea2e41bf54be23423e06bc0e"
+  },
+  {
+    "sha": "95ec64de11e185f803148c39ebe0915cc5a6ac5e",
+    "message": "Fix config already has the cons customer and the logout button works in all php files",
+    "author": "EricJames",
+    "date": "2025-09-14T04:04:44Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/95ec64de11e185f803148c39ebe0915cc5a6ac5e"
+  },
+  {
+    "sha": "f181799bc4b8a18bc5083bef8eee96020201988b",
+    "message": "Logout button now is session based",
+    "author": "EricJames",
+    "date": "2025-09-14T02:49:00Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/f181799bc4b8a18bc5083bef8eee96020201988b"
+  },
+  {
+    "sha": "12a28b985fddce25d1976e95727b10ab6d374a26",
+    "message": "Cahgne my orders - orders",
+    "author": "EricJames",
+    "date": "2025-09-14T01:32:13Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/12a28b985fddce25d1976e95727b10ab6d374a26"
+  },
+  {
+    "sha": "e66221a5bda0b0457596cd2b8b6e4516a30ec6ab",
+    "message": "Modulize files and applied consistent design",
+    "author": "EricJames",
+    "date": "2025-09-13T14:21:12Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/e66221a5bda0b0457596cd2b8b6e4516a30ec6ab"
+  },
+  {
+    "sha": "101261c965b1dcc50fd574bf7c78a0e2df7cb59a",
+    "message": "Sidebar hover becomes reusable andapplied in all core htmls",
+    "author": "EricJames",
+    "date": "2025-09-13T13:38:22Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/101261c965b1dcc50fd574bf7c78a0e2df7cb59a"
+  },
+  {
+    "sha": "91f46cb9c3a3ef49373f91a8bb131771f2481c9b",
+    "message": "Remove 3 dots menu and replcae with the new side bar hover",
+    "author": "EricJames",
+    "date": "2025-09-12T03:25:13Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/91f46cb9c3a3ef49373f91a8bb131771f2481c9b"
+  },
+  {
+    "sha": "000ff21527172fd601b6c5e77acf320b6946d907",
+    "message": "a",
+    "author": "ReyesSheirlyn",
+    "date": "2025-09-12T01:58:49Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/000ff21527172fd601b6c5e77acf320b6946d907"
+  },
+  {
+    "sha": "0ea08d324d580cd23e8ccac9ed0c20382e158992",
+    "message": "User management deactivate fucntion",
+    "author": "EricJames",
+    "date": "2025-09-10T02:14:40Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/0ea08d324d580cd23e8ccac9ed0c20382e158992"
+  },
+  {
+    "sha": "9a9a21b7f8488b6b87d1669f4fc97c0204148350",
+    "message": "Stock management",
+    "author": "EricJames",
+    "date": "2025-09-10T01:26:13Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/9a9a21b7f8488b6b87d1669f4fc97c0204148350"
+  },
+  {
+    "sha": "a0048402a147a354598b9f7108d7079c85361b63",
+    "message": "Voucher management",
+    "author": "EricJames",
+    "date": "2025-09-10T01:08:02Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/a0048402a147a354598b9f7108d7079c85361b63"
+  },
+  {
+    "sha": "9b850d697f7f63267d45c01a895e03cad390fb9a",
+    "message": "Fix other files",
+    "author": "EricJames",
+    "date": "2025-09-10T00:13:02Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/9b850d697f7f63267d45c01a895e03cad390fb9a"
+  },
+  {
+    "sha": "bb91f4258c36c2786ecab3579a94f1ee4455c41c",
+    "message": "Fix positioon",
+    "author": "EricJames",
+    "date": "2025-09-10T00:08:20Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/bb91f4258c36c2786ecab3579a94f1ee4455c41c"
+  },
+  {
+    "sha": "1488081247609395d43eb3702aefae2e45ac1af2",
+    "message": "New sequnce of headers menu",
+    "author": "EricJames",
+    "date": "2025-09-09T19:01:45Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/1488081247609395d43eb3702aefae2e45ac1af2"
+  },
+  {
+    "sha": "d6721f94f7a02ee65ceab63a7e11ac3d5139b222",
+    "message": "Added notifications",
+    "author": "EricJames",
+    "date": "2025-09-09T18:49:44Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/d6721f94f7a02ee65ceab63a7e11ac3d5139b222"
+  },
+  {
+    "sha": "cf9fcf32139207a9a4fe33ab63602b151a02671d",
+    "message": "a",
+    "author": "ReyesSheirlyn",
+    "date": "2025-09-09T18:16:37Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/cf9fcf32139207a9a4fe33ab63602b151a02671d"
+  },
+  {
+    "sha": "856e5cfa06f404531d274a6be04c331b0746a889",
+    "message": "About us pictures",
+    "author": "EricJames",
+    "date": "2025-09-09T17:06:11Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/856e5cfa06f404531d274a6be04c331b0746a889"
+  },
+  {
+    "sha": "ce41baf45f881d491595d159c8d0247dc5b670b2",
+    "message": "Add products function in admin",
+    "author": "EricJames",
+    "date": "2025-09-09T16:58:32Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/ce41baf45f881d491595d159c8d0247dc5b670b2"
+  },
+  {
+    "sha": "6502dc0dc202cd31a93ef794af3fd7162206b6bf",
+    "message": "Update sales report have filtering",
+    "author": "EricJames",
+    "date": "2025-09-09T16:40:07Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/6502dc0dc202cd31a93ef794af3fd7162206b6bf"
+  },
+  {
+    "sha": "8a797c2e2b59db201738f5519eeeb779ba61264b",
+    "message": "a",
+    "author": "ReyesSheirlyn",
+    "date": "2025-09-09T16:04:12Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/8a797c2e2b59db201738f5519eeeb779ba61264b"
+  },
+  {
+    "sha": "d3e8f62a85dce9e15611eb6248a45de5fa7a3a4c",
+    "message": "a",
+    "author": "ReyesSheirlyn",
+    "date": "2025-09-09T16:02:21Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/d3e8f62a85dce9e15611eb6248a45de5fa7a3a4c"
+  },
+  {
+    "sha": "730497e91811abf9ecab25c120a91bc4bf8dec5d",
+    "message": "added voucher and sle sreport has discounts total and item solds",
+    "author": "EricJames",
+    "date": "2025-09-09T15:34:33Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/730497e91811abf9ecab25c120a91bc4bf8dec5d"
+  },
+  {
+    "sha": "a710a0d4319e0824d34d9d1b6ad3e444ba10f6f0",
+    "message": "Vouchers code input in cart before checkout apply fdiscount",
+    "author": "EricJames",
+    "date": "2025-09-09T13:24:25Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/a710a0d4319e0824d34d9d1b6ad3e444ba10f6f0"
+  },
+  {
+    "sha": "8a08366c67d15da21545a501be58c587c0134b00",
+    "message": "Remove seafooods and addthe remove product function",
+    "author": "EricJames",
+    "date": "2025-09-09T09:55:57Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/8a08366c67d15da21545a501be58c587c0134b00"
+  },
+  {
+    "sha": "f8a13cc4ac0c65b7911ace1d3d195f8247e36c80",
+    "message": "Fix modal size",
+    "author": "EricJames",
+    "date": "2025-09-05T06:25:10Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/f8a13cc4ac0c65b7911ace1d3d195f8247e36c80"
+  },
+  {
+    "sha": "3f46fe3c1cff28a88bd5ad1e24a6865a506cb08f",
+    "message": "added sizes selction",
+    "author": "EricJames",
+    "date": "2025-09-05T06:10:10Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/3f46fe3c1cff28a88bd5ad1e24a6865a506cb08f"
+  },
+  {
+    "sha": "bcda509453903c114f724ea1ae47e55cbd8cade9",
+    "message": "Fix",
+    "author": "EricJames",
+    "date": "2025-09-05T04:43:33Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/bcda509453903c114f724ea1ae47e55cbd8cade9"
+  },
+  {
+    "sha": "84547103cd3d4b282cbe1234929ec17263b1508f",
+    "message": "Added profile function to let user update there addresses and details",
+    "author": "EricJames",
+    "date": "2025-09-05T03:23:30Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/84547103cd3d4b282cbe1234929ec17263b1508f"
+  },
+  {
+    "sha": "b95956f400300b3744d31ca236696539335affa5",
+    "message": "Fix rename agrifresh to agri_fresh to match repo name",
+    "author": "EricJames",
+    "date": "2025-09-05T01:27:37Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/b95956f400300b3744d31ca236696539335affa5"
+  },
+  {
+    "sha": "0236c4782b69d0b0795a6c5055fca60565b26802",
+    "message": "Out of stock display and fix bug in admin product management",
+    "author": "EricJames",
+    "date": "2025-09-02T01:29:26Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/0236c4782b69d0b0795a6c5055fca60565b26802"
+  },
+  {
+    "sha": "cfd14a8bb4c162131e92aac941ad2df7f453d39e",
+    "message": "fix bug in rendering product images",
+    "author": "EricJames",
+    "date": "2025-09-01T11:18:09Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/cfd14a8bb4c162131e92aac941ad2df7f453d39e"
+  },
+  {
+    "sha": "625a363c02955c8a3d57b16cd93eda887bf3330b",
+    "message": "product management in admin panel unfinished",
+    "author": "EricJames",
+    "date": "2025-09-01T11:06:28Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/625a363c02955c8a3d57b16cd93eda887bf3330b"
+  },
+  {
+    "sha": "e3648a1577252ab8ef351e2f772dff02c9f1a88f",
+    "message": "Added view orders",
+    "author": "EricJames",
+    "date": "2025-09-01T09:09:46Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/e3648a1577252ab8ef351e2f772dff02c9f1a88f"
+  },
+  {
+    "sha": "ca1ed49ad7380ec383e4cb8756914af63f5ac2c9",
+    "message": "Have floating cart as tracker and the main cart is the my orders or just click go to cart then teh checkout is inside",
+    "author": "EricJames",
+    "date": "2025-09-01T08:53:48Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/ca1ed49ad7380ec383e4cb8756914af63f5ac2c9"
+  },
+  {
+    "sha": "63d9f9ec7fbf69c93ae3e5dbf8afe7dcc966ac21",
+    "message": "make the categories and isseasonal/isorganic working",
+    "author": "EricJames",
+    "date": "2025-09-01T07:17:38Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/63d9f9ec7fbf69c93ae3e5dbf8afe7dcc966ac21"
+  },
+  {
+    "sha": "eae76927924a3f73a2adbdee22679f009aa9b458",
+    "message": "Added security",
+    "author": "EricJames",
+    "date": "2025-09-01T06:10:35Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/eae76927924a3f73a2adbdee22679f009aa9b458"
+  },
+  {
+    "sha": "74a7b1be23ab1165432f03f12ee9cd8e83f79d93",
+    "message": "Disable cart features if role == admin",
+    "author": "EricJames",
+    "date": "2025-09-01T03:31:53Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/74a7b1be23ab1165432f03f12ee9cd8e83f79d93"
+  },
+  {
+    "sha": "620c5706357932d3d10ced48356bbc34be7a200d",
+    "message": "Add security in homepage so admin can only use admin panel",
+    "author": "EricJames",
+    "date": "2025-09-01T03:23:21Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/620c5706357932d3d10ced48356bbc34be7a200d"
+  },
+  {
+    "sha": "614ba9d36e847919035547b8408fafbcfd970779",
+    "message": "Make if customer, hide the admin chooses in the index.html",
+    "author": "EricJames",
+    "date": "2025-09-01T02:35:05Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/614ba9d36e847919035547b8408fafbcfd970779"
+  },
+  {
+    "sha": "c1993bc77a8ed1381cab66d3d31241169323cb59",
+    "message": "Added logout and unable some seeds",
+    "author": "EricJames",
+    "date": "2025-08-31T08:20:40Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/c1993bc77a8ed1381cab66d3d31241169323cb59"
+  },
+  {
+    "sha": "7e4365172fe7a16fa3484a88e0f63d571133e748",
+    "message": "Admin panel order management",
+    "author": "EricJames",
+    "date": "2025-08-31T07:54:16Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/7e4365172fe7a16fa3484a88e0f63d571133e748"
+  },
+  {
+    "sha": "23aff521a3ff896543b5cd37b924788a2c520f2f",
+    "message": "ADd to cart, checkout, admin panel order managment, updated orders table etc",
+    "author": "EricJames",
+    "date": "2025-08-31T06:13:12Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/23aff521a3ff896543b5cd37b924788a2c520f2f"
+  },
+  {
+    "sha": "782ab94f908600fcc7fc865bd326869928b635c2",
+    "message": "Sign up backend code",
+    "author": "EricJames",
+    "date": "2025-08-30T14:18:34Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/782ab94f908600fcc7fc865bd326869928b635c2"
+  },
+  {
+    "sha": "d5b9ceaee0fbca93df3e4cb9a2bd7681d0558dff",
+    "message": "Images for the products seed in database (sample only) the original imageas are in (old_images) folder",
+    "author": "EricJames",
+    "date": "2025-08-30T13:38:03Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/d5b9ceaee0fbca93df3e4cb9a2bd7681d0558dff"
+  },
+  {
+    "sha": "820495a816d08d39b2bea64094d07f20aa276fbd",
+    "message": "Instructions",
+    "author": "EricJames",
+    "date": "2025-08-30T09:09:05Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/820495a816d08d39b2bea64094d07f20aa276fbd"
+  },
+  {
+    "sha": "8a66bf34e4ffabb80f3e6020b4ae2bc3ff03ae3d",
+    "message": "Added login backend and htacess",
+    "author": "EricJames",
+    "date": "2025-08-30T03:21:08Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/8a66bf34e4ffabb80f3e6020b4ae2bc3ff03ae3d"
+  },
+  {
+    "sha": "8391c96e155faa0d810ed6e77b5524e54f85db3b",
+    "message": "Cleaner code Structure",
+    "author": "EricJames",
+    "date": "2025-08-30T01:56:14Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/8391c96e155faa0d810ed6e77b5524e54f85db3b"
+  },
+  {
+    "sha": "201167c1630c5fa3e4be2b5d520f5bb68860706b",
+    "message": "Frontend",
+    "author": "EricJames",
+    "date": "2025-08-30T01:26:25Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/201167c1630c5fa3e4be2b5d520f5bb68860706b"
+  },
+  {
+    "sha": "bb1570535691f6a828ab6a8e0dc8d6cd25f413d3",
+    "message": "Base",
+    "author": "EricJames",
+    "date": "2025-08-30T01:25:33Z",
+    "url": "https://github.com/EricJamesSonio/Agri_fresh/commit/bb1570535691f6a828ab6a8e0dc8d6cd25f413d3"
+  }
+]

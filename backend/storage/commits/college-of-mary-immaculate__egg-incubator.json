@@ -1,0 +1,37 @@
+[
+  {
+    "sha": "16009c8fb09d07e8a27361c67304fcc03445b784",
+    "message": "Update README.md",
+    "author": "Michael Alexis Ponce",
+    "date": "2024-10-10T09:23:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/egg-incubator/commit/16009c8fb09d07e8a27361c67304fcc03445b784"
+  },
+  {
+    "sha": "28995dcd2518ddb42b94eee1e4c9ab16d4b3b56f",
+    "message": ":package: packages",
+    "author": "Michael Alexis Ponce",
+    "date": "2024-10-10T09:11:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/egg-incubator/commit/28995dcd2518ddb42b94eee1e4c9ab16d4b3b56f"
+  },
+  {
+    "sha": "81edd700e9e1c232a1e12cbc3b99815f6a9ec703",
+    "message": ".gitignore",
+    "author": "Michael Alexis Ponce",
+    "date": "2024-10-10T09:10:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/egg-incubator/commit/81edd700e9e1c232a1e12cbc3b99815f6a9ec703"
+  },
+  {
+    "sha": "70a2db072addb404a176ee5fa3f8530488a298c5",
+    "message": ":art: sources",
+    "author": "Michael Alexis Ponce",
+    "date": "2024-10-10T09:10:31Z",
+    "url": "https://github.com/college-of-mary-immaculate/egg-incubator/commit/70a2db072addb404a176ee5fa3f8530488a298c5"
+  },
+  {
+    "sha": "82e78a17da00e10d3cd6a2efba06993f028e7c9c",
+    "message": "Initial commit",
+    "author": "Michael Alexis Ponce",
+    "date": "2024-10-10T08:54:19Z",
+    "url": "https://github.com/college-of-mary-immaculate/egg-incubator/commit/82e78a17da00e10d3cd6a2efba06993f028e7c9c"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "sha": "aa183b01ea76f88cf55d40280936ea38e2fccd74",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-06-14T14:41:55Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/aa183b01ea76f88cf55d40280936ea38e2fccd74"
+  },
+  {
+    "sha": "2eb67897c4cab0d554d25ce38ff3fb05f8267d16",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-06-14T14:32:55Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/2eb67897c4cab0d554d25ce38ff3fb05f8267d16"
+  },
+  {
+    "sha": "1edc8b3b5e41e242b201fa831f72afc5e73e607f",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-06-14T07:51:34Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/1edc8b3b5e41e242b201fa831f72afc5e73e607f"
+  },
+  {
+    "sha": "0345aed4609907cf13f02c2333fffdeda8f1506c",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-06-14T07:35:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/0345aed4609907cf13f02c2333fffdeda8f1506c"
+  },
+  {
+    "sha": "48e976f89578091c07eb50d3ba6985889d64ab73",
+    "message": "Merge branch 'main' of github.com:college-of-mary-immaculate/oop-2024",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-17T13:48:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/48e976f89578091c07eb50d3ba6985889d64ab73"
+  },
+  {
+    "sha": "ab4c344e9dc3cdad867ed7e0e34f6f7e4fbc43ab",
+    "message": ":art: tkinter",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-17T13:47:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/ab4c344e9dc3cdad867ed7e0e34f6f7e4fbc43ab"
+  },
+  {
+    "sha": "20f1dd83cfca3810cd6f30dab1a6c5db4d4c0a62",
+    "message": "Create README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-11T15:51:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/20f1dd83cfca3810cd6f30dab1a6c5db4d4c0a62"
+  },
+  {
+    "sha": "444e5fc5c29490c6b79ed78d15c30a0f52c0abc4",
+    "message": "design patterns",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-04T13:01:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/444e5fc5c29490c6b79ed78d15c30a0f52c0abc4"
+  },
+  {
+    "sha": "1476893d38020a1e5835511753d5ffb74781342c",
+    "message": ":art: abstract classes",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-06T14:58:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/1476893d38020a1e5835511753d5ffb74781342c"
+  },
+  {
+    "sha": "e7602ff09a24ebc4b345cada790b309557a27f83",
+    "message": ":egg: prelim exam",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-30T23:55:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/e7602ff09a24ebc4b345cada790b309557a27f83"
+  },
+  {
+    "sha": "23c444fc6e23d3dd93b770f72810b9ef1a9ddef4",
+    "message": ":bulb: inheritance",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-23T02:34:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/23c444fc6e23d3dd93b770f72810b9ef1a9ddef4"
+  },
+  {
+    "sha": "51025e77d9a15954efdac0b17ac463bc776383f1",
+    "message": ":bug: encapsulation and uml rename",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-16T13:40:45Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/51025e77d9a15954efdac0b17ac463bc776383f1"
+  },
+  {
+    "sha": "15eb064268dd4229c2bd1019f46918b1420052b8",
+    "message": "Update 01_uml.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-15T14:34:27Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/15eb064268dd4229c2bd1019f46918b1420052b8"
+  },
+  {
+    "sha": "052cb908c708f98527e2d90d038e159eacca8213",
+    "message": ":art: uml exercise",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-15T14:24:41Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/052cb908c708f98527e2d90d038e159eacca8213"
+  },
+  {
+    "sha": "0fdafc2ba81777248332642ed1706970d57e8477",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-13T11:51:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/0fdafc2ba81777248332642ed1706970d57e8477"
+  },
+  {
+    "sha": "79ff16713e45e0c938b29e08f4ff6a953d00cbc6",
+    "message": ":bug: fix type annotation for subjects",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-10T02:51:51Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/79ff16713e45e0c938b29e08f4ff6a953d00cbc6"
+  },
+  {
+    "sha": "28660e0df5fba21b0cfaa1d71cce9eff74a8036d",
+    "message": ":bug: constructors",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-08-07T15:27:45Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/28660e0df5fba21b0cfaa1d71cce9eff74a8036d"
+  },
+  {
+    "sha": "e1ebc8572f1187b3b912faf57d08c2de7979fca6",
+    "message": "Create README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-07-31T14:32:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/e1ebc8572f1187b3b912faf57d08c2de7979fca6"
+  },
+  {
+    "sha": "2aacd2b659a2c0b59b071865ea176d6005ac29f1",
+    "message": ":rocket: initial commit",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-07-15T12:44:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/oop-2024/commit/2aacd2b659a2c0b59b071865ea176d6005ac29f1"
+  }
+]
