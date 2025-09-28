@@ -1,6 +1,6 @@
-const API_BASE = "http://localhost:4000";
+const API_BASE = "http://localhost:4000"; // ⚠️ Add this
 const charts = new Map();
-let allRepos = []; // store fetched repos for filtering
+let allRepos = []; // store cached repos with streaks
 
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("fullscreen-btn").addEventListener("click", () => {
@@ -13,34 +13,24 @@ document.addEventListener("DOMContentLoaded", () => {
   loadRepos();
 });
 
-async function loadRepos() {
+async function loadRepos(refresh = false) {
   const statusEl = document.getElementById("status");
   const errorEl = document.getElementById("error");
 
   statusEl.style.display = "block";
-  statusEl.textContent = "Loading repos and streaks...";
+  statusEl.textContent = refresh ? "Refreshing repos..." : "Loading repos...";
   errorEl.style.display = "none";
   document.getElementById("repo-list").innerHTML = "";
 
   try {
-    const res = await fetch(`${API_BASE}/repos`);
+    const url = refresh ? `${API_BASE}/repos/refresh` : `${API_BASE}/repos`;
+    const res = await fetch(url);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const repos = await res.json();
 
-    const streakPromises = repos.map(async repo => {
-      try {
-        const streakRes = await fetch(`${API_BASE}/streak/${repo.name}`);
-        if (!streakRes.ok) throw new Error(`HTTP ${streakRes.status}`);
-        const streakData = await streakRes.json();
-        return { repo, streak: streakData };
-      } catch {
-        return { repo, streak: null };
-      }
-    });
-
-    allRepos = await Promise.all(streakPromises);
-    applyFilters(); // initial render
-
+    // ✅ Already contains streak, no need to fetch individually
+    allRepos = repos.map(r => ({ repo: r, streak: r.streak }));
+    applyFilters();
   } catch (err) {
     errorEl.style.display = "block";
     errorEl.textContent = `Error loading repos: ${err.message}`;
@@ -50,7 +40,11 @@ async function loadRepos() {
   }
 }
 
-// ✅ Filtering + sorting logic
+
+// Button triggers refresh
+document.querySelector("button[onclick='loadRepos()']").addEventListener("click", () => loadRepos(true));
+
+// Filtering + sorting
 function applyFilters() {
   const listEl = document.getElementById("repo-list");
   const searchQuery = document.getElementById("search-box").value.toLowerCase();
@@ -100,7 +94,6 @@ function renderRepos(repoWithStreaks) {
 
       const statsDiv = li.querySelector(".stats");
 
-      // 🔍 View Full button
       const viewBtn = document.createElement("button");
       viewBtn.textContent = "🔍 View Full";
       viewBtn.className = "view-full-btn";
@@ -109,7 +102,6 @@ function renderRepos(repoWithStreaks) {
       });
       statsDiv.appendChild(viewBtn);
 
-      // 🌐 Open on GitHub button
       const githubBtn = document.createElement("button");
       githubBtn.textContent = "🌐 GitHub";
       githubBtn.className = "github-btn";
@@ -120,7 +112,6 @@ function renderRepos(repoWithStreaks) {
 
       listEl.appendChild(li);
 
-      // chart setup...
       if (charts.has(repo.name)) charts.get(repo.name).destroy();
       const ctx = document.getElementById(`chart-${repo.name}`).getContext("2d");
       const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
