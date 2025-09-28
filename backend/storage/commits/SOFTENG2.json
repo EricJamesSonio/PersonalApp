@@ -1,0 +1,219 @@
+[
+  {
+    "sha": "d92711ec80342d0e58a351522028e0e88eb2b4a2",
+    "message": "Added fix for path folder tracking so now even the folder name of the main is change, it still works since it doesnt rely that",
+    "author": "EricJames",
+    "date": "2025-08-07T05:29:17Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/d92711ec80342d0e58a351522028e0e88eb2b4a2"
+  },
+  {
+    "sha": "b09aee4f0858bcf07cf59a3a92cd000aa74b5d26",
+    "message": "Fix make the guest can add t ocart then when logged in transfer the cart items into that account logs in",
+    "author": "EricJames",
+    "date": "2025-08-05T14:28:48Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/b09aee4f0858bcf07cf59a3a92cd000aa74b5d26"
+  },
+  {
+    "sha": "12b51237bc3203f5792c4843decf8317b9d09ba7",
+    "message": "Fix now even user is not logged in, the program will send the items etc.",
+    "author": "EricJames",
+    "date": "2025-08-04T02:24:01Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/12b51237bc3203f5792c4843decf8317b9d09ba7"
+  },
+  {
+    "sha": "fa6c2c5fbbf0eb705871cc9bcb5b53f9a14f1170",
+    "message": "Just connecting!",
+    "author": "EricJames",
+    "date": "2025-07-31T07:54:52Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/fa6c2c5fbbf0eb705871cc9bcb5b53f9a14f1170"
+  },
+  {
+    "sha": "036ec9f5eb1afa7863d352abe0f8554781a159ac",
+    "message": "Fixing issues and connecting files frotnend",
+    "author": "EricJames",
+    "date": "2025-07-31T01:57:30Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/036ec9f5eb1afa7863d352abe0f8554781a159ac"
+  },
+  {
+    "sha": "6063220a775fc2ae53bffa257893b64bb3f87d69",
+    "message": "Cleaner code separation and buttons",
+    "author": "EricJames",
+    "date": "2025-07-30T13:31:37Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/6063220a775fc2ae53bffa257893b64bb3f87d69"
+  },
+  {
+    "sha": "0fc00caf7a1c1d77d130262f017c9a3af8c5d07a",
+    "message": "Just improvements",
+    "author": "EricJames",
+    "date": "2025-07-22T03:51:35Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/0fc00caf7a1c1d77d130262f017c9a3af8c5d07a"
+  },
+  {
+    "sha": "f7514b83a4938e47dceea95491eb60439b68f937",
+    "message": "Added fixes and some frontend and separation of codes",
+    "author": "EricJames",
+    "date": "2025-07-21T11:15:02Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/f7514b83a4938e47dceea95491eb60439b68f937"
+  },
+  {
+    "sha": "0da1013b87619fc427ded862fb3bd8d769840905",
+    "message": "fix flow of web",
+    "author": "EricJames",
+    "date": "2025-07-18T10:10:16Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/0da1013b87619fc427ded862fb3bd8d769840905"
+  },
+  {
+    "sha": "fb41e9ee5c681c602908a1ab1546b42a6ec644b3",
+    "message": "Fixed bugs and renames db2,menu2,login2 etc",
+    "author": "EricJames",
+    "date": "2025-07-08T11:46:42Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/fb41e9ee5c681c602908a1ab1546b42a6ec644b3"
+  },
+  {
+    "sha": "76f792b4906a7a9b82463b3225560d6288061ba2",
+    "message": "Removed unnecesary files",
+    "author": "EricJames",
+    "date": "2025-07-08T09:36:53Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/76f792b4906a7a9b82463b3225560d6288061ba2"
+  },
+  {
+    "sha": "21b223d775ede6d88796a113859bd8b64703b16d",
+    "message": "Delete set.php and make it seed.php since the avast is blocking it lol and fix the seeds",
+    "author": "EricJames",
+    "date": "2025-07-08T09:29:59Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/21b223d775ede6d88796a113859bd8b64703b16d"
+  },
+  {
+    "sha": "903cb561af830733c4f9cefad906af73b98158cb",
+    "message": "No ingredients table",
+    "author": "EricJames",
+    "date": "2025-07-07T12:39:10Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/903cb561af830733c4f9cefad906af73b98158cb"
+  },
+  {
+    "sha": "98664285e2fe71d21e638b5b236b8dd40cba885f",
+    "message": "Update index.php",
+    "author": "EricSonio",
+    "date": "2025-06-29T10:09:40Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/98664285e2fe71d21e638b5b236b8dd40cba885f"
+  },
+  {
+    "sha": "22650830ffeac223b4a524ae1a2e2505b10d95f0",
+    "message": "Few Updates",
+    "author": "EricJames",
+    "date": "2025-06-27T05:24:19Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/22650830ffeac223b4a524ae1a2e2505b10d95f0"
+  },
+  {
+    "sha": "441709ee97c5793a3e061fa202b8f5571dbd8b56",
+    "message": "Just added some functions backend, Working saving order, deduction in stock in datbase etc",
+    "author": "EricJames",
+    "date": "2025-06-26T22:56:11Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/441709ee97c5793a3e061fa202b8f5571dbd8b56"
+  },
+  {
+    "sha": "e7af4255a5e453332353add233e490e4a2bf41c5",
+    "message": "Added simple frontend to test the creation of functions",
+    "author": "EricJames",
+    "date": "2025-06-26T03:22:50Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/e7af4255a5e453332353add233e490e4a2bf41c5"
+  },
+  {
+    "sha": "44643e094735fb69ae01d25dd5660f804f2eb8fb",
+    "message": "Just separate file css",
+    "author": "EricJames",
+    "date": "2025-06-26T01:27:44Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/44643e094735fb69ae01d25dd5660f804f2eb8fb"
+  },
+  {
+    "sha": "8eb5ccd8548391726ece76e0a7b651f4b843bae0",
+    "message": "Added a testing simple frontend",
+    "author": "EricJames",
+    "date": "2025-06-26T01:26:08Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/8eb5ccd8548391726ece76e0a7b651f4b843bae0"
+  },
+  {
+    "sha": "43587535f74ef586f3b5a9f56116bfc320e9101a",
+    "message": "ADded ill move the folder inside xampp/htdocs",
+    "author": "EricJames",
+    "date": "2025-06-26T01:03:41Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/43587535f74ef586f3b5a9f56116bfc320e9101a"
+  },
+  {
+    "sha": "a0332afebc2eaf9a389473cfe90db650f71555b9",
+    "message": "Added receipts, order, orderitems etc. added functions, inserting sample fields in database for testing",
+    "author": "EricJames",
+    "date": "2025-06-25T21:54:33Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/a0332afebc2eaf9a389473cfe90db650f71555b9"
+  },
+  {
+    "sha": "42017f2a1572753d9881cc1e7e703946b7ae138b",
+    "message": "Added Auth, User, Admin and some changes in functionm and added getidbyfullname some notes also",
+    "author": "EricJames",
+    "date": "2025-06-25T06:52:09Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/42017f2a1572753d9881cc1e7e703946b7ae138b"
+  },
+  {
+    "sha": "be26a1499075d234699464684aa6627a35b68995",
+    "message": "Separate readme for database and backend",
+    "author": "EricJames",
+    "date": "2025-06-25T02:54:30Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/be26a1499075d234699464684aa6627a35b68995"
+  },
+  {
+    "sha": "ac8968bc322ce48b48aeacb641322b1fde4d0da7",
+    "message": "Insert datas in fields and added item ingredeietns table for item and ingredietn relation! and update some changes in function to be more flexible and usable",
+    "author": "EricJames",
+    "date": "2025-06-25T02:37:53Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/ac8968bc322ce48b48aeacb641322b1fde4d0da7"
+  },
+  {
+    "sha": "c256204fb1937faed32a546418d59277d8678ddd",
+    "message": "Added BACKEND, FRONTEND and DATABASE.md for details summary and modify create table function",
+    "author": "EricJames",
+    "date": "2025-06-24T23:28:00Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/c256204fb1937faed32a546418d59277d8678ddd"
+  },
+  {
+    "sha": "5d7303e653df37efbec4ad0af14cfa730dc9eb03",
+    "message": "fix insertdata bug",
+    "author": "EricJames",
+    "date": "2025-06-24T22:43:20Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/5d7303e653df37efbec4ad0af14cfa730dc9eb03"
+  },
+  {
+    "sha": "c8716f08af5843e4497d0fda15ea992918584cd3",
+    "message": "Update create function makes it update remove and added collumn",
+    "author": "EricJames",
+    "date": "2025-06-24T05:53:05Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/c8716f08af5843e4497d0fda15ea992918584cd3"
+  },
+  {
+    "sha": "d951f9213aaf7bbf8c2c9405a6ec5952970fb158",
+    "message": "Added ReadME notes and separate files for routes",
+    "author": "EricJames",
+    "date": "2025-06-24T04:06:00Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/d951f9213aaf7bbf8c2c9405a6ec5952970fb158"
+  },
+  {
+    "sha": "f959c54f38c0b1018dfab94f6101aa8a84804a53",
+    "message": "Added supplier contatc etc.",
+    "author": "EricJames",
+    "date": "2025-06-24T01:03:09Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/f959c54f38c0b1018dfab94f6101aa8a84804a53"
+  },
+  {
+    "sha": "a789a60c97c5ae0d9e22dc63f88f670bd8b3cca6",
+    "message": "Added readme",
+    "author": "EricJames",
+    "date": "2025-06-23T22:32:54Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/a789a60c97c5ae0d9e22dc63f88f670bd8b3cca6"
+  },
+  {
+    "sha": "f93daf4a0f9f05bfb69d25ebeaff37ba1aa1581b",
+    "message": "All files",
+    "author": "EricJames",
+    "date": "2025-06-23T22:26:34Z",
+    "url": "https://github.com/EricJamesSonio/SOFTENG2/commit/f93daf4a0f9f05bfb69d25ebeaff37ba1aa1581b"
+  }
+]

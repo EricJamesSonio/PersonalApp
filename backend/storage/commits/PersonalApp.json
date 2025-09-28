@@ -1,0 +1,93 @@
+[
+  {
+    "sha": "1a495d5aac5919998a03714e82a567a470d3d5b1",
+    "message": "Fix the terminal CRUD",
+    "author": "EricJamesSonio",
+    "date": "2025-09-28T04:36:44Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/1a495d5aac5919998a03714e82a567a470d3d5b1"
+  },
+  {
+    "sha": "b0fbd3f9e518fa43a13d37f3b505e6cbc79ed624",
+    "message": "Make the fetch of repos faster by using json! and cached techniques!",
+    "author": "EricJamesSonio",
+    "date": "2025-09-28T04:16:20Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/b0fbd3f9e518fa43a13d37f3b505e6cbc79ed624"
+  },
+  {
+    "sha": "7ec2436434d7bc80cb7833f88aad73a22c0c9173",
+    "message": "Make modulized backend and the improve terminal dahsboard CRUD",
+    "author": "EricJamesSonio",
+    "date": "2025-09-27T15:30:43Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/7ec2436434d7bc80cb7833f88aad73a22c0c9173"
+  },
+  {
+    "sha": "360951cb0e7a05542a09acff54367e57a2161de0",
+    "message": "Make terminal global and add sorting and search in repotracker",
+    "author": "EricJamesSonio",
+    "date": "2025-09-27T13:17:06Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/360951cb0e7a05542a09acff54367e57a2161de0"
+  },
+  {
+    "sha": "cd2774e43eabf3bcce212cfe1ff4bc1d7ed07e14",
+    "message": "Added mini terminal with dishl command",
+    "author": "EricJamesSonio",
+    "date": "2025-09-27T05:39:07Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/cd2774e43eabf3bcce212cfe1ff4bc1d7ed07e14"
+  },
+  {
+    "sha": "470be81fb298441047557e6cfda67db4e87cd057",
+    "message": "Added repo detail for view fulkl details of the commit (unfinished)",
+    "author": "EricJamesSonio",
+    "date": "2025-09-27T04:53:52Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/470be81fb298441047557e6cfda67db4e87cd057"
+  },
+  {
+    "sha": "e63a1ecbb92c0bf4f7d8503a1232f7718cc772a1",
+    "message": "Added instant.js to install npm and have consistent design",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T15:47:58Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/e63a1ecbb92c0bf4f7d8503a1232f7718cc772a1"
+  },
+  {
+    "sha": "43a7c4bf9fff250a56f8c6a4ac2e973d630b537b",
+    "message": "Add background image and fix",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T14:00:37Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/43a7c4bf9fff250a56f8c6a4ac2e973d630b537b"
+  },
+  {
+    "sha": "d8fc5168c9e9b739f630bc6847e2f9b37bf7f38b",
+    "message": " Make it single windowed app even when selected module",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T13:07:51Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/d8fc5168c9e9b739f630bc6847e2f9b37bf7f38b"
+  },
+  {
+    "sha": "ab2f837cd9bcb53f058903407a3183dd43c3833a",
+    "message": "Clean up mistake commit",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T12:43:49Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/ab2f837cd9bcb53f058903407a3183dd43c3833a"
+  },
+  {
+    "sha": "05963f309a201719f61f7a7d4626d97bdf1788c3",
+    "message": "Track large files with LFS",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T12:35:08Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/05963f309a201719f61f7a7d4626d97bdf1788c3"
+  },
+  {
+    "sha": "1902f91f5fcbd2a509e2af6a3578e940d0d79f15",
+    "message": "first commit",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T12:31:56Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/1902f91f5fcbd2a509e2af6a3578e940d0d79f15"
+  },
+  {
+    "sha": "3bf2a10e66edd79acb77a2e2b2d133dddc2ab269",
+    "message": "Starting, Created the dev tracker repo commits, repo created, streak, etc.",
+    "author": "EricJamesSonio",
+    "date": "2025-09-26T12:30:02Z",
+    "url": "https://github.com/EricJamesSonio/PersonalApp/commit/3bf2a10e66edd79acb77a2e2b2d133dddc2ab269"
+  }
+]

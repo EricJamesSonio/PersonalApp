@@ -1,0 +1,121 @@
+[
+  {
+    "sha": "401f414ae7ff469b0a1b26ef80df75e4f7f5316e",
+    "message": "support spa redirection",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-11-16T06:25:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/401f414ae7ff469b0a1b26ef80df75e4f7f5316e"
+  },
+  {
+    "sha": "1efee810fa912c65f0578c7cb3d014e57ec1edf1",
+    "message": "fix: handle child links",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-11-16T05:22:27Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/1efee810fa912c65f0578c7cb3d014e57ec1edf1"
+  },
+  {
+    "sha": "7fd0807e8fe7de7edb02e9a4628066a1ee864c85",
+    "message": "remove ext and console log",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-11-11T12:38:20Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/7fd0807e8fe7de7edb02e9a4628066a1ee864c85"
+  },
+  {
+    "sha": "a7178a9038665fe42869635c944815ea6023798f",
+    "message": "Merge branch 'main' of github.com:college-of-mary-immaculate/appsdev-spa-template",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-11-11T12:27:53Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/a7178a9038665fe42869635c944815ea6023798f"
+  },
+  {
+    "sha": "f451a052847be05bbe6493a6d1cb1aa76474f2d7",
+    "message": "added example for css module",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-11-11T12:27:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/f451a052847be05bbe6493a6d1cb1aa76474f2d7"
+  },
+  {
+    "sha": "564a5862e02f5cd731b60a0e1fb581ef3d7410d3",
+    "message": "add axios to deps",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-19T08:50:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/564a5862e02f5cd731b60a0e1fb581ef3d7410d3"
+  },
+  {
+    "sha": "59810d8ad16cdfb45249f9e58577756c4e94bba1",
+    "message": "scroll into view support",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T13:56:48Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/59810d8ad16cdfb45249f9e58577756c4e94bba1"
+  },
+  {
+    "sha": "699cc8572ba864a5a634f7874e85fa51451cc667",
+    "message": "add example for css",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T13:41:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/699cc8572ba864a5a634f7874e85fa51451cc667"
+  },
+  {
+    "sha": "f66224b5208a1099a89a0f7756722323b68570d5",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T12:42:48Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/f66224b5208a1099a89a0f7756722323b68570d5"
+  },
+  {
+    "sha": "b0954cf1db5f1a2ea8e596d3e9d51c21bb56a59c",
+    "message": "Create LICENSE",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T12:40:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/b0954cf1db5f1a2ea8e596d3e9d51c21bb56a59c"
+  },
+  {
+    "sha": "52e2b89ddbbddc801bff07c9a5737528969715e0",
+    "message": "Create README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T12:32:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/52e2b89ddbbddc801bff07c9a5737528969715e0"
+  },
+  {
+    "sha": "39565fb0f91cefc99e9feb125504c80c92ef7b97",
+    "message": "vite config and update template",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T12:22:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/39565fb0f91cefc99e9feb125504c80c92ef7b97"
+  },
+  {
+    "sha": "698dbd3a4fa1da0fc140b7c3cb6c8d6e24b95284",
+    "message": "support regexps and add eslint",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T07:39:34Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/698dbd3a4fa1da0fc140b7c3cb6c8d6e24b95284"
+  },
+  {
+    "sha": "05db296528246281c8293b41ce6c6ecdba5fed40",
+    "message": ":art: example usage for icons",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T01:30:52Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/05db296528246281c8293b41ce6c6ecdba5fed40"
+  },
+  {
+    "sha": "831e307cc55fce4cac287211cd5a75d94ae85fc8",
+    "message": ":construction_worker: restructure project",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T01:22:24Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/831e307cc55fce4cac287211cd5a75d94ae85fc8"
+  },
+  {
+    "sha": "1f6dec2d00472af546f890f7047d5a85f7defb4d",
+    "message": ":rocket: allow regex in routes",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-14T15:11:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/1f6dec2d00472af546f890f7047d5a85f7defb4d"
+  },
+  {
+    "sha": "7cdb65a9cf519bc3ffb1c58d1005d6725fac22ba",
+    "message": ":rocket: initial commit",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-14T14:38:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-spa-template/commit/7cdb65a9cf519bc3ffb1c58d1005d6725fac22ba"
+  }
+]

@@ -1,0 +1,415 @@
+[
+  {
+    "sha": "068612bd06d37f39739472f561b7421c0afde50f",
+    "message": "Fix position ddisplay",
+    "author": "EricJames",
+    "date": "2025-09-05T12:14:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/068612bd06d37f39739472f561b7421c0afde50f"
+  },
+  {
+    "sha": "9943196f85d4f84cb1adc7c8c700abfdd80a5467",
+    "message": "REmove unnecesary",
+    "author": "EricJames",
+    "date": "2025-09-05T11:35:59Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/9943196f85d4f84cb1adc7c8c700abfdd80a5467"
+  },
+  {
+    "sha": "993df371e0577509be52cd20b7223f6fb47fa7b5",
+    "message": "Add output of time duration before fire triggers the sprinkler and time duration of how long before the sprinkler kills the fire",
+    "author": "EricJames",
+    "date": "2025-09-05T07:09:15Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/993df371e0577509be52cd20b7223f6fb47fa7b5"
+  },
+  {
+    "sha": "5d6d87108cfb2f92350d68f309c5c4f6e3bcedc3",
+    "message": "Add increasing fire",
+    "author": "EricJames",
+    "date": "2025-09-04T04:48:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/5d6d87108cfb2f92350d68f309c5c4f6e3bcedc3"
+  },
+  {
+    "sha": "e404e30eb73eb291342f10fd626f0a9f6e3b4931",
+    "message": "Fix",
+    "author": "EricJames",
+    "date": "2025-09-04T04:42:27Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/e404e30eb73eb291342f10fd626f0a9f6e3b4931"
+  },
+  {
+    "sha": "e4007637b988e7562cca9f4132cee72f7c8a1aac",
+    "message": "Updated",
+    "author": "EricJames",
+    "date": "2025-08-30T07:51:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/e4007637b988e7562cca9f4132cee72f7c8a1aac"
+  },
+  {
+    "sha": "5722971ce15de7c90a7afbae47d88e6925e2b2a0",
+    "message": "ACtivity 2 fire suppresion sprinkler",
+    "author": "EricJames",
+    "date": "2025-08-29T15:42:48Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/5722971ce15de7c90a7afbae47d88e6925e2b2a0"
+  },
+  {
+    "sha": "1197156130d9458f8cfd27acd66d5ec4b61ef41c",
+    "message": "Fix blocked nodes",
+    "author": "EricJames",
+    "date": "2025-08-15T04:27:07Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/1197156130d9458f8cfd27acd66d5ec4b61ef41c"
+  },
+  {
+    "sha": "5c05827ad8005563f130ff3e2cd513e9ebb97623",
+    "message": "Fix bug",
+    "author": "EricJames",
+    "date": "2025-08-15T01:53:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/5c05827ad8005563f130ff3e2cd513e9ebb97623"
+  },
+  {
+    "sha": "586926c8d73faf5d3decebd6f62073e5bf9e6d38",
+    "message": "modified",
+    "author": "Entileso, Jay Q.",
+    "date": "2025-08-14T13:34:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/586926c8d73faf5d3decebd6f62073e5bf9e6d38"
+  },
+  {
+    "sha": "f64078b00e155f65e130809d003b8bf80f2e0b9e",
+    "message": "Update blocked nodes",
+    "author": "EricJames",
+    "date": "2025-08-14T13:30:16Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/f64078b00e155f65e130809d003b8bf80f2e0b9e"
+  },
+  {
+    "sha": "163ef84e0e281e12c30d9c778478662cfde106ed",
+    "message": "Added dijkstra search",
+    "author": "EricJames",
+    "date": "2025-08-12T12:32:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/163ef84e0e281e12c30d9c778478662cfde106ed"
+  },
+  {
+    "sha": "1c25f82ab04148b6f676ff37b7f13d1124432901",
+    "message": "Added a search",
+    "author": "EricJames",
+    "date": "2025-08-12T12:25:44Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/1c25f82ab04148b6f676ff37b7f13d1124432901"
+  },
+  {
+    "sha": "0065b9dd1ba30b8a30cae4cc1f1eb29cd786dc39",
+    "message": "Created better map graph for school and more accurate paths and stepping",
+    "author": "EricJames",
+    "date": "2025-08-12T11:51:29Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/0065b9dd1ba30b8a30cae4cc1f1eb29cd786dc39"
+  },
+  {
+    "sha": "562614ce48d2587c1bb539526540465ae2e5eca9",
+    "message": "improvements in path and bfs copy",
+    "author": "EricSonio",
+    "date": "2025-08-05T02:10:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/562614ce48d2587c1bb539526540465ae2e5eca9"
+  },
+  {
+    "sha": "2dfc21fa2ee71a8b3566bb1b7774b8317869b9d8",
+    "message": "Update graph.py",
+    "author": "EricSonio",
+    "date": "2025-08-05T00:18:51Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/2dfc21fa2ee71a8b3566bb1b7774b8317869b9d8"
+  },
+  {
+    "sha": "63e73caa78703dfc63996cf00d13604e70542461",
+    "message": "Update graph.py",
+    "author": "EricSonio",
+    "date": "2025-08-05T00:13:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/63e73caa78703dfc63996cf00d13604e70542461"
+  },
+  {
+    "sha": "d381977d0863c9d765a1aef6b0d2350f3084ed28",
+    "message": "Update viz.py",
+    "author": "EricSonio",
+    "date": "2025-08-05T00:13:03Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/d381977d0863c9d765a1aef6b0d2350f3084ed28"
+  },
+  {
+    "sha": "bdb8b9498d607695823aef4daa58aeb3d06e409a",
+    "message": "Update graph.py",
+    "author": "EricSonio",
+    "date": "2025-08-01T15:58:04Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/bdb8b9498d607695823aef4daa58aeb3d06e409a"
+  },
+  {
+    "sha": "063a0667e92c66964e4cff437b54cbecefae99fb",
+    "message": "Update graph.py",
+    "author": "EricSonio",
+    "date": "2025-08-01T15:55:44Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/063a0667e92c66964e4cff437b54cbecefae99fb"
+  },
+  {
+    "sha": "78bedfc5834ad8a2eb334041df72ef188751163c",
+    "message": "Update graph.py",
+    "author": "EricSonio",
+    "date": "2025-08-01T15:51:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/78bedfc5834ad8a2eb334041df72ef188751163c"
+  },
+  {
+    "sha": "1f5c7724f56ddbc1798baa1a9de711684e27f415",
+    "message": "Update and rename main.py to viz.py",
+    "author": "EricSonio",
+    "date": "2025-08-01T15:45:42Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/1f5c7724f56ddbc1798baa1a9de711684e27f415"
+  },
+  {
+    "sha": "227dce83f28d6846940e1d7d4c4e72fea2387482",
+    "message": "Create graph.py",
+    "author": "EricSonio",
+    "date": "2025-08-01T15:45:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/227dce83f28d6846940e1d7d4c4e72fea2387482"
+  },
+  {
+    "sha": "ab5a50f2a86149ccf611040306f2ce8ef22efab5",
+    "message": "created file",
+    "author": "EricJames",
+    "date": "2025-07-27T08:45:04Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/ab5a50f2a86149ccf611040306f2ce8ef22efab5"
+  },
+  {
+    "sha": "226eb15727565674f5bda679a5d754fb822ef688",
+    "message": "Move folder",
+    "author": "EricJames",
+    "date": "2025-07-27T08:44:02Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/226eb15727565674f5bda679a5d754fb822ef688"
+  },
+  {
+    "sha": "9df0a1f83239e8c7779c04dc07100ccc07471759",
+    "message": "Move foldeR",
+    "author": "EricJames",
+    "date": "2025-07-27T08:42:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/9df0a1f83239e8c7779c04dc07100ccc07471759"
+  },
+  {
+    "sha": "f7a64e414fe80aa01d9cb6da2218d3abb84726ff",
+    "message": "Just make the parse date to be more acurate",
+    "author": "EricJames",
+    "date": "2025-07-23T08:23:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/f7a64e414fe80aa01d9cb6da2218d3abb84726ff"
+  },
+  {
+    "sha": "5252fa6ed820d8f3647cfafee85ef891c7faf455",
+    "message": "Just modify the info of our project!",
+    "author": "EricJames",
+    "date": "2025-07-18T13:23:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/5252fa6ed820d8f3647cfafee85ef891c7faf455"
+  },
+  {
+    "sha": "4a427e24720bfde17dd95ca6055c37167f068247",
+    "message": "Just final testing of the Program!",
+    "author": "EricJames",
+    "date": "2025-07-18T13:15:59Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/4a427e24720bfde17dd95ca6055c37167f068247"
+  },
+  {
+    "sha": "171526b525a9f3868f8bfcb040b2e1d57bc056a6",
+    "message": "Added info and test it",
+    "author": "EricJames",
+    "date": "2025-07-17T09:14:07Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/171526b525a9f3868f8bfcb040b2e1d57bc056a6"
+  },
+  {
+    "sha": "ea0d64726d99c6591ca5c21aaf2f8a7d40b3e402",
+    "message": "Added some DEsing patterns",
+    "author": "EricJames",
+    "date": "2025-07-16T14:28:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/ea0d64726d99c6591ca5c21aaf2f8a7d40b3e402"
+  },
+  {
+    "sha": "233ceea7969a8de38b07ade68ecd1607cc192ae9",
+    "message": "Added system tray feature!",
+    "author": "EricJames",
+    "date": "2025-07-16T14:03:33Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/233ceea7969a8de38b07ade68ecd1607cc192ae9"
+  },
+  {
+    "sha": "388188c4dd5365a8962f153b58ec46a89ad8ea56",
+    "message": "Merge branch 'main' of https://github.com/EricJamesSonio/mail_responder",
+    "author": "EricJames",
+    "date": "2025-07-16T09:01:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/388188c4dd5365a8962f153b58ec46a89ad8ea56"
+  },
+  {
+    "sha": "63e115a1bf91d8593755c0a80a9182753d0154fc",
+    "message": "Improve faster response and cleaner!",
+    "author": "EricJames",
+    "date": "2025-07-16T09:01:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/63e115a1bf91d8593755c0a80a9182753d0154fc"
+  },
+  {
+    "sha": "b9b45077e84560d934e0aa1fa7f858a53d776c8e",
+    "message": "Make some oop and improvemetns and remove unnecesxzsary feature",
+    "author": "EricJames",
+    "date": "2025-07-15T08:56:17Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/b9b45077e84560d934e0aa1fa7f858a53d776c8e"
+  },
+  {
+    "sha": "9a4222954981033731b87907df1a9113f761ce43",
+    "message": "added some keywords",
+    "author": "Entileso, Jay Q.",
+    "date": "2025-07-14T13:27:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/9a4222954981033731b87907df1a9113f761ce43"
+  },
+  {
+    "sha": "cb98954ff28e4391bd0ca77317b9af83b32c4383",
+    "message": "add some keywords",
+    "author": "Entileso, Jay Q.",
+    "date": "2025-07-14T13:26:33Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/cb98954ff28e4391bd0ca77317b9af83b32c4383"
+  },
+  {
+    "sha": "6ad91450bb0bac5c512ad8d42116863e201cebc9",
+    "message": "Merge branch 'main' of https://github.com/EricJamesSonio/mail_responder",
+    "author": "EricJames",
+    "date": "2025-07-13T09:56:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/6ad91450bb0bac5c512ad8d42116863e201cebc9"
+  },
+  {
+    "sha": "cc42f4a42904668bb39f4bff1f414fb033b843c5",
+    "message": "Added options either session or all in vieweing",
+    "author": "EricJames",
+    "date": "2025-07-13T09:56:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/cc42f4a42904668bb39f4bff1f414fb033b843c5"
+  },
+  {
+    "sha": "d21dccaee2b08012a163e2b0ae39aee2a5c8b42d",
+    "message": "Added improvements",
+    "author": "ErnestoTorres9889",
+    "date": "2025-07-12T03:56:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/d21dccaee2b08012a163e2b0ae39aee2a5c8b42d"
+  },
+  {
+    "sha": "be1df8c3a040b777f00d6a351e8f888fb1612ce5",
+    "message": " Added note features",
+    "author": "ErnestoTorres9889",
+    "date": "2025-07-12T03:53:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/be1df8c3a040b777f00d6a351e8f888fb1612ce5"
+  },
+  {
+    "sha": "8e54eb3e9bbc08c2d7072eaa9e45b1bd5660dda2",
+    "message": "Added Presentation notes",
+    "author": "EricJames",
+    "date": "2025-07-11T10:07:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/8e54eb3e9bbc08c2d7072eaa9e45b1bd5660dda2"
+  },
+  {
+    "sha": "ca2e38e86a3988c86e37a1948d6f2eb5ff7a52bb",
+    "message": "Added view blacklisted gmails",
+    "author": "EricJames",
+    "date": "2025-07-10T06:48:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/ca2e38e86a3988c86e37a1948d6f2eb5ff7a52bb"
+  },
+  {
+    "sha": "495d24370ef1bb4ac90799ab8c9ac379f900f3ac",
+    "message": "Added a new feature that will message directly when urgent is triggered",
+    "author": "EricJames",
+    "date": "2025-07-07T04:36:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/495d24370ef1bb4ac90799ab8c9ac379f900f3ac"
+  },
+  {
+    "sha": "02bcf7d17a695913db09cf480e128f4fb6c354d6",
+    "message": "improving the functions and making the urgent alrm smarter etc",
+    "author": "EricJames",
+    "date": "2025-07-07T03:34:41Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/02bcf7d17a695913db09cf480e128f4fb6c354d6"
+  },
+  {
+    "sha": "99f9f517659178cf228e779a698c10353ab2df13",
+    "message": " added some urgent keywords",
+    "author": "Entileso, Jay Q.",
+    "date": "2025-07-06T14:07:47Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/99f9f517659178cf228e779a698c10353ab2df13"
+  },
+  {
+    "sha": "402e875afc39fc915291c59e93705f132d5659dd",
+    "message": " ADded some i,mprovements and geatures for urgnent reply and also the subject based ,, making itsmarter",
+    "author": "EricJames",
+    "date": "2025-07-06T13:59:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/402e875afc39fc915291c59e93705f132d5659dd"
+  },
+  {
+    "sha": "372dfa298b03fb2c1258b94a122b0780489a7334",
+    "message": " added some subject",
+    "author": "Entileso, Jay Q.",
+    "date": "2025-07-06T13:47:23Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/372dfa298b03fb2c1258b94a122b0780489a7334"
+  },
+  {
+    "sha": "f9cabbb0e6dce786ccc4c60ed80481e32efd5e09",
+    "message": "Added some notes for improvements",
+    "author": "EricJames",
+    "date": "2025-07-06T12:24:31Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/f9cabbb0e6dce786ccc4c60ed80481e32efd5e09"
+  },
+  {
+    "sha": "ac2ff326609e9d35847515425cb8660edc392e59",
+    "message": " i add some status",
+    "author": "Entileso, Jay Q.",
+    "date": "2025-07-05T15:28:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/ac2ff326609e9d35847515425cb8660edc392e59"
+  },
+  {
+    "sha": "e2bed6293ed803941bf377694d14c9c78fd77e7c",
+    "message": "Update readme for info of our project",
+    "author": "EricJames",
+    "date": "2025-07-04T14:39:19Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/e2bed6293ed803941bf377694d14c9c78fd77e7c"
+  },
+  {
+    "sha": "8da782171dc2528c46aca8f273a5295868039d4b",
+    "message": "updated remove wrong file and add instructionm,, needed the .env to run",
+    "author": "EricJames",
+    "date": "2025-07-04T14:32:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/8da782171dc2528c46aca8f273a5295868039d4b"
+  },
+  {
+    "sha": "64fc798352cfc657e9810674b9beca1bb3b47c0e",
+    "message": "Final Mail Respomder",
+    "author": "EricJames",
+    "date": "2025-07-04T12:09:02Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/64fc798352cfc657e9810674b9beca1bb3b47c0e"
+  },
+  {
+    "sha": "e27114414c37694ae485f1805bb0f43c025341c2",
+    "message": "Updated and added new urggent feature",
+    "author": "EricJames",
+    "date": "2025-07-03T14:23:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/e27114414c37694ae485f1805bb0f43c025341c2"
+  },
+  {
+    "sha": "3e13d8ff8e3fc8dc2ee55d1964d424bf122e1de8",
+    "message": "Added tkinter desings",
+    "author": "EricJames",
+    "date": "2025-07-03T12:18:21Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/3e13d8ff8e3fc8dc2ee55d1964d424bf122e1de8"
+  },
+  {
+    "sha": "c05cd3dde289980b716cd80a84e9015cbd3c8589",
+    "message": "Use dotenv for config and hide secrets",
+    "author": "EricJames",
+    "date": "2025-07-03T09:53:41Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/c05cd3dde289980b716cd80a84e9015cbd3c8589"
+  },
+  {
+    "sha": "a3c491e2b864559ccd23175ecb4c483505cb7726",
+    "message": "Update config.py",
+    "author": "EricSonio",
+    "date": "2025-07-03T07:07:42Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/a3c491e2b864559ccd23175ecb4c483505cb7726"
+  },
+  {
+    "sha": "d32a37e63f8e3d12151afb9118925b6662c4d432",
+    "message": "Added features and Customizable status and notify itself or telegram",
+    "author": "EricJames",
+    "date": "2025-07-03T07:01:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/d32a37e63f8e3d12151afb9118925b6662c4d432"
+  },
+  {
+    "sha": "8cfc50babb0b6cf8b54e2bc0026cf6fab4dc587e",
+    "message": "A.I Automation! Email respond! with basic responds as of now!",
+    "author": "EricJames",
+    "date": "2025-07-03T04:01:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/CS-ELEC1_eric_sonio_jay_entileso/commit/8cfc50babb0b6cf8b54e2bc0026cf6fab4dc587e"
+  }
+]

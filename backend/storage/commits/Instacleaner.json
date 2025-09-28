@@ -1,0 +1,65 @@
+[
+  {
+    "sha": "67825742c7c4ab76f8dc619562a906b69d4600eb",
+    "message": "README :book:\n\nFix some typos",
+    "author": "Izyne Gallardo",
+    "date": "2024-09-05T04:50:21Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/67825742c7c4ab76f8dc619562a906b69d4600eb"
+  },
+  {
+    "sha": "109de2bcc4df1aaf5de09825fd62bbf2e8988435",
+    "message": "Update README.md :book:\n\nAdded some emojis",
+    "author": "Izyne Gallardo",
+    "date": "2024-09-05T04:48:06Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/109de2bcc4df1aaf5de09825fd62bbf2e8988435"
+  },
+  {
+    "sha": "fc81cba2e9a79495888e7c8241b2898d6e526470",
+    "message": "Dist :package:",
+    "author": "Izyne Howie S. Gallardo",
+    "date": "2024-09-04T15:12:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/fc81cba2e9a79495888e7c8241b2898d6e526470"
+  },
+  {
+    "sha": "e8b625990a017af2e52c8ba22c759e7eca447c9c",
+    "message": "Build :file_folder:",
+    "author": "Izyne Howie S. Gallardo",
+    "date": "2024-09-04T15:11:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/e8b625990a017af2e52c8ba22c759e7eca447c9c"
+  },
+  {
+    "sha": "c59a544b7e8ce6b8cfedc979a809eed20b4d646c",
+    "message": "Requirements :books:",
+    "author": "Izyne Howie S. Gallardo",
+    "date": "2024-09-04T14:37:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/c59a544b7e8ce6b8cfedc979a809eed20b4d646c"
+  },
+  {
+    "sha": "c26c956da58e1588bf7cea73718b953a215eb6ee",
+    "message": "Main :snake:",
+    "author": "Izyne Howie S. Gallardo",
+    "date": "2024-09-04T14:36:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/c26c956da58e1588bf7cea73718b953a215eb6ee"
+  },
+  {
+    "sha": "10adb6ad45bdcc3dfa50d47aaeb35687dc110a57",
+    "message": "assets :framed_picture:",
+    "author": "Izyne Howie S. Gallardo",
+    "date": "2024-09-04T14:34:47Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/10adb6ad45bdcc3dfa50d47aaeb35687dc110a57"
+  },
+  {
+    "sha": "68a1df5e5a6c0540dfd4fad470ff0b2c3922d90c",
+    "message": "readme :memo:",
+    "author": "Izyne Howie S. Gallardo",
+    "date": "2024-09-04T14:30:01Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/68a1df5e5a6c0540dfd4fad470ff0b2c3922d90c"
+  },
+  {
+    "sha": "27088f7e4c65d0383fd33f7cc40a74d0e46cde4c",
+    "message": "Initial commit",
+    "author": "Izyne Gallardo",
+    "date": "2024-09-04T13:47:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/Instacleaner/commit/27088f7e4c65d0383fd33f7cc40a74d0e46cde4c"
+  }
+]

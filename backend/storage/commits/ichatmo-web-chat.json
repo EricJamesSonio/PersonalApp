@@ -1,0 +1,135 @@
+[
+  {
+    "sha": "5708f1259400240ee0000b9b29f969a16ae93f78",
+    "message": "update readme",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-07T03:11:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/5708f1259400240ee0000b9b29f969a16ae93f78"
+  },
+  {
+    "sha": "3cd699172d3ff41ad9f2fe30a70670fa515f5f1b",
+    "message": "added timestamps",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-07T02:38:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/3cd699172d3ff41ad9f2fe30a70670fa515f5f1b"
+  },
+  {
+    "sha": "3ff4ad58fe60f85fcec38b53b62b9975a923e5f2",
+    "message": "fix icon sizes",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-07T01:54:22Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/3ff4ad58fe60f85fcec38b53b62b9975a923e5f2"
+  },
+  {
+    "sha": "5d0c147cd6244df5d8613543c632bef856b2b8cc",
+    "message": "fix deployed icon size changes",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-07T01:24:51Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/5d0c147cd6244df5d8613543c632bef856b2b8cc"
+  },
+  {
+    "sha": "b114c939e4b015da2fb32e4e6cce3200661e7a2d",
+    "message": "fix loader",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-06T17:13:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/b114c939e4b015da2fb32e4e6cce3200661e7a2d"
+  },
+  {
+    "sha": "e30447b9fc76caed5e0b07ca7f8fa8164ffb826e",
+    "message": "open chat box automatically",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-06T17:03:30Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/e30447b9fc76caed5e0b07ca7f8fa8164ffb826e"
+  },
+  {
+    "sha": "1299541e547a74b715123927186918a49a1a6f75",
+    "message": "change initial image size",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-06T16:49:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/1299541e547a74b715123927186918a49a1a6f75"
+  },
+  {
+    "sha": "7b27139d9b02660ea374568fcc9e576095a5aec2",
+    "message": "remove unused libraries",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-06T16:35:43Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/7b27139d9b02660ea374568fcc9e576095a5aec2"
+  },
+  {
+    "sha": "a8fea75c7d1faad8981380c5d63e7b75e517b2ea",
+    "message": "test deploy",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-06T15:59:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/a8fea75c7d1faad8981380c5d63e7b75e517b2ea"
+  },
+  {
+    "sha": "fbea5dfb879bfe9fe3761734cd87bc36c2312f66",
+    "message": "test deployment",
+    "author": "NeoDyeBlue",
+    "date": "2022-05-06T15:33:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/fbea5dfb879bfe9fe3761734cd87bc36c2312f66"
+  },
+  {
+    "sha": "35489c3cadf5b7356f202a0024f6e516518ed73b",
+    "message": "new changes",
+    "author": "NeoDyeBlue",
+    "date": "2022-04-15T18:43:59Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/35489c3cadf5b7356f202a0024f6e516518ed73b"
+  },
+  {
+    "sha": "6ac19337877191a5e9c144ba682021e2be9cd855",
+    "message": "test change",
+    "author": "NeoDyeBlue",
+    "date": "2022-04-11T09:03:06Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/6ac19337877191a5e9c144ba682021e2be9cd855"
+  },
+  {
+    "sha": "fad0cea4522892f17b949d6772d73332c8553183",
+    "message": "full online offline check",
+    "author": "NeoDyeBlue",
+    "date": "2022-04-10T17:31:25Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/fad0cea4522892f17b949d6772d73332c8553183"
+  },
+  {
+    "sha": "d060fe7fbad9a99f6a8ec4602cb627d4e46d9aaa",
+    "message": "added online indicators",
+    "author": "NeoDyeBlue",
+    "date": "2022-04-09T16:45:29Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/d060fe7fbad9a99f6a8ec4602cb627d4e46d9aaa"
+  },
+  {
+    "sha": "488f68296880789d282c05d24550b5630bedb077",
+    "message": "added private room functionalities",
+    "author": "NeoDyeBlue",
+    "date": "2022-04-07T19:51:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/488f68296880789d282c05d24550b5630bedb077"
+  },
+  {
+    "sha": "44be0833ffedc2ab8ec51ec4c4b4c10f04e02baf",
+    "message": "changes",
+    "author": "NeoDyeBlue",
+    "date": "2022-04-05T17:31:33Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/44be0833ffedc2ab8ec51ec4c4b4c10f04e02baf"
+  },
+  {
+    "sha": "ba2d874e7a18fe32e16add16e8e4f66449c090eb",
+    "message": "changes",
+    "author": "NeoDyeBlue",
+    "date": "2022-04-04T17:42:50Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/ba2d874e7a18fe32e16add16e8e4f66449c090eb"
+  },
+  {
+    "sha": "0a80b6dc36a943f15f9fafe063f93b043d0655df",
+    "message": "initial commit",
+    "author": "NeoDyeBlue",
+    "date": "2022-03-25T16:21:42Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/0a80b6dc36a943f15f9fafe063f93b043d0655df"
+  },
+  {
+    "sha": "83459bf193d9302cf6e40174bfcdf1337e747351",
+    "message": "Initial commit from Create Next App",
+    "author": "NeoDyeBlue",
+    "date": "2022-03-23T03:46:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/ichatmo-web-chat/commit/83459bf193d9302cf6e40174bfcdf1337e747351"
+  }
+]

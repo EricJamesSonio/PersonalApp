@@ -7,6 +7,27 @@
     "size": 2544,
     "created_at": "2025-07-03T03:41:38Z",
     "updated_at": "2025-09-05T12:14:57Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -22,11 +43,14 @@
       }
     ],
     "streak": {
+      "repo": "CS-ELEC1_eric_sonio_jay_entileso",
       "currentStreak": 5,
       "longestStreak": 9,
       "totalCommits": 59,
       "daysActive": 25
-    }
+    },
+    "isOwner": false,
+    "isContributor": true
   },
   {
     "name": "eric_johnpaul_exam",
@@ -36,6 +60,27 @@
     "size": 1146,
     "created_at": "2025-03-22T05:05:20Z",
     "updated_at": "2025-05-09T01:54:57Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -51,11 +96,14 @@
       }
     ],
     "streak": {
+      "repo": "eric_johnpaul_exam",
       "currentStreak": 1,
       "longestStreak": 3,
       "totalCommits": 72,
       "daysActive": 6
-    }
+    },
+    "isOwner": false,
+    "isContributor": true
   },
   {
     "name": "finals_exam_eric_johnpaul",
@@ -65,6 +113,27 @@
     "size": 934,
     "created_at": "2025-03-08T04:52:32Z",
     "updated_at": "2025-03-22T08:40:17Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -76,11 +145,14 @@
       }
     ],
     "streak": {
+      "repo": "finals_exam_eric_johnpaul",
       "currentStreak": 1,
       "longestStreak": 3,
       "totalCommits": 23,
       "daysActive": 5
-    }
+    },
+    "isOwner": false,
+    "isContributor": true
   },
   {
     "name": "oop-2025-sonio-ericjames",
@@ -90,6 +162,27 @@
     "size": 2470,
     "created_at": "2025-06-21T15:29:46Z",
     "updated_at": "2025-08-24T14:00:13Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -101,11 +194,14 @@
       }
     ],
     "streak": {
-      "currentStreak": 4,
+      "repo": "oop-2025-sonio-ericjames",
+      "currentStreak": 3,
       "longestStreak": 5,
-      "totalCommits": 100,
-      "daysActive": 30
-    }
+      "totalCommits": 152,
+      "daysActive": 48
+    },
+    "isOwner": false,
+    "isContributor": true
   },
   {
     "name": "oop-sonio_eric-james",
@@ -115,6 +211,27 @@
     "size": 214,
     "created_at": "2024-08-03T01:54:38Z",
     "updated_at": "2024-11-22T16:18:29Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -126,11 +243,14 @@
       }
     ],
     "streak": {
+      "repo": "oop-sonio_eric-james",
       "currentStreak": 1,
       "longestStreak": 4,
       "totalCommits": 84,
       "daysActive": 31
-    }
+    },
+    "isOwner": false,
+    "isContributor": true
   },
   {
     "name": "Sonio_Entileso_OOP",
@@ -140,6 +260,27 @@
     "size": 155,
     "created_at": "2025-08-23T15:03:04Z",
     "updated_at": "2025-09-26T10:24:40Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -151,11 +292,14 @@
       }
     ],
     "streak": {
+      "repo": "Sonio_Entileso_OOP",
       "currentStreak": 4,
       "longestStreak": 4,
       "totalCommits": 37,
       "daysActive": 8
-    }
+    },
+    "isOwner": false,
+    "isContributor": true
   },
   {
     "name": "AGRIFRESH",
@@ -165,6 +309,27 @@
     "size": 5898,
     "created_at": "2025-08-06T09:09:16Z",
     "updated_at": "2025-09-03T10:09:31Z",
+    "owner": {
+      "login": "EARLOLIVEROS",
+      "id": 197350920,
+      "node_id": "U_kgDOC8NWCA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/197350920?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EARLOLIVEROS",
+      "html_url": "https://github.com/EARLOLIVEROS",
+      "followers_url": "https://api.github.com/users/EARLOLIVEROS/followers",
+      "following_url": "https://api.github.com/users/EARLOLIVEROS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EARLOLIVEROS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EARLOLIVEROS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EARLOLIVEROS/subscriptions",
+      "organizations_url": "https://api.github.com/users/EARLOLIVEROS/orgs",
+      "repos_url": "https://api.github.com/users/EARLOLIVEROS/repos",
+      "events_url": "https://api.github.com/users/EARLOLIVEROS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EARLOLIVEROS/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "ReyesSheirlyn",
@@ -176,11 +341,14 @@
       }
     ],
     "streak": {
+      "repo": "AGRIFRESH",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 8,
       "daysActive": 5
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Agri_fresh",
@@ -190,6 +358,27 @@
     "size": 12825,
     "created_at": "2025-08-30T01:13:55Z",
     "updated_at": "2025-09-21T10:08:23Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -201,11 +390,14 @@
       }
     ],
     "streak": {
+      "repo": "Agri_fresh",
       "currentStreak": 4,
       "longestStreak": 4,
       "totalCommits": 52,
       "daysActive": 13
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "Clone",
@@ -215,6 +407,27 @@
     "size": 49833,
     "created_at": "2025-08-19T08:28:03Z",
     "updated_at": "2025-08-20T06:52:27Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -238,11 +451,14 @@
       }
     ],
     "streak": {
+      "repo": "Clone",
       "currentStreak": 2,
       "longestStreak": 3,
       "totalCommits": 42,
       "daysActive": 17
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "clone_gmail_auto_responder",
@@ -252,6 +468,27 @@
     "size": 1769,
     "created_at": "2025-07-23T07:28:46Z",
     "updated_at": "2025-07-23T08:06:11Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -267,11 +504,14 @@
       }
     ],
     "streak": {
+      "repo": "clone_gmail_auto_responder",
       "currentStreak": 5,
       "longestStreak": 9,
       "totalCommits": 33,
       "daysActive": 15
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "Comics",
@@ -281,6 +521,27 @@
     "size": 6433,
     "created_at": "2025-02-09T13:36:28Z",
     "updated_at": "2025-02-16T14:21:00Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -288,11 +549,14 @@
       }
     ],
     "streak": {
+      "repo": "Comics",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 5,
       "daysActive": 2
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "Cuteweb",
@@ -302,6 +566,27 @@
     "size": 10339,
     "created_at": "2025-03-03T09:10:29Z",
     "updated_at": "2025-03-03T09:11:51Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -309,11 +594,14 @@
       }
     ],
     "streak": {
+      "repo": "Cuteweb",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "cutify",
@@ -323,6 +611,27 @@
     "size": 25672,
     "created_at": "2025-08-15T13:26:33Z",
     "updated_at": "2025-08-21T08:46:28Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -330,11 +639,14 @@
       }
     ],
     "streak": {
+      "repo": "cutify",
       "currentStreak": 3,
       "longestStreak": 3,
       "totalCommits": 37,
       "daysActive": 4
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "DB",
@@ -344,6 +656,27 @@
     "size": 8,
     "created_at": "2025-08-28T22:32:44Z",
     "updated_at": "2025-08-28T22:33:52Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -351,11 +684,14 @@
       }
     ],
     "streak": {
+      "repo": "DB",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "DB_2",
@@ -365,6 +701,27 @@
     "size": 15,
     "created_at": "2025-08-28T22:34:13Z",
     "updated_at": "2025-08-29T00:16:14Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -372,11 +729,14 @@
       }
     ],
     "streak": {
+      "repo": "DB_2",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 4,
       "daysActive": 2
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "exam",
@@ -386,6 +746,27 @@
     "size": 2,
     "created_at": "2025-08-02T01:56:57Z",
     "updated_at": "2025-08-02T01:59:04Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -393,11 +774,14 @@
       }
     ],
     "streak": {
+      "repo": "exam",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "FireSuppressionSprink-er",
@@ -407,6 +791,27 @@
     "size": 689,
     "created_at": "2025-08-26T11:20:33Z",
     "updated_at": "2025-08-27T04:09:01Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -414,11 +819,14 @@
       }
     ],
     "streak": {
+      "repo": "FireSuppressionSprink-er",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 2,
       "daysActive": 2
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "Flask",
@@ -428,6 +836,27 @@
     "size": 1567,
     "created_at": "2025-06-13T11:08:16Z",
     "updated_at": "2025-06-29T10:07:37Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -435,11 +864,14 @@
       }
     ],
     "streak": {
+      "repo": "Flask",
       "currentStreak": 2,
       "longestStreak": 4,
       "totalCommits": 11,
       "daysActive": 7
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "FullstackFolder",
@@ -449,6 +881,27 @@
     "size": 875,
     "created_at": "2025-05-02T07:53:31Z",
     "updated_at": "2025-05-03T04:37:28Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -456,11 +909,14 @@
       }
     ],
     "streak": {
+      "repo": "FullstackFolder",
       "currentStreak": 3,
       "longestStreak": 3,
       "totalCommits": 8,
       "daysActive": 5
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "JAVA",
@@ -470,6 +926,27 @@
     "size": 63,
     "created_at": "2025-07-10T12:29:31Z",
     "updated_at": "2025-08-22T13:48:02Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -477,11 +954,14 @@
       }
     ],
     "streak": {
+      "repo": "JAVA",
       "currentStreak": 2,
       "longestStreak": 4,
       "totalCommits": 19,
       "daysActive": 14
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "klasmate",
@@ -491,6 +971,27 @@
     "size": 17,
     "created_at": "2025-03-22T04:00:45Z",
     "updated_at": "2025-03-22T04:41:10Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "ConcepcionPaul",
@@ -502,11 +1003,14 @@
       }
     ],
     "streak": {
+      "repo": "klasmate",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 6,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "mail-responder-replit",
@@ -516,6 +1020,27 @@
     "size": 1,
     "created_at": "2025-07-03T03:30:09Z",
     "updated_at": "2025-07-03T03:39:01Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -523,11 +1048,14 @@
       }
     ],
     "streak": {
+      "repo": "mail-responder-replit",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "Node",
@@ -537,6 +1065,27 @@
     "size": 2,
     "created_at": "2025-04-28T03:00:14Z",
     "updated_at": "2025-04-28T08:59:18Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -544,11 +1093,14 @@
       }
     ],
     "streak": {
+      "repo": "Node",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 7,
       "daysActive": 2
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "oop-2025-practice",
@@ -558,6 +1110,27 @@
     "size": 2408,
     "created_at": "2025-06-21T14:56:21Z",
     "updated_at": "2025-06-21T14:57:48Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -565,11 +1138,14 @@
       }
     ],
     "streak": {
-      "currentStreak": 1,
+      "repo": "oop-2025-practice",
+      "currentStreak": 3,
       "longestStreak": 5,
-      "totalCommits": 100,
-      "daysActive": 28
-    }
+      "totalCommits": 115,
+      "daysActive": 35
+    },
+    "isOwner": true,
+    "isContributor": false
   },
   {
     "name": "oop2025",
@@ -579,6 +1155,27 @@
     "size": 2,
     "created_at": "2025-06-21T01:59:25Z",
     "updated_at": "2025-06-21T14:52:06Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -586,11 +1183,14 @@
       }
     ],
     "streak": {
+      "repo": "oop2025",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "OOP_ANALGOR",
@@ -600,6 +1200,27 @@
     "size": 311,
     "created_at": "2025-04-21T06:30:55Z",
     "updated_at": "2025-06-11T14:28:45Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -607,11 +1228,14 @@
       }
     ],
     "streak": {
+      "repo": "OOP_ANALGOR",
       "currentStreak": 4,
       "longestStreak": 6,
       "totalCommits": 49,
       "daysActive": 18
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "oop_simple_solid",
@@ -621,6 +1245,27 @@
     "size": 45,
     "created_at": "2025-09-18T09:25:32Z",
     "updated_at": "2025-09-18T12:46:46Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -628,11 +1273,14 @@
       }
     ],
     "streak": {
+      "repo": "oop_simple_solid",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "oop_SOLID",
@@ -642,6 +1290,27 @@
     "size": 111,
     "created_at": "2025-09-17T13:14:18Z",
     "updated_at": "2025-09-19T11:06:50Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -649,32 +1318,59 @@
       }
     ],
     "streak": {
+      "repo": "oop_SOLID",
       "currentStreak": 4,
       "longestStreak": 4,
       "totalCommits": 13,
       "daysActive": 7
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "PersonalApp",
     "full_name": "EricJamesSonio/PersonalApp",
     "html_url": "https://github.com/EricJamesSonio/PersonalApp",
     "fork": false,
-    "size": 1205,
+    "size": 1216,
     "created_at": "2025-09-26T12:28:41Z",
-    "updated_at": "2025-09-27T15:30:46Z",
+    "updated_at": "2025-09-28T04:36:47Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
-        "contributions": 11
+        "contributions": 13
       }
     ],
     "streak": {
-      "currentStreak": 2,
-      "longestStreak": 2,
-      "totalCommits": 11,
-      "daysActive": 2
-    }
+      "repo": "PersonalApp",
+      "currentStreak": 3,
+      "longestStreak": 3,
+      "totalCommits": 13,
+      "daysActive": 3
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "PHP",
@@ -684,6 +1380,27 @@
     "size": 4,
     "created_at": "2025-08-27T01:53:23Z",
     "updated_at": "2025-08-27T13:31:23Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -691,11 +1408,14 @@
       }
     ],
     "streak": {
+      "repo": "PHP",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 5,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "plan",
@@ -705,6 +1425,27 @@
     "size": 896,
     "created_at": "2025-05-09T11:43:23Z",
     "updated_at": "2025-05-09T11:44:34Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -712,11 +1453,14 @@
       }
     ],
     "streak": {
+      "repo": "plan",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "Portfolio",
@@ -726,6 +1470,27 @@
     "size": 471,
     "created_at": "2025-04-24T10:57:37Z",
     "updated_at": "2025-04-25T04:18:02Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -733,11 +1498,14 @@
       }
     ],
     "streak": {
+      "repo": "Portfolio",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "React",
@@ -747,6 +1515,27 @@
     "size": 40,
     "created_at": "2025-04-25T06:30:14Z",
     "updated_at": "2025-04-28T01:33:25Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -754,11 +1543,14 @@
       }
     ],
     "streak": {
+      "repo": "React",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 10,
       "daysActive": 3
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "simplestore",
@@ -768,6 +1560,27 @@
     "size": 896,
     "created_at": "2025-05-09T10:40:29Z",
     "updated_at": "2025-05-09T10:43:12Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -775,11 +1588,14 @@
       }
     ],
     "streak": {
+      "repo": "simplestore",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "SOFTENG",
@@ -789,6 +1605,27 @@
     "size": 15432,
     "created_at": "2025-06-23T06:24:46Z",
     "updated_at": "2025-07-08T10:14:06Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -796,11 +1633,14 @@
       }
     ],
     "streak": {
+      "repo": "SOFTENG",
       "currentStreak": 5,
       "longestStreak": 5,
       "totalCommits": 21,
       "daysActive": 8
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "SOFTENG2",
@@ -810,6 +1650,27 @@
     "size": 16071,
     "created_at": "2025-07-07T12:38:39Z",
     "updated_at": "2025-08-07T05:29:26Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -817,11 +1678,14 @@
       }
     ],
     "streak": {
+      "repo": "SOFTENG2",
       "currentStreak": 5,
       "longestStreak": 5,
       "totalCommits": 31,
       "daysActive": 16
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "StarBucks-Ecommerce",
@@ -831,6 +1695,27 @@
     "size": 51712,
     "created_at": "2025-08-27T03:38:30Z",
     "updated_at": "2025-09-20T03:04:28Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -858,11 +1743,14 @@
       }
     ],
     "streak": {
-      "currentStreak": 5,
+      "repo": "StarBucks-Ecommerce",
+      "currentStreak": 2,
       "longestStreak": 5,
-      "totalCommits": 100,
-      "daysActive": 16
-    }
+      "totalCommits": 151,
+      "daysActive": 31
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "store",
@@ -872,6 +1760,27 @@
     "size": 21,
     "created_at": "2025-04-21T09:05:02Z",
     "updated_at": "2025-04-28T13:01:42Z",
+    "owner": {
+      "login": "EricJamesSonio",
+      "id": 158795813,
+      "node_id": "U_kgDOCXcIJQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158795813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/EricJamesSonio",
+      "html_url": "https://github.com/EricJamesSonio",
+      "followers_url": "https://api.github.com/users/EricJamesSonio/followers",
+      "following_url": "https://api.github.com/users/EricJamesSonio/following{/other_user}",
+      "gists_url": "https://api.github.com/users/EricJamesSonio/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/EricJamesSonio/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/EricJamesSonio/subscriptions",
+      "organizations_url": "https://api.github.com/users/EricJamesSonio/orgs",
+      "repos_url": "https://api.github.com/users/EricJamesSonio/repos",
+      "events_url": "https://api.github.com/users/EricJamesSonio/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/EricJamesSonio/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -879,11 +1788,14 @@
       }
     ],
     "streak": {
+      "repo": "store",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 13,
       "daysActive": 3
-    }
+    },
+    "isOwner": true,
+    "isContributor": true
   },
   {
     "name": "StarBucks-Ecommerce",
@@ -893,6 +1805,27 @@
     "size": 52400,
     "created_at": "2025-06-23T18:29:32Z",
     "updated_at": "2025-09-23T14:42:32Z",
+    "owner": {
+      "login": "R-JDiaz",
+      "id": 171670295,
+      "node_id": "U_kgDOCjt7Fw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/171670295?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/R-JDiaz",
+      "html_url": "https://github.com/R-JDiaz",
+      "followers_url": "https://api.github.com/users/R-JDiaz/followers",
+      "following_url": "https://api.github.com/users/R-JDiaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/R-JDiaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/R-JDiaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/R-JDiaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/R-JDiaz/orgs",
+      "repos_url": "https://api.github.com/users/R-JDiaz/repos",
+      "events_url": "https://api.github.com/users/R-JDiaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/R-JDiaz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "EricJamesSonio",
@@ -920,11 +1853,14 @@
       }
     ],
     "streak": {
-      "currentStreak": 3,
+      "repo": "StarBucks-Ecommerce",
+      "currentStreak": 2,
       "longestStreak": 5,
-      "totalCommits": 100,
-      "daysActive": 16
-    }
+      "totalCommits": 173,
+      "daysActive": 33
+    },
+    "isOwner": false,
+    "isContributor": true
   },
   {
     "name": "BSCS-19-MusicPlayer",
@@ -934,6 +1870,27 @@
     "size": 35,
     "created_at": "2020-03-12T11:38:07Z",
     "updated_at": "2020-03-25T03:22:26Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "NeoDyeBlue",
@@ -941,11 +1898,14 @@
       }
     ],
     "streak": {
+      "repo": "BSCS-19-MusicPlayer",
       "currentStreak": 3,
       "longestStreak": 3,
       "totalCommits": 16,
       "daysActive": 7
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "BSCS-19-WebScraper",
@@ -955,6 +1915,27 @@
     "size": 59,
     "created_at": "2020-03-12T12:13:41Z",
     "updated_at": "2020-03-17T11:25:04Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "AdamJr-26",
@@ -962,11 +1943,14 @@
       }
     ],
     "streak": {
+      "repo": "BSCS-19-WebScraper",
       "currentStreak": 1,
       "longestStreak": 2,
       "totalCommits": 30,
       "daysActive": 5
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "BSCS-19-MorseCode",
@@ -976,6 +1960,27 @@
     "size": 8880,
     "created_at": "2020-03-17T08:55:19Z",
     "updated_at": "2020-03-17T08:56:07Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "edsMijares",
@@ -983,11 +1988,14 @@
       }
     ],
     "streak": {
+      "repo": "BSCS-19-MorseCode",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "BSCS-19-PAINT",
@@ -997,6 +2005,27 @@
     "size": 9,
     "created_at": "2020-03-18T02:59:26Z",
     "updated_at": "2020-03-19T10:18:21Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "cccamacho1",
@@ -1004,11 +2033,14 @@
       }
     ],
     "streak": {
+      "repo": "BSCS-19-PAINT",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 8,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "CS-2018-POSSystem",
@@ -1018,6 +2050,27 @@
     "size": 8514,
     "created_at": "2020-03-20T23:18:48Z",
     "updated_at": "2020-03-22T11:11:53Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "danteprogio",
@@ -1025,11 +2078,14 @@
       }
     ],
     "streak": {
+      "repo": "CS-2018-POSSystem",
       "currentStreak": 3,
       "longestStreak": 3,
       "totalCommits": 6,
       "daysActive": 3
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "JavaScript",
@@ -1039,6 +2095,27 @@
     "size": 37,
     "created_at": "2020-09-23T01:24:04Z",
     "updated_at": "2022-10-04T12:42:01Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -1046,11 +2123,14 @@
       }
     ],
     "streak": {
+      "repo": "JavaScript",
       "currentStreak": 1,
       "longestStreak": 2,
       "totalCommits": 29,
       "daysActive": 11
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "HelloFromDocker",
@@ -1060,6 +2140,27 @@
     "size": 2,
     "created_at": "2022-02-10T13:57:27Z",
     "updated_at": "2022-02-22T13:31:05Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -1067,11 +2168,14 @@
       }
     ],
     "streak": {
+      "repo": "HelloFromDocker",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "ichatmo-web-chat",
@@ -1081,6 +2185,27 @@
     "size": 491,
     "created_at": "2022-05-07T02:21:58Z",
     "updated_at": "2022-05-07T02:25:26Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "NeoDyeBlue",
@@ -1088,11 +2213,14 @@
       }
     ],
     "streak": {
+      "repo": "ichatmo-web-chat",
       "currentStreak": 1,
       "longestStreak": 3,
       "totalCommits": 19,
       "daysActive": 11
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "docker-example-with-react",
@@ -1102,6 +2230,27 @@
     "size": 311,
     "created_at": "2023-01-07T11:10:18Z",
     "updated_at": "2023-01-15T13:35:49Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -1109,11 +2258,14 @@
       }
     ],
     "streak": {
+      "repo": "docker-example-with-react",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 5,
       "daysActive": 3
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "simple-chat",
@@ -1123,6 +2275,27 @@
     "size": 4,
     "created_at": "2023-01-18T13:16:26Z",
     "updated_at": "2023-01-18T13:20:20Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -1134,11 +2307,14 @@
       }
     ],
     "streak": {
+      "repo": "simple-chat",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "socket-multi-client-server",
@@ -1148,6 +2324,27 @@
     "size": 6,
     "created_at": "2024-05-05T01:47:41Z",
     "updated_at": "2024-05-05T02:17:22Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -1155,11 +2352,14 @@
       }
     ],
     "streak": {
+      "repo": "socket-multi-client-server",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 5,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "StudioRecord",
@@ -1169,6 +2369,27 @@
     "size": 1459,
     "created_at": "2024-06-05T03:21:51Z",
     "updated_at": "2024-06-06T10:11:28Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "raecellann",
@@ -1176,11 +2397,14 @@
       }
     ],
     "streak": {
+      "repo": "StudioRecord",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 4,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "File-Organizer",
@@ -1190,6 +2414,27 @@
     "size": 13,
     "created_at": "2024-06-05T05:24:24Z",
     "updated_at": "2024-09-01T05:52:20Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "DietherPano",
@@ -1197,11 +2442,14 @@
       }
     ],
     "streak": {
+      "repo": "File-Organizer",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 7,
       "daysActive": 3
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Digital_Karaoke_Songbook",
@@ -1211,6 +2459,27 @@
     "size": 5836,
     "created_at": "2024-06-05T09:28:12Z",
     "updated_at": "2024-06-05T10:10:05Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "beatricecoleene",
@@ -1218,11 +2487,14 @@
       }
     ],
     "streak": {
+      "repo": "Digital_Karaoke_Songbook",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Text-Editor",
@@ -1232,6 +2504,27 @@
     "size": 6,
     "created_at": "2024-06-05T10:51:04Z",
     "updated_at": "2024-06-05T13:08:09Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Omarjamin",
@@ -1239,11 +2532,14 @@
       }
     ],
     "streak": {
+      "repo": "Text-Editor",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "iNotes",
@@ -1253,6 +2549,27 @@
     "size": 11,
     "created_at": "2024-06-05T12:52:34Z",
     "updated_at": "2024-08-15T13:44:14Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "sieghart10",
@@ -1260,11 +2577,14 @@
       }
     ],
     "streak": {
+      "repo": "iNotes",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 6,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Travel-list",
@@ -1274,6 +2594,27 @@
     "size": 2441,
     "created_at": "2024-06-05T13:09:58Z",
     "updated_at": "2024-06-05T13:40:27Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "sergaparri",
@@ -1281,11 +2622,14 @@
       }
     ],
     "streak": {
+      "repo": "Travel-list",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 8,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "music-player",
@@ -1295,6 +2639,27 @@
     "size": 42754,
     "created_at": "2024-06-05T20:02:19Z",
     "updated_at": "2024-06-09T05:39:46Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Mikeru02",
@@ -1302,11 +2667,14 @@
       }
     ],
     "streak": {
+      "repo": "music-player",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Funeral-Form-",
@@ -1316,6 +2684,27 @@
     "size": 7,
     "created_at": "2024-06-06T04:25:24Z",
     "updated_at": "2024-06-06T04:30:54Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "lykhasalustiano",
@@ -1323,11 +2712,14 @@
       }
     ],
     "streak": {
+      "repo": "Funeral-Form-",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Dictionary",
@@ -1337,6 +2729,27 @@
     "size": 7,
     "created_at": "2024-06-06T10:38:21Z",
     "updated_at": "2024-06-06T10:57:43Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "MikoAldrinAlvarado",
@@ -1344,11 +2757,14 @@
       }
     ],
     "streak": {
+      "repo": "Dictionary",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "pc_checker",
@@ -1358,6 +2774,27 @@
     "size": 5,
     "created_at": "2024-06-06T10:59:03Z",
     "updated_at": "2024-06-06T11:20:46Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Gimple",
@@ -1365,11 +2802,14 @@
       }
     ],
     "streak": {
+      "repo": "pc_checker",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Recipe_Book_App",
@@ -1379,6 +2819,27 @@
     "size": 13,
     "created_at": "2024-06-06T12:02:28Z",
     "updated_at": "2024-06-06T12:25:50Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "marygraceparedes",
@@ -1390,11 +2851,14 @@
       }
     ],
     "streak": {
+      "repo": "Recipe_Book_App",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 3,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Music_App",
@@ -1404,6 +2868,27 @@
     "size": 11,
     "created_at": "2024-06-07T03:14:10Z",
     "updated_at": "2024-06-07T03:32:52Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "PerezJessieM07",
@@ -1411,11 +2896,14 @@
       }
     ],
     "streak": {
+      "repo": "Music_App",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Game-Schedule-App",
@@ -1425,6 +2913,27 @@
     "size": 70896,
     "created_at": "2024-06-08T05:20:18Z",
     "updated_at": "2024-06-21T06:50:26Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Vince9090",
@@ -1432,11 +2941,14 @@
       }
     ],
     "streak": {
+      "repo": "Game-Schedule-App",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 74,
       "daysActive": 3
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Majestique-App",
@@ -1446,6 +2958,27 @@
     "size": 14,
     "created_at": "2024-06-08T13:39:36Z",
     "updated_at": "2024-06-08T13:58:48Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "RodienJillian",
@@ -1453,11 +2986,14 @@
       }
     ],
     "streak": {
+      "repo": "Majestique-App",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 6,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Diary",
@@ -1467,6 +3003,27 @@
     "size": 1269,
     "created_at": "2024-06-09T08:18:33Z",
     "updated_at": "2024-06-09T08:37:44Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "nickyshane",
@@ -1478,11 +3035,14 @@
       }
     ],
     "streak": {
+      "repo": "Diary",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "FileSorter",
@@ -1492,6 +3052,27 @@
     "size": 17,
     "created_at": "2024-06-28T18:03:42Z",
     "updated_at": "2024-08-30T13:43:43Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "nathanielfaborada",
@@ -1499,11 +3080,14 @@
       }
     ],
     "streak": {
+      "repo": "FileSorter",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 10,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "oop-2024",
@@ -1513,6 +3097,27 @@
     "size": 47,
     "created_at": "2024-07-14T08:38:35Z",
     "updated_at": "2025-06-14T14:41:56Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -1520,11 +3125,14 @@
       }
     ],
     "streak": {
+      "repo": "oop-2024",
       "currentStreak": 1,
       "longestStreak": 2,
       "totalCommits": 19,
       "daysActive": 14
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "background-image-remover-changer-and-pngconverter-withcam",
@@ -1534,6 +3142,27 @@
     "size": 14,
     "created_at": "2024-09-01T09:26:06Z",
     "updated_at": "2025-06-23T13:23:36Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "JabbyAlicante",
@@ -1545,11 +3174,14 @@
       }
     ],
     "streak": {
+      "repo": "background-image-remover-changer-and-pngconverter-withcam",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 8,
       "daysActive": 3
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Auto-Backup",
@@ -1559,6 +3191,27 @@
     "size": 9,
     "created_at": "2024-09-02T04:53:54Z",
     "updated_at": "2024-09-02T05:15:28Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "DietherPano",
@@ -1566,11 +3219,14 @@
       }
     ],
     "streak": {
+      "repo": "Auto-Backup",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 7,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Instacleaner",
@@ -1580,6 +3236,27 @@
     "size": 37645,
     "created_at": "2024-09-04T13:47:11Z",
     "updated_at": "2024-09-05T04:50:21Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "sieghart10",
@@ -1587,11 +3264,14 @@
       }
     ],
     "streak": {
+      "repo": "Instacleaner",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 9,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Email-Sender---For-Survey",
@@ -1601,6 +3281,27 @@
     "size": 15,
     "created_at": "2024-09-05T04:17:01Z",
     "updated_at": "2024-09-05T06:17:05Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Omarjamin",
@@ -1608,11 +3309,14 @@
       }
     ],
     "streak": {
+      "repo": "Email-Sender---For-Survey",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 10,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "news-scraper",
@@ -1622,6 +3326,27 @@
     "size": 23,
     "created_at": "2024-09-05T10:18:46Z",
     "updated_at": "2024-09-05T12:58:44Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Mikeru02",
@@ -1629,11 +3354,14 @@
       }
     ],
     "streak": {
+      "repo": "news-scraper",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 8,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Recycle_Bin_Feature",
@@ -1643,6 +3371,27 @@
     "size": 30564,
     "created_at": "2024-09-07T06:33:41Z",
     "updated_at": "2025-04-20T04:20:25Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Gimple",
@@ -1654,11 +3403,14 @@
       }
     ],
     "streak": {
+      "repo": "Recycle_Bin_Feature",
       "currentStreak": 3,
       "longestStreak": 3,
       "totalCommits": 13,
       "daysActive": 6
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "video-compressor",
@@ -1668,6 +3420,27 @@
     "size": 6,
     "created_at": "2024-09-07T07:46:47Z",
     "updated_at": "2024-09-07T08:16:48Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "MikoAldrinAlvarado",
@@ -1675,11 +3448,14 @@
       }
     ],
     "streak": {
+      "repo": "video-compressor",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 5,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Dev_Buddy",
@@ -1689,6 +3465,27 @@
     "size": 68,
     "created_at": "2024-09-07T12:58:39Z",
     "updated_at": "2024-09-07T13:04:49Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "r4lp061",
@@ -1696,11 +3493,14 @@
       }
     ],
     "streak": {
+      "repo": "Dev_Buddy",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Email_Bot",
@@ -1710,6 +3510,27 @@
     "size": 21,
     "created_at": "2024-09-07T15:15:30Z",
     "updated_at": "2024-09-10T03:13:03Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "raecellann",
@@ -1717,11 +3538,14 @@
       }
     ],
     "streak": {
+      "repo": "Email_Bot",
       "currentStreak": 1,
       "longestStreak": 2,
       "totalCommits": 11,
       "daysActive": 3
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "SHERLOCK",
@@ -1731,6 +3555,27 @@
     "size": 7760,
     "created_at": "2024-09-08T15:39:09Z",
     "updated_at": "2024-09-14T00:04:07Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "sergaparri",
@@ -1738,11 +3583,14 @@
       }
     ],
     "streak": {
+      "repo": "SHERLOCK",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 6,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Automated-Bar-Graph-Generator",
@@ -1752,6 +3600,27 @@
     "size": 5,
     "created_at": "2024-09-09T05:44:41Z",
     "updated_at": "2024-09-09T07:16:18Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "staanaeleina",
@@ -1759,11 +3628,14 @@
       }
     ],
     "streak": {
+      "repo": "Automated-Bar-Graph-Generator",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Chatbot",
@@ -1773,6 +3645,27 @@
     "size": 9,
     "created_at": "2024-09-12T06:38:06Z",
     "updated_at": "2024-09-12T09:05:51Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Johnpaulcastro23",
@@ -1780,11 +3673,14 @@
       }
     ],
     "streak": {
+      "repo": "Chatbot",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 7,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Auto-React-FB",
@@ -1794,6 +3690,27 @@
     "size": 20,
     "created_at": "2024-09-13T05:21:38Z",
     "updated_at": "2024-09-13T11:11:27Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "ConcepcionPaul",
@@ -1801,11 +3718,14 @@
       }
     ],
     "streak": {
+      "repo": "Auto-React-FB",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 15,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "appsdev-api-template",
@@ -1815,6 +3735,27 @@
     "size": 230,
     "created_at": "2024-09-21T16:19:39Z",
     "updated_at": "2024-10-15T12:40:19Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -1822,11 +3763,14 @@
       }
     ],
     "streak": {
+      "repo": "appsdev-api-template",
       "currentStreak": 3,
       "longestStreak": 3,
       "totalCommits": 21,
       "daysActive": 7
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "SocialMediaBooster",
@@ -1836,6 +3780,27 @@
     "size": 3,
     "created_at": "2024-09-29T11:08:18Z",
     "updated_at": "2024-10-03T09:09:52Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "nathanielfaborada",
@@ -1843,11 +3808,14 @@
       }
     ],
     "streak": {
+      "repo": "SocialMediaBooster",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Aircon-Fuzzy_Logic",
@@ -1857,6 +3825,27 @@
     "size": 9305,
     "created_at": "2024-10-01T10:06:32Z",
     "updated_at": "2024-10-01T18:43:13Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "raecellann",
@@ -1864,11 +3853,14 @@
       }
     ],
     "streak": {
+      "repo": "Aircon-Fuzzy_Logic",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 19,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "WaterTank_Fuzzy_Logic",
@@ -1878,6 +3870,27 @@
     "size": 96,
     "created_at": "2024-10-01T10:08:38Z",
     "updated_at": "2024-10-01T10:33:48Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "MikoAldrinAlvarado",
@@ -1885,11 +3898,14 @@
       }
     ],
     "streak": {
+      "repo": "WaterTank_Fuzzy_Logic",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Kettle---Fuzzy-Logic-Control",
@@ -1899,6 +3915,27 @@
     "size": 371,
     "created_at": "2024-10-01T11:23:22Z",
     "updated_at": "2024-10-01T14:02:39Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Omarjamin",
@@ -1906,11 +3943,14 @@
       }
     ],
     "streak": {
+      "repo": "Kettle---Fuzzy-Logic-Control",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 3,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Vehicle-Braking-Simulator",
@@ -1920,6 +3960,27 @@
     "size": 9,
     "created_at": "2024-10-01T12:54:16Z",
     "updated_at": "2024-10-01T12:57:29Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "RodienJillian",
@@ -1927,11 +3988,14 @@
       }
     ],
     "streak": {
+      "repo": "Vehicle-Braking-Simulator",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Faucet-Simulator",
@@ -1941,6 +4005,27 @@
     "size": 145,
     "created_at": "2024-10-01T12:57:35Z",
     "updated_at": "2024-10-01T13:46:30Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Gimple",
@@ -1952,11 +4037,14 @@
       }
     ],
     "streak": {
+      "repo": "Faucet-Simulator",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 15,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Software-Simulation",
@@ -1966,6 +4054,27 @@
     "size": 1055,
     "created_at": "2024-10-01T13:36:41Z",
     "updated_at": "2024-10-01T15:40:33Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "FranciseGab",
@@ -1973,11 +4082,14 @@
       }
     ],
     "streak": {
+      "repo": "Software-Simulation",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 4,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "ELECTRIC_KETTLE",
@@ -1987,6 +4099,27 @@
     "size": 767,
     "created_at": "2024-10-01T14:00:58Z",
     "updated_at": "2024-10-01T14:04:21Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "sergaparri",
@@ -1994,11 +4127,14 @@
       }
     ],
     "streak": {
+      "repo": "ELECTRIC_KETTLE",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "FUZZY-TOASTER",
@@ -2008,6 +4144,27 @@
     "size": 271,
     "created_at": "2024-10-01T15:24:58Z",
     "updated_at": "2024-10-01T15:34:33Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Quckie",
@@ -2015,11 +4172,14 @@
       }
     ],
     "streak": {
+      "repo": "FUZZY-TOASTER",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "seismograph_simulation",
@@ -2029,6 +4189,27 @@
     "size": 29289,
     "created_at": "2024-10-01T15:36:52Z",
     "updated_at": "2024-10-01T15:40:35Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "CTCaingcoy",
@@ -2036,11 +4217,14 @@
       }
     ],
     "streak": {
+      "repo": "seismograph_simulation",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "lumashade-fuzzy-light-controller",
@@ -2050,6 +4234,27 @@
     "size": 13,
     "created_at": "2024-10-01T23:02:30Z",
     "updated_at": "2024-10-02T00:13:07Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "sieghart10",
@@ -2057,11 +4262,14 @@
       }
     ],
     "streak": {
+      "repo": "lumashade-fuzzy-light-controller",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 6,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Defrosting-Fuzzy",
@@ -2071,6 +4279,27 @@
     "size": 1059,
     "created_at": "2024-10-02T00:12:20Z",
     "updated_at": "2024-10-02T00:56:36Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "gerigreizelle",
@@ -2078,11 +4307,14 @@
       }
     ],
     "streak": {
+      "repo": "Defrosting-Fuzzy",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 6,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Water-Sprinkle",
@@ -2092,6 +4324,27 @@
     "size": 2,
     "created_at": "2024-10-02T02:27:04Z",
     "updated_at": "2024-10-02T02:30:14Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "veloscarl",
@@ -2099,11 +4352,14 @@
       }
     ],
     "streak": {
+      "repo": "Water-Sprinkle",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "Pressure_cooker",
@@ -2113,6 +4369,27 @@
     "size": 473,
     "created_at": "2024-10-02T03:41:46Z",
     "updated_at": "2024-10-02T03:51:41Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "igvitente",
@@ -2120,11 +4397,14 @@
       }
     ],
     "streak": {
+      "repo": "Pressure_cooker",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "water-dispenser",
@@ -2134,6 +4414,27 @@
     "size": 34325,
     "created_at": "2024-10-02T07:51:25Z",
     "updated_at": "2024-10-02T08:04:15Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "PerezJessieM07",
@@ -2141,11 +4442,14 @@
       }
     ],
     "streak": {
+      "repo": "water-dispenser",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 2,
       "daysActive": 2
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "RenzSalazar",
@@ -2155,6 +4459,27 @@
     "size": 3,
     "created_at": "2024-10-02T11:11:12Z",
     "updated_at": "2024-10-02T11:28:21Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "SalazarRenz",
@@ -2162,11 +4487,14 @@
       }
     ],
     "streak": {
+      "repo": "RenzSalazar",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "SandwichMaker_FuzzyLogic",
@@ -2176,6 +4504,27 @@
     "size": 1387,
     "created_at": "2024-10-02T15:29:48Z",
     "updated_at": "2024-10-02T15:36:24Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "MaryAnn110701",
@@ -2183,11 +4532,14 @@
       }
     ],
     "streak": {
+      "repo": "SandwichMaker_FuzzyLogic",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 2,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "egg-incubator",
@@ -2197,6 +4549,27 @@
     "size": 50,
     "created_at": "2024-10-10T08:54:19Z",
     "updated_at": "2024-10-10T09:23:22Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Mikeru02",
@@ -2204,11 +4577,14 @@
       }
     ],
     "streak": {
+      "repo": "egg-incubator",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 5,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "appsdev-spa-template",
@@ -2218,6 +4594,27 @@
     "size": 85,
     "created_at": "2024-10-14T14:34:41Z",
     "updated_at": "2024-11-16T06:25:44Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -2225,11 +4622,14 @@
       }
     ],
     "streak": {
+      "repo": "appsdev-spa-template",
       "currentStreak": 2,
       "longestStreak": 2,
       "totalCommits": 17,
       "daysActive": 5
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "multi-instance",
@@ -2239,6 +4639,27 @@
     "size": 8,
     "created_at": "2025-02-24T13:06:51Z",
     "updated_at": "2025-02-24T13:08:10Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -2246,11 +4667,14 @@
       }
     ],
     "streak": {
+      "repo": "multi-instance",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "vite-express-websocket-example",
@@ -2260,6 +4684,27 @@
     "size": 77,
     "created_at": "2025-03-09T11:16:45Z",
     "updated_at": "2025-03-15T10:45:22Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -2267,11 +4712,14 @@
       }
     ],
     "streak": {
+      "repo": "vite-express-websocket-example",
       "currentStreak": 2,
       "longestStreak": 3,
       "totalCommits": 9,
       "daysActive": 5
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "barako",
@@ -2281,6 +4729,27 @@
     "size": 2455,
     "created_at": "2025-03-28T13:22:48Z",
     "updated_at": "2025-09-26T15:55:41Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "jabernardo",
@@ -2288,11 +4757,14 @@
       }
     ],
     "streak": {
-      "currentStreak": 1,
+      "repo": "barako",
+      "currentStreak": 3,
       "longestStreak": 5,
-      "totalCommits": 100,
-      "daysActive": 29
-    }
+      "totalCommits": 136,
+      "daysActive": 44
+    },
+    "isOwner": false,
+    "isContributor": false
   },
   {
     "name": "MonoRepo",
@@ -2302,6 +4774,27 @@
     "size": 160,
     "created_at": "2025-04-06T01:12:21Z",
     "updated_at": "2025-04-06T01:22:16Z",
+    "owner": {
+      "login": "college-of-mary-immaculate",
+      "id": 112694555,
+      "node_id": "O_kgDOBreVGw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112694555?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/college-of-mary-immaculate",
+      "html_url": "https://github.com/college-of-mary-immaculate",
+      "followers_url": "https://api.github.com/users/college-of-mary-immaculate/followers",
+      "following_url": "https://api.github.com/users/college-of-mary-immaculate/following{/other_user}",
+      "gists_url": "https://api.github.com/users/college-of-mary-immaculate/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/college-of-mary-immaculate/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/college-of-mary-immaculate/subscriptions",
+      "organizations_url": "https://api.github.com/users/college-of-mary-immaculate/orgs",
+      "repos_url": "https://api.github.com/users/college-of-mary-immaculate/repos",
+      "events_url": "https://api.github.com/users/college-of-mary-immaculate/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/college-of-mary-immaculate/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
     "contributors": [
       {
         "login": "Gimple",
@@ -2309,10 +4802,13 @@
       }
     ],
     "streak": {
+      "repo": "MonoRepo",
       "currentStreak": 1,
       "longestStreak": 1,
       "totalCommits": 1,
       "daysActive": 1
-    }
+    },
+    "isOwner": false,
+    "isContributor": false
   }
 ]

@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:4000"; // ⚠️ Add this
+const API_BASE = "http://localhost:4000"; 
 const charts = new Map();
 let allRepos = []; // store cached repos with streaks
 
@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("search-box").addEventListener("input", applyFilters);
   document.getElementById("sort-select").addEventListener("change", applyFilters);
+  document.getElementById("repo-filter").addEventListener("change", applyFilters);
 
   loadRepos();
 });
@@ -28,8 +29,13 @@ async function loadRepos(refresh = false) {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const repos = await res.json();
 
-    // ✅ Already contains streak, no need to fetch individually
+    // ✅ cache repos
     allRepos = repos.map(r => ({ repo: r, streak: r.streak }));
+
+    // ✅ render all repos first
+    renderRepos(allRepos);
+
+    // ✅ then apply filter/sort visibility
     applyFilters();
   } catch (err) {
     errorEl.style.display = "block";
@@ -42,18 +48,26 @@ async function loadRepos(refresh = false) {
 
 
 // Button triggers refresh
-document.querySelector("button[onclick='loadRepos()']").addEventListener("click", () => loadRepos(true));
+document.querySelector("button[onclick='loadRepos()']")
+  .addEventListener("click", () => loadRepos(true));
 
-// Filtering + sorting
 function applyFilters() {
-  const listEl = document.getElementById("repo-list");
   const searchQuery = document.getElementById("search-box").value.toLowerCase();
   const sortType = document.getElementById("sort-select").value;
+  const filterType = document.getElementById("repo-filter").value;
 
   let filtered = allRepos.filter(({ repo }) =>
     repo.name.toLowerCase().includes(searchQuery)
   );
 
+  // ✅ Repo filter logic
+  if (filterType === "mine") {
+    filtered = filtered.filter(({ repo }) => repo.isOwner || repo.isContributor);
+  } else if (filterType === "org") {
+    filtered = filtered.filter(({ repo }) => repo.owner?.type === "Organization");
+  }
+
+  // ✅ Sorting (applies only to visible repos)
   if (sortType === "alpha") {
     filtered.sort((a, b) => a.repo.name.localeCompare(b.repo.name));
   } else if (sortType === "date") {
@@ -62,16 +76,26 @@ function applyFilters() {
     filtered.sort((a, b) => (b.streak?.totalCommits || 0) - (a.streak?.totalCommits || 0));
   }
 
-  renderRepos(filtered);
+  // ✅ Instead of re-rendering, just toggle visibility
+  const repoList = document.getElementById("repo-list").children;
+  for (const li of repoList) li.style.display = "none";
+
+  filtered.forEach(({ repo }) => {
+    const li = document.getElementById(`repo-card-${repo.name}`);
+    if (li) li.style.display = "block";
+  });
 }
 
 function renderRepos(repoWithStreaks) {
   const listEl = document.getElementById("repo-list");
-  listEl.innerHTML = "";
 
   repoWithStreaks.forEach(({ repo, streak }) => {
+    // ✅ Prevent duplicate render
+    if (document.getElementById(`repo-card-${repo.name}`)) return;
+
     const li = document.createElement("li");
     li.className = "repo-card";
+    li.id = `repo-card-${repo.name}`;
 
     if (streak) {
       const contributorsHTML = repo.contributors?.length
@@ -112,19 +136,22 @@ function renderRepos(repoWithStreaks) {
 
       listEl.appendChild(li);
 
-      if (charts.has(repo.name)) charts.get(repo.name).destroy();
-      const ctx = document.getElementById(`chart-${repo.name}`).getContext("2d");
-      const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
-      const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
+      if (!charts.has(repo.name)) {
+        const ctx = document.getElementById(`chart-${repo.name}`).getContext("2d");
+        const days = Array.from({ length: streak.daysActive }, (_, i) => `Day ${i + 1}`);
+        const commits = Array.from({ length: streak.daysActive }, () => Math.floor(Math.random() * 3) + 1);
 
-      const chart = new Chart(ctx, {
-        type: "bar",
-        data: { labels: days, datasets: [{ label: "Commits per day", data: commits, backgroundColor: "#4CAF50" }] },
-        options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
-      });
+        const chart = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: days,
+            datasets: [{ label: "Commits per day", data: commits, backgroundColor: "#4CAF50" }]
+          },
+          options: { responsive: true, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, stepSize: 1 } } }
+        });
 
-      charts.set(repo.name, chart);
-
+        charts.set(repo.name, chart);
+      }
     } else {
       li.innerHTML = `
         <div><a class="repo-link" href="${repo.html_url}" target="_blank">${repo.name}</a></div>

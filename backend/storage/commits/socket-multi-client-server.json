@@ -1,0 +1,37 @@
+[
+  {
+    "sha": "049b5234aca8960e9f85cd37dfc35517fcf635f6",
+    "message": "refactor",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-05-05T02:12:59Z",
+    "url": "https://github.com/college-of-mary-immaculate/socket-multi-client-server/commit/049b5234aca8960e9f85cd37dfc35517fcf635f6"
+  },
+  {
+    "sha": "157d5214d995a2961bd476d03069a31cf05cf236",
+    "message": "refactor",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-05-05T02:12:35Z",
+    "url": "https://github.com/college-of-mary-immaculate/socket-multi-client-server/commit/157d5214d995a2961bd476d03069a31cf05cf236"
+  },
+  {
+    "sha": "f8fbd3d2923cc74b084a35cbb6696f25f06eb992",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-05-05T01:56:16Z",
+    "url": "https://github.com/college-of-mary-immaculate/socket-multi-client-server/commit/f8fbd3d2923cc74b084a35cbb6696f25f06eb992"
+  },
+  {
+    "sha": "6d41fbfc80b417316286a6ca349155fd9424f0fc",
+    "message": "adding logs to server",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-05-05T01:55:59Z",
+    "url": "https://github.com/college-of-mary-immaculate/socket-multi-client-server/commit/6d41fbfc80b417316286a6ca349155fd9424f0fc"
+  },
+  {
+    "sha": "cb158607b435fc2bbe4507a13e60a2e7edd90713",
+    "message": "initial commit",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-05-05T01:50:52Z",
+    "url": "https://github.com/college-of-mary-immaculate/socket-multi-client-server/commit/cb158607b435fc2bbe4507a13e60a2e7edd90713"
+  }
+]

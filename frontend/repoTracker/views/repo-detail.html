@@ -31,59 +31,82 @@
     </div>
   </main>
 
-  <script type="module">
-    import { initTerminal } from "../../terminal.js"; // root path
+<script type="module">
 
-    const API_BASE = "http://localhost:4000";
-    let chartInstance = null;
-    let commitsData = [];
 
-    // Initialize terminal
-    const terminal = initTerminal({
-      onHighlight: (elements) => {
-        if (elements && elements.length) elements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+  import { initTerminal } from "../../terminal.js"; // root path
+
+  const API_BASE = "http://localhost:4000";
+  let chartInstance = null;
+  let commitsData = [];
+
+  // Initialize terminal
+  const terminal = initTerminal({
+    onHighlight: (elements) => {
+      if (elements && elements.length) elements[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  });
+
+  document.getElementById("fullscreen-btn").addEventListener("click", () => {
+    window.electronAPI.toggleFullscreen();
+  });
+
+  document.getElementById("back-btn").addEventListener("click", () => {
+    window.location.href = "./index.html";
+  });
+
+  function calculateStreak(commits) {
+    const commitDates = commits.map(c => new Date(c.date).toISOString().split("T")[0]);
+    const uniqueDates = [...new Set(commitDates)].sort().reverse();
+
+    let currentStreak = 0, longestStreak = 0, prevDate = null;
+    uniqueDates.forEach(d => {
+      if (!prevDate) { currentStreak = 1; longestStreak = 1; }
+      else {
+        const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
+        if (diff === 1) { currentStreak++; longestStreak = Math.max(longestStreak, currentStreak); }
+        else currentStreak = 1;
       }
+      prevDate = d;
     });
 
-    document.getElementById("fullscreen-btn").addEventListener("click", () => {
-      window.electronAPI.toggleFullscreen();
-    });
+    return {
+      currentStreak,
+      longestStreak,
+      totalCommits: commitDates.length,
+      daysActive: uniqueDates.length
+    };
+  }
 
-document.getElementById("back-btn").addEventListener("click", () => {
-  window.location.href = "./index.html";
-});
+  async function loadRepo(repoName) {
+    const statusEl = document.getElementById("status");
+    const errorEl = document.getElementById("error");
+    const statsEl = document.getElementById("repo-stats");
+    const chartEl = document.getElementById("repo-chart");
+    const commitListEl = document.getElementById("commit-list");
 
+    statusEl.style.display = "block";
+    statusEl.textContent = "Loading repo details...";
+    errorEl.style.display = "none";
 
-    async function loadRepo(repoName) {
-      const statusEl = document.getElementById("status");
-      const errorEl = document.getElementById("error");
-      const statsEl = document.getElementById("repo-stats");
-      const chartEl = document.getElementById("repo-chart");
-      const commitListEl = document.getElementById("commit-list");
+    try {
+      // Fetch repo metadata (contributors, created_at, etc)
+      const reposRes = await fetch(`${API_BASE}/repos`);
+      const repos = await reposRes.json();
+      const repo = repos.find(r => r.name === repoName);
+      if (!repo) throw new Error("Repo not found");
 
-      statusEl.style.display = "block";
-      statusEl.textContent = "Loading repo details...";
-      errorEl.style.display = "none";
+      // Fetch commits (cached by backend)
+      const commitsRes = await fetch(`${API_BASE}/commits/${repoName}`);
+      commitsData = await commitsRes.json();
 
-      try {
-        // Fetch repo
-        const reposRes = await fetch(`${API_BASE}/repos`);
-        const repos = await reposRes.json();
-        const repo = repos.find(r => r.name === repoName);
-        if (!repo) throw new Error("Repo not found");
+      // Compute streak locally
+      const streak = calculateStreak(commitsData);
 
-        // Fetch streak
-        const streakRes = await fetch(`${API_BASE}/streak/${repoName}`);
-        const streak = await streakRes.json();
+      // Set title
+      document.getElementById("repo-title").textContent = repo.name;
 
-        // Fetch commits
-        const commitsRes = await fetch(`${API_BASE}/commits/${repoName}`);
-        commitsData = await commitsRes.json();
-
-        // Set title
-        document.getElementById("repo-title").textContent = repo.name;
-
-        // Stats
+      // Stats
       const contributorsHTML = repo.contributors?.length
         ? `<div class="stat">👥 Contributors: ${
             repo.contributors.map(c => 
@@ -92,71 +115,72 @@ document.getElementById("back-btn").addEventListener("click", () => {
           }</div>`
         : "";
 
-        statsEl.innerHTML = `
-          <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
-          <div class="stat">🏆 Longest Streak: ${streak.longestStreak}</div>
-          <div class="stat">🗓 Days Active: ${streak.daysActive}</div>
-          <div class="stat">📦 Total Commits: ${streak.totalCommits}</div>
-          <div class="stat">🗓 Created: ${new Date(repo.created_at).toLocaleDateString()}</div>
-          <div class="stat">🕒 Last Commit: ${new Date(repo.updated_at).toLocaleDateString()}</div>
-          ${contributorsHTML}
-        `;
+      statsEl.innerHTML = `
+        <div class="stat">🔥 Current Streak: ${streak.currentStreak}</div>
+        <div class="stat">🏆 Longest Streak: ${streak.longestStreak}</div>
+        <div class="stat">🗓 Days Active: ${streak.daysActive}</div>
+        <div class="stat">📦 Total Commits: ${streak.totalCommits}</div>
+        <div class="stat">🗓 Created: ${new Date(repo.created_at).toLocaleDateString()}</div>
+        <div class="stat">🕒 Last Commit: ${new Date(repo.updated_at).toLocaleDateString()}</div>
+        ${contributorsHTML}
+      `;
 
-        // Prepare chart data
-        const commitsByDate = {};
-        commitsData.forEach(c => {
-          const day = new Date(c.date).toISOString().split("T")[0];
-          commitsByDate[day] = (commitsByDate[day] || 0) + 1;
-        });
-        const sortedDays = Object.keys(commitsByDate).sort();
-        const commitsPerDay = sortedDays.map(d => commitsByDate[d]);
+      // Chart data
+      const commitsByDate = {};
+      commitsData.forEach(c => {
+        const day = new Date(c.date).toISOString().split("T")[0];
+        commitsByDate[day] = (commitsByDate[day] || 0) + 1;
+      });
+      const sortedDays = Object.keys(commitsByDate).sort();
+      const commitsPerDay = sortedDays.map(d => commitsByDate[d]);
 
-        // Render chart
-        if (chartInstance) chartInstance.destroy();
-        const ctx = chartEl.getContext("2d");
-        chartInstance = new Chart(ctx, {
-          type: "bar",
-          data: { labels: sortedDays, datasets: [{ label: 'Commits per day', data: commitsPerDay, backgroundColor: '#4CAF50' }] },
-          options: {
-            responsive: true,
-            plugins: { legend: { display: false } },
-            scales: { y: { beginAtZero: true, stepSize: 1 } },
-            onClick: (evt, elements) => {
-              if (!elements.length) return;
-              const idx = elements[0].index;
-              const selectedDate = sortedDays[idx];
-              highlightCommits(selectedDate);
-            }
+      // Render chart
+      if (chartInstance) chartInstance.destroy();
+      const ctx = chartEl.getContext("2d");
+      chartInstance = new Chart(ctx, {
+        type: "bar",
+        data: { labels: sortedDays, datasets: [{ label: 'Commits per day', data: commitsPerDay, backgroundColor: '#4CAF50' }] },
+        options: {
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: { y: { beginAtZero: true, stepSize: 1 } },
+          onClick: (evt, elements) => {
+            if (!elements.length) return;
+            const idx = elements[0].index;
+            const selectedDate = sortedDays[idx];
+            highlightCommits(selectedDate);
           }
-        });
+        }
+      });
 
-        // Render commits
-        commitListEl.innerHTML = commitsData.map(c => `
-          <div class="commit-card" data-date="${new Date(c.date).toISOString().split("T")[0]}">
-            <div><strong>${c.sha.substring(0,7)}</strong> - ${c.message}</div>
-            <div>Author: ${c.author} | Date: ${new Date(c.date).toLocaleString()}</div>
-            <div><a href="${c.url}" target="_blank">View on GitHub</a></div>
-          </div>
-        `).join("");
+      // Render commits
+      commitListEl.innerHTML = commitsData.map(c => `
+        <div class="commit-card" data-date="${new Date(c.date).toISOString().split("T")[0]}">
+          <div><strong>${c.sha.substring(0,7)}</strong> - ${c.message}</div>
+          <div>Author: ${c.author} | Date: ${new Date(c.date).toLocaleString()}</div>
+          <div><a href="${c.url}" target="_blank">View on GitHub</a></div>
+        </div>
+      `).join("");
 
-      } catch (err) {
-        errorEl.style.display = "block";
-        errorEl.textContent = err.message;
-      } finally {
-        statusEl.style.display = "none";
-      }
+    } catch (err) {
+      errorEl.style.display = "block";
+      errorEl.textContent = err.message;
+    } finally {
+      statusEl.style.display = "none";
     }
+  }
 
-    function highlightCommits(date) {
-      const commitCards = Array.from(document.querySelectorAll(`#commit-list .commit-card`));
-      const toHighlight = commitCards.filter(el => el.dataset.date === date);
-      terminal.highlight(toHighlight);
-    }
+  function highlightCommits(date) {
+    const commitCards = Array.from(document.querySelectorAll(`#commit-list .commit-card`));
+    const toHighlight = commitCards.filter(el => el.dataset.date === date);
+    terminal.highlight(toHighlight);
+  }
 
-    // Load repo from query string
-    const params = new URLSearchParams(window.location.search);
-    const repoName = params.get("repo");
-    if (repoName) loadRepo(repoName);
-  </script>
+  // Load repo from query string
+  const params = new URLSearchParams(window.location.search);
+  const repoName = params.get("repo");
+  if (repoName) loadRepo(repoName);
+</script>
+
 </body>
 </html>

@@ -1,0 +1,205 @@
+[
+  {
+    "sha": "240cc218da43ccb91e367903df53f6553829a2c1",
+    "message": "updated exercise for dom",
+    "author": "John Aldrich Bernardo",
+    "date": "2022-10-04T12:41:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/240cc218da43ccb91e367903df53f6553829a2c1"
+  },
+  {
+    "sha": "278040b8cc1b3dba579ebb2abd6b20e1259e49fc",
+    "message": "added activities",
+    "author": "John Aldrich Bernardo",
+    "date": "2022-10-04T12:39:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/278040b8cc1b3dba579ebb2abd6b20e1259e49fc"
+  },
+  {
+    "sha": "9c82dba106012a4f37b43cc2a8a2d46370dce80a",
+    "message": "added variables activity",
+    "author": "John Aldrich Bernardo",
+    "date": "2022-10-03T13:23:25Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/9c82dba106012a4f37b43cc2a8a2d46370dce80a"
+  },
+  {
+    "sha": "38d9f407b1a9c3fc2b05df060192e3446d9ce996",
+    "message": "added upper case",
+    "author": "John Aldrich Bernardo",
+    "date": "2022-10-03T13:21:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/38d9f407b1a9c3fc2b05df060192e3446d9ce996"
+  },
+  {
+    "sha": "3fafa88aa0e50804310f22ad0295de18ca6563ec",
+    "message": "fix: update instruction",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-11-21T07:59:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/3fafa88aa0e50804310f22ad0295de18ca6563ec"
+  },
+  {
+    "sha": "64a98fb6fb4b34ec7cecc255ad758a87babd35c5",
+    "message": "feat: adding exercises",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-11-21T07:52:25Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/64a98fb6fb4b34ec7cecc255ad758a87babd35c5"
+  },
+  {
+    "sha": "e49b627d5fb40a4f8ee3a948d88253597ae3d5b5",
+    "message": "feat: simple restful",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-11-14T15:42:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/e49b627d5fb40a4f8ee3a948d88253597ae3d5b5"
+  },
+  {
+    "sha": "bd04516db0217082e7ae0aaec5d9b7573e2bb479",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-11-07T12:37:05Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/bd04516db0217082e7ae0aaec5d9b7573e2bb479"
+  },
+  {
+    "sha": "4005ca4c6e0614d1b32272812d007b434bebc1be",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-11-07T07:04:36Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/4005ca4c6e0614d1b32272812d007b434bebc1be"
+  },
+  {
+    "sha": "b12ced6643fd1acf96712d6a0c775fbc8f53304c",
+    "message": "Create README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-11-07T07:00:34Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/b12ced6643fd1acf96712d6a0c775fbc8f53304c"
+  },
+  {
+    "sha": "4131a32c3d88faab9b331a441a95918cac998f22",
+    "message": "feat: test page",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-11-04T12:29:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/4131a32c3d88faab9b331a441a95918cac998f22"
+  },
+  {
+    "sha": "70a1c578411c71c4c1b8db963c3849319760f48d",
+    "message": "fix: change example",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-10-31T09:23:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/70a1c578411c71c4c1b8db963c3849319760f48d"
+  },
+  {
+    "sha": "6ee0890339a0c62f200d15b33b20400dbf739cca",
+    "message": "fix: change example",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-10-31T07:26:56Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/6ee0890339a0c62f200d15b33b20400dbf739cca"
+  },
+  {
+    "sha": "843d50133eb4b7ab33096dd48939e331130e57e4",
+    "message": "feat: weatherapp activity",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-10-31T03:09:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/843d50133eb4b7ab33096dd48939e331130e57e4"
+  },
+  {
+    "sha": "06dfb4cb90a61946bb2927b21e3aefd00c7868eb",
+    "message": "fix: update tables",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-10-28T05:34:32Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/06dfb4cb90a61946bb2927b21e3aefd00c7868eb"
+  },
+  {
+    "sha": "35404c00247376fc493fda93b03a487afac2b1e8",
+    "message": "feat: restruct",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-10-28T05:32:15Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/35404c00247376fc493fda93b03a487afac2b1e8"
+  },
+  {
+    "sha": "416968ed5bf79f57ed333743d0ed061b6ca5e2a8",
+    "message": "feat: promises/async/await",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-10-23T07:05:32Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/416968ed5bf79f57ed333743d0ed061b6ca5e2a8"
+  },
+  {
+    "sha": "39edc246b9ae801c8855a0e1adfe8d4dec540a15",
+    "message": "feat: adding examples",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-10-22T12:18:07Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/39edc246b9ae801c8855a0e1adfe8d4dec540a15"
+  },
+  {
+    "sha": "cd9c18ddb88e5eaac9b402298be908d9777f1094",
+    "message": "add functions",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T05:36:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/cd9c18ddb88e5eaac9b402298be908d9777f1094"
+  },
+  {
+    "sha": "a02a6619dd2d49bba761b556157df87493bf2f1c",
+    "message": "add operators",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T04:38:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/a02a6619dd2d49bba761b556157df87493bf2f1c"
+  },
+  {
+    "sha": "3c354c9c4ea0e25805688739f1a0429226bb854c",
+    "message": "operators",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T04:37:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/3c354c9c4ea0e25805688739f1a0429226bb854c"
+  },
+  {
+    "sha": "68542cc838403ed4a8e4c128e760cafd273f9eb8",
+    "message": "update readme",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T03:50:17Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/68542cc838403ed4a8e4c128e760cafd273f9eb8"
+  },
+  {
+    "sha": "e4dcca4f2d1418df88db3530cedb33c70a68725d",
+    "message": "adding data types",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T03:46:39Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/e4dcca4f2d1418df88db3530cedb33c70a68725d"
+  },
+  {
+    "sha": "d38b4139b0dcb4778039701987c64209a96f4f6f",
+    "message": "adding variables",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T03:19:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/d38b4139b0dcb4778039701987c64209a96f4f6f"
+  },
+  {
+    "sha": "867044f7acbac11d782f7b1a0b972e598794c80b",
+    "message": "fix style",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T02:51:09Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/867044f7acbac11d782f7b1a0b972e598794c80b"
+  },
+  {
+    "sha": "aea0959373e31e62a1ce79b764a2cf742cbc34a3",
+    "message": "fix for pascal case",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T02:48:04Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/aea0959373e31e62a1ce79b764a2cf742cbc34a3"
+  },
+  {
+    "sha": "4f0ffc7d7a9b21cdde027e204f434100210408b5",
+    "message": "fix links",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T02:44:42Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/4f0ffc7d7a9b21cdde027e204f434100210408b5"
+  },
+  {
+    "sha": "87c0b42e6eab5ef481531cf235e1f2763bae570f",
+    "message": "add readme",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T02:42:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/87c0b42e6eab5ef481531cf235e1f2763bae570f"
+  },
+  {
+    "sha": "ea81361b8a9e6dc6b3e602e89d1c7582e3f6431a",
+    "message": "initial commit",
+    "author": "John Aldrich Bernardo",
+    "date": "2020-09-23T01:55:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/JavaScript/commit/ea81361b8a9e6dc6b3e602e89d1c7582e3f6431a"
+  }
+]

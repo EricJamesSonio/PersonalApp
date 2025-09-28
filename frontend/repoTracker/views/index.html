@@ -31,13 +31,19 @@
       <button onclick="goBack()">⬅ Back</button>
     </div>
 
-    <!-- ✅ Move filter/sort controls inside header -->
+    <!-- ✅ Controls wrapped & header closed properly -->
     <div class="controls">
       <input type="text" id="search-box" placeholder="🔎 Search by name...">
       <select id="sort-select">
         <option value="alpha">🔤 Alphabetical (A-Z)</option>
         <option value="date">📅 Creation Date (Newest First)</option>
         <option value="commits">🔥 Highest Commits</option>
+      </select> 
+
+      <select id="repo-filter">
+        <option value="mine" selected>🙋 My & Contributed</option>
+        <option value="all">🌐 All Repos</option>
+        <option value="org">🏢 Organizations</option>
       </select>
     </div>
   </header>

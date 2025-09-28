@@ -7,6 +7,7 @@ const { formatDate } = require("../utils");
 const router = express.Router();
 
 const CACHE_FILE = path.join(__dirname, "../storage/repos.json");
+const COMMITS_DIR = path.join(__dirname, "../storage/commits");
 const GITHUB_API = "https://api.github.com";
 const USER = process.env.GITHUB_USER;
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -15,7 +16,32 @@ const ORG_OWNER = "college-of-mary-immaculate";
 if (!USER || !TOKEN) console.error("❌ Missing GITHUB_USER or GITHUB_TOKEN in .env file!");
 else console.log("✅ GitHub env loaded:", USER);
 
-// --- Helpers to read/write cache ---
+// --- Helpers ---
+async function ensureCommitsDir() {
+  try { await fs.mkdir(COMMITS_DIR, { recursive: true }); } catch {}
+}
+
+function getCommitFileName(repo, owner) {
+  // safe filename: owner__repo.json
+  return path.join(COMMITS_DIR, `${owner}__${repo}.json`);
+}
+
+async function saveCommits(repo, owner, commits) {
+  await ensureCommitsDir();
+  const file = getCommitFileName(repo, owner);
+  await fs.writeFile(file, JSON.stringify(commits, null, 2), "utf-8");
+}
+
+async function loadCommits(repo, owner) {
+  try {
+    const file = getCommitFileName(repo, owner);
+    const data = await fs.readFile(file, "utf-8");
+    return JSON.parse(data);
+  } catch {
+    return null;
+  }
+}
+
 async function saveCache(data) {
   try { await fs.writeFile(CACHE_FILE, JSON.stringify(data, null, 2), "utf-8"); }
   catch (err) { console.error("❌ Error saving cache:", err); }
@@ -28,7 +54,6 @@ async function loadCache() {
   } catch { return null; }
 }
 
-// --- GitHub fetch with token ---
 async function githubFetch(url) {
   const res = await fetch(url, { headers: { Authorization: `token ${TOKEN}` } });
   const data = await res.json();
@@ -36,7 +61,7 @@ async function githubFetch(url) {
   return { ok: res.ok, data };
 }
 
-// --- Fetch repos from GitHub ---
+// --- Fetch repos ---
 let cachedRepos = null;
 async function getCombinedRepos() {
   if (cachedRepos) return cachedRepos;
@@ -50,44 +75,29 @@ async function getCombinedRepos() {
 
   const combined = [...(userOk ? userRepos : []), ...(orgOk ? orgRepos : [])];
   const uniqueMap = new Map();
-  combined.forEach(r => { if (r.full_name && !uniqueMap.has(r.full_name)) uniqueMap.set(r.full_name, r); });
+  combined.forEach(r => {
+    if (r.full_name && !uniqueMap.has(r.full_name)) uniqueMap.set(r.full_name, r);
+  });
 
   cachedRepos = Array.from(uniqueMap.values());
   return cachedRepos;
 }
 
-// --- Enrich repos with contributors + streaks ---
+// --- Enrich repos (contributors + streaks) ---
 async function enrichRepos(repos) {
   return await Promise.all(
     repos.map(async repo => {
-      // Fetch contributors
-      const { ok, data } = await githubFetch(`${GITHUB_API}/repos/${repo.owner.login}/${repo.name}/contributors`);
+      const { ok, data } = await githubFetch(
+        `${GITHUB_API}/repos/${repo.owner.login}/${repo.name}/contributors`
+      );
       if (!ok) return null;
 
       const contributors = Array.isArray(data)
         ? data.map(c => ({ login: c.login, contributions: c.contributions }))
         : [];
 
-      // Fetch commits to calculate streak
-      const { ok: commitsOk, data: commitsData } = await githubFetch(
-        `${GITHUB_API}/repos/${repo.owner.login}/${repo.name}/commits?per_page=100`
-      );
-      let streak = null;
-      if (commitsOk && Array.isArray(commitsData)) {
-        const commitDates = commitsData.map(c => formatDate(c.commit.author.date));
-        const uniqueDates = [...new Set(commitDates)].sort().reverse();
-        let currentStreak = 0, longestStreak = 0, prevDate = null;
-        uniqueDates.forEach(d => {
-          if (!prevDate) { currentStreak = 1; longestStreak = 1; }
-          else {
-            const diff = (new Date(prevDate) - new Date(d)) / (1000*60*60*24);
-            if (diff === 1) { currentStreak++; longestStreak = Math.max(longestStreak, currentStreak); }
-            else currentStreak = 1;
-          }
-          prevDate = d;
-        });
-        streak = { currentStreak, longestStreak, totalCommits: commitDates.length, daysActive: uniqueDates.length };
-      }
+      // streak data
+      const streak = await calculateStreak(repo.name, repo.owner.login);
 
       return {
         name: repo.name,
@@ -97,15 +107,76 @@ async function enrichRepos(repos) {
         size: repo.size,
         created_at: repo.created_at,
         updated_at: repo.pushed_at,
+        owner: repo.owner,
         contributors,
         streak,
+        isOwner: repo.owner.login.toLowerCase() === USER.toLowerCase(),
+        isContributor: contributors.some(
+          c => c.login.toLowerCase() === USER.toLowerCase()
+        )
       };
     })
   ).then(arr => arr.filter(r => r));
 }
 
+// --- helper to compute streak ---
+async function calculateStreak(repo, owner) {
+  await ensureCommitsDir();
 
-// --- GET /repos (use cache if exists) ---
+  let commits = await loadCommits(repo, owner);
+  if (!commits) {
+    let all = [], page = 1, perPage = 100;
+    while (true) {
+      const { ok, data } = await githubFetch(
+        `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
+      );
+      if (!ok || !Array.isArray(data) || data.length === 0) break;
+      all = all.concat(data);
+      if (data.length < perPage) break;
+      page++;
+    }
+
+    commits = all.map(c => ({
+      sha: c.sha,
+      message: c.commit.message,
+      author: c.commit.author.name,
+      date: c.commit.author.date,
+      url: c.html_url
+    }));
+
+    await saveCommits(repo, owner, commits);
+  }
+
+  const commitDates = commits.map(c => formatDate(c.date));
+  const uniqueDates = [...new Set(commitDates)].sort().reverse();
+
+  let currentStreak = 0, longestStreak = 0, prevDate = null;
+  uniqueDates.forEach(d => {
+    if (!prevDate) {
+      currentStreak = 1;
+      longestStreak = 1;
+    } else {
+      const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
+      if (diff === 1) {
+        currentStreak++;
+        longestStreak = Math.max(longestStreak, currentStreak);
+      } else {
+        currentStreak = 1;
+      }
+    }
+    prevDate = d;
+  });
+
+  return {
+    repo,
+    currentStreak,
+    longestStreak,
+    totalCommits: commitDates.length,
+    daysActive: uniqueDates.length
+  };
+}
+
+// --- /repos (cache) ---
 router.get("/repos", async (req, res) => {
   try {
     const cached = await loadCache();
@@ -119,7 +190,6 @@ router.get("/repos", async (req, res) => {
   } catch (err) { res.status(500).json({ error: err.message }); }
 });
 
-// --- GET /repos/refresh (force fetch & update cache) ---
 router.get("/repos/refresh", async (req, res) => {
   try {
     cachedRepos = null;
@@ -131,69 +201,25 @@ router.get("/repos/refresh", async (req, res) => {
   } catch (err) { res.status(500).json({ error: err.message }); }
 });
 
-// --- GET /streak/:repo (cache commits per repo) ---
-const commitCache = {}; // in-memory per repo
-
-router.get("/streak/:repo", async (req, res) => {
-  try {
-    const { repo } = req.params;
-
-    // check commit cache first
-    if (commitCache[repo]) return res.json(commitCache[repo]);
-
-    const allRepos = await getCombinedRepos();
-    const match = allRepos.find(r => r.name === repo);
-    if (!match) return res.status(404).json({ error: "Repo not found" });
-
-    const owner = match.owner.login;
-    const { ok, data: commits } = await githubFetch(`${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=100`);
-    if (!ok || !Array.isArray(commits)) return res.status(500).json({ error: "Unable to fetch commits" });
-
-    const commitDates = commits.map(c => formatDate(c.commit.author.date));
-    const uniqueDates = [...new Set(commitDates)].sort().reverse();
-
-    let currentStreak = 0, longestStreak = 0, prevDate = null;
-    uniqueDates.forEach(d => {
-      if (!prevDate) { currentStreak = 1; longestStreak = 1; }
-      else {
-        const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
-        if (diff === 1) { currentStreak++; longestStreak = Math.max(longestStreak, currentStreak); }
-        else currentStreak = 1;
-      }
-      prevDate = d;
-    });
-
-    const streakData = {
-      owner,
-      repo,
-      currentStreak,
-      longestStreak,
-      totalCommits: commitDates.length,
-      daysActive: uniqueDates.length
-    };
-
-    commitCache[repo] = streakData; // cache in memory
-    res.json(streakData);
-  } catch (err) { res.status(500).json({ error: err.message }); }
-});
-
-// --- GET /commits/:repo (cache per repo) ---
-const fullCommitCache = {}; // in-memory cache
-
+// --- /commits/:repo ---
 router.get("/commits/:repo", async (req, res) => {
   try {
     const { repo } = req.params;
-    if (fullCommitCache[repo]) return res.json(fullCommitCache[repo]);
 
     const allRepos = await getCombinedRepos();
     const match = allRepos.find(r => r.name === repo);
     if (!match) return res.status(404).json({ error: "Repo not found" });
 
     const owner = match.owner.login;
-    let commits = [], page = 1, perPage = 100;
 
+    const cached = await loadCommits(repo, owner);
+    if (cached) return res.json(cached);
+
+    let commits = [], page = 1, perPage = 100;
     while (true) {
-      const { ok, data } = await githubFetch(`${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`);
+      const { ok, data } = await githubFetch(
+        `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
+      );
       if (!ok || !Array.isArray(data) || data.length === 0) break;
       commits = commits.concat(data);
       if (data.length < perPage) break;
@@ -208,9 +234,75 @@ router.get("/commits/:repo", async (req, res) => {
       url: c.html_url
     }));
 
-    fullCommitCache[repo] = simplified; // cache in memory
+    await saveCommits(repo, owner, simplified);
     res.json(simplified);
   } catch (err) { res.status(500).json({ error: err.message }); }
+});
+
+// --- /streak/:repo ---
+router.get("/streak/:repo", async (req, res) => {
+  try {
+    const { repo } = req.params;
+    const allRepos = await getCombinedRepos();
+    const match = allRepos.find(r => r.name === repo);
+    if (!match) return res.status(404).json({ error: "Repo not found" });
+
+    const owner = match.owner.login;
+    let commits = await loadCommits(repo, owner);
+
+    if (!commits) {
+      let all = [], page = 1, perPage = 100;
+      while (true) {
+        const { ok, data } = await githubFetch(
+          `${GITHUB_API}/repos/${owner}/${repo}/commits?per_page=${perPage}&page=${page}`
+        );
+        if (!ok || !Array.isArray(data) || data.length === 0) break;
+        all = all.concat(data);
+        if (data.length < perPage) break;
+        page++;
+      }
+
+      commits = all.map(c => ({
+        sha: c.sha,
+        message: c.commit.message,
+        author: c.commit.author.name,
+        date: c.commit.author.date,
+        url: c.html_url
+      }));
+
+      await saveCommits(repo, owner, commits);
+    }
+
+    const commitDates = commits.map(c => formatDate(c.date));
+    const uniqueDates = [...new Set(commitDates)].sort().reverse();
+
+    let currentStreak = 0, longestStreak = 0, prevDate = null;
+    uniqueDates.forEach(d => {
+      if (!prevDate) {
+        currentStreak = 1;
+        longestStreak = 1;
+      } else {
+        const diff = (new Date(prevDate) - new Date(d)) / (1000 * 60 * 60 * 24);
+        if (diff === 1) {
+          currentStreak++;
+          longestStreak = Math.max(longestStreak, currentStreak);
+        } else {
+          currentStreak = 1;
+        }
+      }
+      prevDate = d;
+    });
+
+    res.json({
+      repo,
+      currentStreak,
+      longestStreak,
+      totalCommits: commitDates.length,
+      daysActive: uniqueDates.length
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 module.exports = router;

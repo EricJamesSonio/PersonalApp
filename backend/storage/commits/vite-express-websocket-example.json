@@ -1,0 +1,65 @@
+[
+  {
+    "sha": "48b9e48ae6707598128bb4187e8b3260dfc81927",
+    "message": "fix: turn-off indexing on static files",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-15T10:45:17Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/48b9e48ae6707598128bb4187e8b3260dfc81927"
+  },
+  {
+    "sha": "a8a95c1c935b14176e0cc9d66ed41f57e8809384",
+    "message": "fix: missing await",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-15T09:05:46Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/a8a95c1c935b14176e0cc9d66ed41f57e8809384"
+  },
+  {
+    "sha": "047da0598faaabe2fc3e9798d3d7572e0cc6dbf2",
+    "message": "fix: merge conflicts",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-14T23:53:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/047da0598faaabe2fc3e9798d3d7572e0cc6dbf2"
+  },
+  {
+    "sha": "a72a3f9739ab38d1c91140724c3d6ae3f918f195",
+    "message": "chore: lock deps version",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-14T23:47:44Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/a72a3f9739ab38d1c91140724c3d6ae3f918f195"
+  },
+  {
+    "sha": "cc187fefa4050574064ae1cb5f18a7e0e0ece56e",
+    "message": ":construction: restructure",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-14T23:44:30Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/cc187fefa4050574064ae1cb5f18a7e0e0ece56e"
+  },
+  {
+    "sha": "2c4e5900e278ad0d7d49b3b8cb4de8133daf2bf3",
+    "message": "fix: update import for react-router-dom",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-13T15:32:08Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/2c4e5900e278ad0d7d49b3b8cb4de8133daf2bf3"
+  },
+  {
+    "sha": "d33d9538e708112462d8c16248e71e1901882be9",
+    "message": "fix: ssr routes",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-10T15:18:32Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/d33d9538e708112462d8c16248e71e1901882be9"
+  },
+  {
+    "sha": "4a28cb99420842819b0c5f3b0f0913a90544d17f",
+    "message": "add router and socket hook",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-10T14:50:14Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/4a28cb99420842819b0c5f3b0f0913a90544d17f"
+  },
+  {
+    "sha": "9cd6cef8cf533644163d8388d4c47210431afd83",
+    "message": ":rocket: initial commit",
+    "author": "John Aldrich Bernardo",
+    "date": "2025-03-09T11:18:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/vite-express-websocket-example/commit/9cd6cef8cf533644163d8388d4c47210431afd83"
+  }
+]

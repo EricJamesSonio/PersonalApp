@@ -1,0 +1,149 @@
+[
+  {
+    "sha": "2fdba3083051e3a265224081ed8b07a8ba040074",
+    "message": "Create LICENSE",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-15T12:40:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/2fdba3083051e3a265224081ed8b07a8ba040074"
+  },
+  {
+    "sha": "1c1fd6e67aae18b28140da9791537a3f0f188617",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-04T12:38:34Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/1c1fd6e67aae18b28140da9791537a3f0f188617"
+  },
+  {
+    "sha": "5dd711b6bacfb58911582152fbc08ebdf510a54a",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-10-04T12:36:17Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/5dd711b6bacfb58911582152fbc08ebdf510a54a"
+  },
+  {
+    "sha": "790414b8d0d23df0754e820c0a178694da5f6496",
+    "message": "Update db.sql",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-30T14:33:38Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/790414b8d0d23df0754e820c0a178694da5f6496"
+  },
+  {
+    "sha": "0c04b2b92af1eb25f4622218f95d7c85513b8d31",
+    "message": "make username unique",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-30T14:25:18Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/0c04b2b92af1eb25f4622218f95d7c85513b8d31"
+  },
+  {
+    "sha": "ec2f75d87eba21296ad4a457e2160f12f24c7420",
+    "message": "pull information from db and err handlers",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-30T14:21:11Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/ec2f75d87eba21296ad4a457e2160f12f24c7420"
+  },
+  {
+    "sha": "55200ea32b76e64e6c97691731a6eb3bfe1da3b2",
+    "message": "Merge branch 'main' of github.com:college-of-mary-immaculate/appsdev-api-template",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-27T22:45:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/55200ea32b76e64e6c97691731a6eb3bfe1da3b2"
+  },
+  {
+    "sha": "30bb3bbf39273ba6cc2c47c4c07a807bbb0dad7b",
+    "message": "express type annotations",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-27T22:45:01Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/30bb3bbf39273ba6cc2c47c4c07a807bbb0dad7b"
+  },
+  {
+    "sha": "e6599ca34c78666cff7f4083f83c341bc52605a9",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T23:51:10Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/e6599ca34c78666cff7f4083f83c341bc52605a9"
+  },
+  {
+    "sha": "c2eaeda2d52e9eecb4aed94556581a0bed7757fb",
+    "message": "rename model and fix header sent",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T23:49:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/c2eaeda2d52e9eecb4aed94556581a0bed7757fb"
+  },
+  {
+    "sha": "f55b16a3ebe5a5923b33de8056cc9e07a95ec760",
+    "message": "Merge branch 'main' of github.com:college-of-mary-immaculate/appsdev-api-template",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T13:36:23Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/f55b16a3ebe5a5923b33de8056cc9e07a95ec760"
+  },
+  {
+    "sha": "86d909b85edf9b78aaa580935262704ce50c5bf5",
+    "message": "remove log",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T13:36:13Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/86d909b85edf9b78aaa580935262704ce50c5bf5"
+  },
+  {
+    "sha": "bd88f438925d2d82b1847d74d01456b4d5b3eccd",
+    "message": "update account endpoint",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T13:34:57Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/bd88f438925d2d82b1847d74d01456b4d5b3eccd"
+  },
+  {
+    "sha": "29fa9293d5b76dbf83887a351d8fd068e50343c2",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T13:32:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/29fa9293d5b76dbf83887a351d8fd068e50343c2"
+  },
+  {
+    "sha": "666ba70ad4949059cc83106e6f3923aacf9e5ed8",
+    "message": "Merge branch 'main' of github.com:college-of-mary-immaculate/appsdev-api-template",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T13:12:26Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/666ba70ad4949059cc83106e6f3923aacf9e5ed8"
+  },
+  {
+    "sha": "d02701f8f9751fdc12ceddfb3256739615966abf",
+    "message": ":card_file_box: introduce mysql connection",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-23T13:11:58Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/d02701f8f9751fdc12ceddfb3256739615966abf"
+  },
+  {
+    "sha": "f54ef728c7dfaa149768a640bdf9264c292d48fa",
+    "message": "Create README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-22T13:55:55Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/f54ef728c7dfaa149768a640bdf9264c292d48fa"
+  },
+  {
+    "sha": "c0a634a681a661e08371673ebd346f45489628a0",
+    "message": "adding min node version",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-22T13:33:10Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/c0a634a681a661e08371673ebd346f45489628a0"
+  },
+  {
+    "sha": "d6e1fa49e072aa2e9787d408aedcb860e5f32855",
+    "message": ":building_construction: adding example login with jwt",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-22T13:24:21Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/d6e1fa49e072aa2e9787d408aedcb860e5f32855"
+  },
+  {
+    "sha": "9ed9452602e8224000d43cf58e2c405c40d0a81e",
+    "message": ":building_construction: body parser",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-21T17:15:06Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/9ed9452602e8224000d43cf58e2c405c40d0a81e"
+  },
+  {
+    "sha": "80a965d72be8b6b3258adc1603504c211809b9a4",
+    "message": ":building_construction: initial commit",
+    "author": "John Aldrich Bernardo",
+    "date": "2024-09-21T16:25:28Z",
+    "url": "https://github.com/college-of-mary-immaculate/appsdev-api-template/commit/80a965d72be8b6b3258adc1603504c211809b9a4"
+  }
+]

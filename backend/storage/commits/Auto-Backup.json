@@ -1,0 +1,51 @@
+[
+  {
+    "sha": "922c23a4a357898bf8985272cb9fb9aba4ec4626",
+    "message": "change mainfile to main.py",
+    "author": "DietherPano",
+    "date": "2024-09-02T05:15:20Z",
+    "url": "https://github.com/college-of-mary-immaculate/Auto-Backup/commit/922c23a4a357898bf8985272cb9fb9aba4ec4626"
+  },
+  {
+    "sha": "ba136c2c62f02b2268a045d4fb2673f9a5d9cac3",
+    "message": ":package:",
+    "author": "DietherPano",
+    "date": "2024-09-02T05:09:12Z",
+    "url": "https://github.com/college-of-mary-immaculate/Auto-Backup/commit/ba136c2c62f02b2268a045d4fb2673f9a5d9cac3"
+  },
+  {
+    "sha": "5c30cfda81b5968a86b1f742d217876ed80f9575",
+    "message": "Delete automation1.py",
+    "author": "Diether Pano",
+    "date": "2024-09-02T05:08:45Z",
+    "url": "https://github.com/college-of-mary-immaculate/Auto-Backup/commit/5c30cfda81b5968a86b1f742d217876ed80f9575"
+  },
+  {
+    "sha": "6eb54ab0a41d088c4dc079a4fcb0bb8332fc1a16",
+    "message": "Update README.md",
+    "author": "Diether Pano",
+    "date": "2024-09-02T05:03:40Z",
+    "url": "https://github.com/college-of-mary-immaculate/Auto-Backup/commit/6eb54ab0a41d088c4dc079a4fcb0bb8332fc1a16"
+  },
+  {
+    "sha": "272b81cbe1194828be7ca7b181a5940cbd813829",
+    "message": "Update README.md",
+    "author": "Diether Pano",
+    "date": "2024-09-02T05:01:32Z",
+    "url": "https://github.com/college-of-mary-immaculate/Auto-Backup/commit/272b81cbe1194828be7ca7b181a5940cbd813829"
+  },
+  {
+    "sha": "aabb511c56305e73afd62dfff8d57c14b5340d4b",
+    "message": ":package:",
+    "author": "DietherPano",
+    "date": "2024-09-02T04:59:06Z",
+    "url": "https://github.com/college-of-mary-immaculate/Auto-Backup/commit/aabb511c56305e73afd62dfff8d57c14b5340d4b"
+  },
+  {
+    "sha": "12f82ce292bf1817184dccb23bdcb7163566e8d1",
+    "message": "Initial commit",
+    "author": "Diether Pano",
+    "date": "2024-09-02T04:53:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/Auto-Backup/commit/12f82ce292bf1817184dccb23bdcb7163566e8d1"
+  }
+]

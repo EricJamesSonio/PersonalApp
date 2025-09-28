@@ -1,0 +1,37 @@
+[
+  {
+    "sha": "2774b89aa3f6489dec1295b4d5005e268b59ca32",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2023-01-15T13:35:49Z",
+    "url": "https://github.com/college-of-mary-immaculate/docker-example-with-react/commit/2774b89aa3f6489dec1295b4d5005e268b59ca32"
+  },
+  {
+    "sha": "57c74c7d5c0f3863c01da5d7da6b799076a3cbfc",
+    "message": "Update README.md",
+    "author": "John Aldrich Bernardo",
+    "date": "2023-01-15T13:27:42Z",
+    "url": "https://github.com/college-of-mary-immaculate/docker-example-with-react/commit/57c74c7d5c0f3863c01da5d7da6b799076a3cbfc"
+  },
+  {
+    "sha": "4cf09f10221ba1051fa5427f23e801b629267d7d",
+    "message": "update example",
+    "author": "John Aldrich Bernardo",
+    "date": "2023-01-08T10:11:54Z",
+    "url": "https://github.com/college-of-mary-immaculate/docker-example-with-react/commit/4cf09f10221ba1051fa5427f23e801b629267d7d"
+  },
+  {
+    "sha": "e94c1a3278726bfa1192a19502a30e96bea6040d",
+    "message": "adding docker files",
+    "author": "John Aldrich Bernardo",
+    "date": "2023-01-07T11:12:37Z",
+    "url": "https://github.com/college-of-mary-immaculate/docker-example-with-react/commit/e94c1a3278726bfa1192a19502a30e96bea6040d"
+  },
+  {
+    "sha": "a0999f6af15c77d07a16d736aced4beb4c6e077c",
+    "message": "Initialize project using Create React App",
+    "author": "John Aldrich Bernardo",
+    "date": "2023-01-07T10:47:06Z",
+    "url": "https://github.com/college-of-mary-immaculate/docker-example-with-react/commit/a0999f6af15c77d07a16d736aced4beb4c6e077c"
+  }
+]
