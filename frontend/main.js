@@ -19,13 +19,19 @@ function createMainWindow() {
   // Start maximized
   mainWin.maximize();
 
+  // Toggle fullscreen
   ipcMain.on("toggle-fullscreen", () => {
     if (mainWin) mainWin.setFullScreen(!mainWin.isFullScreen());
   });
 
+  // Open module in the same window
   ipcMain.on("open-module", (event, modulePath) => {
-    // Load module HTML into the same window
     mainWin.loadFile(path.join(__dirname, modulePath, "views/index.html"));
+  });
+
+  // Exit app when ❌ Exit button clicked
+  ipcMain.on("app-exit", () => {
+    app.quit();
   });
 }
 

@@ -9,8 +9,8 @@
   <header>
     <h1>🛠 Main App Menu</h1>
     <div class="header-buttons">
-      <button>⚙ Settings</button>
-      <button>❌ Exit</button>
+      <button id="settings-btn">⚙ Settings</button>
+      <button id="exit-btn">❌ Exit</button>
     </div>
   </header>
 
@@ -48,11 +48,22 @@
     });
   </script>
 
-  <script>
-    const { ipcRenderer } = require('electron');
-    function openModule(modulePath) {
-      ipcRenderer.send('open-module', modulePath);
-    }
-  </script>
+<script>
+  // Exit app
+  document.getElementById("exit-btn").addEventListener("click", () => {
+    window.electronAPI.exitApp();
+  });
+
+  // Settings placeholder
+  document.getElementById("settings-btn").addEventListener("click", () => {
+    alert("Settings will be implemented soon!");
+  });
+
+  // Open module
+  function openModule(modulePath) {
+    window.electronAPI.openModule(modulePath);
+  }
+</script>
+
 </body>
 </html>
