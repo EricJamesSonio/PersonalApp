@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "1.0.0",
   "description": "Dev Tracker Electron App",
-  "main": "main.js",
+  "main": "core/main.js",
   "scripts": {
     "start": "electron ."
   },

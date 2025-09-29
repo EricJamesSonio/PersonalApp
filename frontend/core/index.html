@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Main Menu</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="designs/styles.css">
 </head>
 <body>
   <header>
@@ -36,17 +36,31 @@
     </section>
   </main>
 
-  <!-- Load terminal.js globally -->
-  <script type="module">
-    import { initTerminal } from "./terminal.js"; 
-
-    // Initialize once for this page
-    const terminal = initTerminal({
-      onHighlight: (elements) => {
-        console.log("Highlight triggered on main menu", elements);
-      }
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    // Always go through preload’s queue-safe wrapper
+    window.electronAPI.initTerminal({
+      onHighlight: (elements) => console.log(elements)
     });
-  </script>
+  });
+
+  // Exit app
+  document.getElementById("exit-btn").addEventListener("click", () => {
+    window.electronAPI.exitApp();
+  });
+
+  // Settings placeholder
+  document.getElementById("settings-btn").addEventListener("click", () => {
+    alert("Settings will be implemented soon!");
+  });
+
+  // Open module
+  function openModule(modulePath) {
+    window.electronAPI.openModule(modulePath);
+  }
+</script>
+
+
 
 <script>
   // Exit app

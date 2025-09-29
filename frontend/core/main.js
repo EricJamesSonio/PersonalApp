@@ -9,14 +9,16 @@ function createMainWindow() {
     height: 800,
     resizable: true,
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"), // always inject preload
+      preload: path.join(__dirname, "preload.js"), // frontend/core/preload.js
+      contextIsolation: true,
+      nodeIntegration: false,
+      sandbox: false
     },
   });
 
+  // Landing page = frontend/core/index.html
   mainWin.loadFile(path.join(__dirname, "index.html"));
   mainWin.setMenuBarVisibility(false);
-
-  // Start maximized
   mainWin.maximize();
 
   // IPC handlers
@@ -24,33 +26,36 @@ function createMainWindow() {
     if (mainWin) mainWin.setFullScreen(!mainWin.isFullScreen());
   });
 
-  ipcMain.on("open-module", (event, modulePath) => {
-    // modulePath = "Frontend/noteTracker" or "Frontend/repoTracker"
-    const filePath = path.join(__dirname, modulePath, "views/index.html");
-    console.log("Opening module:", filePath); // 🔎 debug
+  ipcMain.on("open-module", (event, moduleName) => {
+    // Example: moduleName = "noteTracker" or "repoTracker"
+    const filePath = path.join(
+      __dirname,
+      "..",              // out of core/
+      "modules",
+      moduleName,
+      "views",
+      "index.html"
+    );
+    console.log("Opening module:", filePath);
     mainWin.loadFile(filePath);
   });
 
-  ipcMain.on("app-exit", () => {
-    app.quit();
-  });
+  ipcMain.on("app-exit", () => app.quit());
 }
 
 app.whenReady().then(() => {
   createMainWindow();
 
-  // Shortcut: open real Chromium DevTools with Ctrl+Shift+I
   globalShortcut.register("CommandOrControl+Shift+I", () => {
     if (mainWin) {
       if (mainWin.webContents.isDevToolsOpened()) {
         mainWin.webContents.closeDevTools();
       } else {
-        mainWin.webContents.openDevTools({ mode: "detach" }); // open in separate window
+        mainWin.webContents.openDevTools({ mode: "detach" });
       }
     }
   });
 
-  // Hide default app menu (you can remove this line to get the default DevTools shortcut back)
   const menu = Menu.buildFromTemplate([]);
   Menu.setApplicationMenu(menu);
 });

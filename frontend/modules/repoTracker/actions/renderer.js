@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:4000"; 
+const API_BASE = window.electronAPI.API_BASE;
 const charts = new Map(); // repo.full_name → Chart instance
 let allRepos = []; // store cached repos with streaks
 
@@ -107,7 +107,7 @@ function applyFilters() {
       viewBtn.className = "view-full-btn";
       viewBtn.addEventListener("click", () => {
         // ✅ pass full_name instead of name
-        window.location.href = `./repo-detail.html?repo=${encodeURIComponent(repo.full_name)}`;
+        window.location.href = `./repodetail.html?repo=${encodeURIComponent(repo.full_name)}`;
       });
       statsDiv.appendChild(viewBtn);
 

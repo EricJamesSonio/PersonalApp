@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 
 const githubRoutes = require("./github/github");
 const commandRoutes = require("./commands/commands");
@@ -20,5 +21,10 @@ app.get("/", (req, res) => {
   res.send("✅ Tracker Backend running! Try /repos or /api/commands");
 });
 
+// Serve everything inside frontend/core (landing + assets)
+app.use(express.static(path.join(__dirname, "..", "frontend", "core")));
+
 // Start server
-app.listen(PORT, () => console.log(`Backend running at http://localhost:${PORT}`));
+app.listen(PORT, () =>
+  console.log(`Backend running at http://localhost:${PORT}`)
+);

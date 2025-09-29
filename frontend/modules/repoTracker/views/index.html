@@ -47,7 +47,6 @@
       </select>
 
       <button onclick="window.location.href='./profile.html'">👤 Profile</button>
-
     </div>
   </header>
 
@@ -61,11 +60,15 @@
     function goBack() {
       window.location.href = "../../index.html";
     }
-  </script>
 
-  <script type="module">
-    import { initTerminal } from "../../terminal.js";
-    initTerminal({});
+    window.addEventListener("DOMContentLoaded", () => {
+      // Always go through preload wrapper
+      window.electronAPI.initTerminal({
+        onHighlight: (elements) => console.log(elements)
+      }).then((terminal) => {
+        terminal.appendLine("Terminal initialized. Press Ctrl + ` to toggle.");
+      });
+    });
   </script>
 
   <script src="../actions/renderer.js"></script>

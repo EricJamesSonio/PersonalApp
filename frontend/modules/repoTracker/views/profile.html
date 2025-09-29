@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Security-Policy"
-    content="
-      default-src 'self' http://localhost:4000 https://cdn.jsdelivr.net https://unpkg.com;
-      style-src   'self' 'unsafe-inline' https://cdn.jsdelivr.net;
-      img-src     'self' https://github.com https://github.githubassets.com https://avatars.githubusercontent.com data:;
-      script-src  'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com;
-    ">
-
+<meta http-equiv="Content-Security-Policy"
+  content="
+    default-src 'self' http://localhost:4000 https://cdn.jsdelivr.net https://unpkg.com;
+    style-src   'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+    img-src     'self' https://github.com https://github.githubassets.com https://avatars.githubusercontent.com data:;
+    script-src  'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com http://localhost:4000;
+  ">
   <title>My Profile</title>
 
   <link rel="stylesheet" href="../designs/styles.css">
@@ -72,18 +71,9 @@
     }
     .subdomain { shape-rendering: crispEdges; }
     
-    /* GitHub-style heatmap cells */
-    .ch-domain-text { 
-      fill: #8b949e; 
-      font-size: 10px; 
-      font-weight: 400;
-    }
-    .ch-subdomain-text { 
-      fill: #8b949e; 
-      font-size: 9px; 
-    }
+    .ch-domain-text { fill: #8b949e; font-size: 10px; font-weight: 400; }
+    .ch-subdomain-text { fill: #8b949e; font-size: 9px; }
 
-    /* Responsive */
     @media (max-width: 800px) { .pinned-list { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 500px) { .pinned-list { grid-template-columns: 1fr; } }
   </style>
@@ -113,7 +103,6 @@
       </div>
 
       <div id="cal-heatmap-container">
-        
         <div id="cal-heatmap"></div>
       </div>
     </div>
@@ -139,32 +128,15 @@ async function loadProfile() {
     const pinned = allRepos.filter(r => r.isOwner || r.isContributor).slice(0, 6);
     renderPinnedRepos(pinned);
 
-    // GitHub-style heatmap: 7 vertical rows (days), months with labels
     const cal = new CalHeatmap();
     cal.paint({
       target: "#cal-heatmap",
       data: { source: data.heatmap || [], x: "date", y: "count" },
       date: { start: new Date(new Date().setFullYear(new Date().getFullYear() - 1)) },
-      range: 12, // 12 months
-      domain: { 
-        type: "month", 
-        gutter: 4,
-        label: { text: "MMM", textAlign: "start", position: "top" }
-      },
-      subDomain: { 
-        type: "day", 
-        width: 17, 
-        height: 11, 
-        gutter: 2,
-        radius: 2
-      },
-      scale: { 
-        color: { 
-          type: "threshold", 
-          domain: [1, 3, 6, 9],
-          range: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-        }
-      }
+      range: 12,
+      domain: { type: "month", gutter: 4, label: { text: "MMM", textAlign: "start", position: "top" } },
+      subDomain: { type: "day", width: 17, height: 11, gutter: 2, radius: 2 },
+      scale: { color: { type: "threshold", domain: [1, 3, 6, 9], range: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"] } }
     });
 
   } catch (err) { console.error("❌ Failed to load profile:", err); }
@@ -188,5 +160,16 @@ function renderPinnedRepos(repos) {
 
 loadProfile();
 </script>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.electronAPI.initTerminal({
+      onHighlight: (elements) => console.log(elements)
+    }).then((terminal) => {
+      terminal.appendLine("Terminal initialized. Press Ctrl + ` to toggle.");
+    });
+  });
+</script>
+
 </body>
 </html>
