@@ -1,0 +1,65 @@
+/* profile.css */
+
+/* General */
+body { font-family: sans-serif; margin: 0; padding: 0; }
+main { display: flex; flex-direction: column; align-items: center; width: 100%; }
+
+/* Profile section */
+.profile { text-align: center; margin: 20px; }
+.profile img { width: 120px; border-radius: 50%; }
+.stats { margin-top: 10px; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+
+/* Content container */
+#content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Pinned Repos */
+#pinned-repos { width: 100%; margin-bottom: 20px; }
+.pinned-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+  width: 100%;
+}
+.pinned-card {
+  background-color: #18284b;
+  border: 1px solid #1e2a4d;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  transition: transform 0.2s;
+}
+.pinned-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Calendar Heatmap */
+#cal-heatmap-container {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  padding: 20px;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+#cal-heatmap { 
+  display: inline-block; 
+  min-width: 900px;
+  text-align: left;
+}
+.subdomain { shape-rendering: crispEdges; }
+.ch-domain-text { fill: #8b949e; font-size: 10px; font-weight: 400; }
+.ch-subdomain-text { fill: #8b949e; font-size: 9px; }
+
+/* Responsive grid for pinned repos */
+@media (max-width: 800px) { .pinned-list { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 500px) { .pinned-list { grid-template-columns: 1fr; } }

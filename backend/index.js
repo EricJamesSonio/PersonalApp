@@ -23,6 +23,7 @@ app.get("/", (req, res) => {
 
 // Serve everything inside frontend/core (landing + assets)
 app.use(express.static(path.join(__dirname, "..", "frontend", "core")));
+app.use(express.static(path.join(__dirname, "..", "frontend")));
 
 // Start server
 app.listen(PORT, () =>

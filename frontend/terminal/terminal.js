@@ -88,7 +88,7 @@ console.log("🚀 terminal.js executing...");
             }
           } else if (desc.includes("open the terminal dashboard")) {
             window.open(
-              `${window.location.origin}/terminal-dashboard.html`,
+              `${window.location.origin}/terminal/terminal-dashboard.html`,
               "_blank"
             );
             appendLine("Opening terminal dashboard...");
