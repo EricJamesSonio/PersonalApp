@@ -21,22 +21,24 @@ async function ensureCommitsDir() {
   try { await fs.mkdir(COMMITS_DIR, { recursive: true }); } catch {}
 }
 
-function getCommitFileName(repo, owner) {
+function getCommitFileName(owner, repo) {
   return path.join(COMMITS_DIR, `${owner}__${repo}.json`);
 }
 
-async function saveCommits(repo, owner, commits) {
+async function saveCommits(owner, repo, commits) {
   await ensureCommitsDir();
-  const file = getCommitFileName(repo, owner);
+  const file = getCommitFileName(owner, repo);
   await fs.writeFile(file, JSON.stringify(commits, null, 2), "utf-8");
 }
 
-async function loadCommits(repo, owner) {
+async function loadCommits(owner, repo) {
   try {
-    const file = getCommitFileName(repo, owner);
+    const file = getCommitFileName(owner, repo);
     const data = await fs.readFile(file, "utf-8");
     return JSON.parse(data);
-  } catch { return null; }
+  } catch {
+    return [];
+  }
 }
 
 async function saveCache(data) {
@@ -109,10 +111,10 @@ async function calculateStreak(repoFullName) {
   const [owner, repo] = repoFullName.split("/");
   await ensureCommitsDir();
 
-  let commits = await loadCommits(repo, owner);
-  if (!commits) {
+  let commits = await loadCommits(owner, repo);
+  if (!commits || commits.length === 0) {
     commits = await fetchCommits(owner, repo);
-    await saveCommits(repo, owner, commits);
+    await saveCommits(owner, repo, commits);
   }
 
   const commitDates = commits.map(c => formatDate(c.date));
@@ -129,7 +131,13 @@ async function calculateStreak(repoFullName) {
     prevDate = d;
   });
 
-  return { repo: repoFullName, currentStreak, longestStreak, totalCommits: commitDates.length, daysActive: uniqueDates.length };
+  return { 
+    repo: repoFullName,
+    currentStreak,
+    longestStreak,
+    totalCommits: commitDates.length,
+    daysActive: uniqueDates.length 
+  };
 }
 
 // --- Enrich repos ---
@@ -164,6 +172,49 @@ async function enrichRepos(repos) {
 }
 
 // --- Routes ---
+
+router.get("/profile", async (req, res) => {
+  try {
+    const repos = (await loadCache()) || [];
+    // use cached repos directly
+    const enriched = Array.isArray(repos) ? repos : [];
+
+    let totalCommits = 0;
+    let allDates = [];
+
+    for (const r of enriched) {
+      if (!r?.full_name || !r.streak) continue;
+      totalCommits += r.streak.totalCommits || 0;
+
+      const [owner, repo] = r.full_name.split("/");
+      if (!owner || !repo) continue;
+
+      const commits = (await loadCommits(owner, repo)) || [];
+      allDates.push(...commits.map(c => formatDate(c.date)).filter(Boolean));
+    }
+
+    const dailyCounts = allDates.reduce((acc, d) => {
+      acc[d] = (acc[d] || 0) + 1;
+      return acc;
+    }, {});
+    const heatmap = Object.entries(dailyCounts).map(([date, count]) => ({ date, count }));
+
+    res.json({
+      username: USER || "unknown",
+      avatar_url: USER
+        ? `https://github.com/${USER}.png`
+        : "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      totalCommits,
+      repos: enriched.length,
+      heatmap,
+    });
+  } catch (err) {
+    console.error("❌ /profile route error:", err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+
 router.get("/repos", async (req, res) => {
   try {
     const cached = await loadCache();
@@ -197,17 +248,19 @@ router.get("/commits/:repo", async (req, res) => {
     if (!match) return res.status(404).json({ error: "Repo not found" });
 
     const [owner, repo] = match.full_name.split("/");
-    let commits = await loadCommits(repo, owner);
-    if (!commits) {
+    let commits = await loadCommits(owner, repo);
+    if (!commits || commits.length === 0) {
       commits = await fetchCommits(owner, repo);
-      await saveCommits(repo, owner, commits);
+      await saveCommits(owner, repo, commits);
     }
 
     res.json(commits);
   } catch (err) {
+    console.error("❌ /commits error:", err);
     res.status(500).json({ error: err.message });
   }
 });
+
 
 router.get("/streak/:repo", async (req, res) => {
   try {

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self' http://localhost:4000 https://cdn.jsdelivr.net https://unpkg.com;
+      style-src   'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+      img-src     'self' https://github.com https://github.githubassets.com https://avatars.githubusercontent.com data:;
+      script-src  'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com;
+    ">
+
+  <title>My Profile</title>
+
+  <link rel="stylesheet" href="../designs/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cal-heatmap/cal-heatmap.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cal-heatmap/dist/cal-heatmap.min.js"></script>
+
+  <style>
+    body { font-family: sans-serif; }
+    .profile { text-align: center; margin: 20px; }
+    .profile img { width: 120px; border-radius: 50%; }
+    .stats { margin-top: 10px; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+
+    #cal-heatmap-container {
+      overflow-x: auto;
+      max-width: 100%;
+      padding: 10px 0;
+    }
+    #cal-heatmap { display: inline-block; }
+    .subdomain { shape-rendering: crispEdges; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>👤 My Profile</h1>
+    <div class="header-buttons">
+      <button onclick="goBack()">⬅ Back</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="profile">
+      <img id="avatar" src="" alt="avatar">
+      <h2 id="username"></h2>
+      <div class="stats">
+        <div>📦 Repos: <span id="repos"></span></div>
+        <div>🔥 Total Commits: <span id="totalCommits"></span></div>
+      </div>
+    </div>
+
+    <div id="cal-heatmap-container">
+      <div id="cal-heatmap"></div>
+    </div>
+  </main>
+
+<script>
+function goBack() { window.location.href = "./index.html"; }
+
+async function loadProfile() {
+  try {
+    const res = await fetch("http://localhost:4000/profile");
+    const data = await res.json();
+
+    document.getElementById("avatar").src =
+      data.avatar_url || "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
+    document.getElementById("username").textContent = data.username || "Unknown User";
+    document.getElementById("repos").textContent = data.repos || 0;
+    document.getElementById("totalCommits").textContent = data.totalCommits || 0;
+
+    const cal = new CalHeatmap();
+    cal.paint({
+      target: "#cal-heatmap",
+      data: { source: data.heatmap || [], x: "date", y: "count" },
+      date: { start: new Date(new Date().setFullYear(new Date().getFullYear() - 1)) },
+      range: 52,                   // 52 weeks
+      domain: { type: "week", gutter: 3 },  // columns = weeks
+      subDomain: { type: "day", width: 14, height: 14, gutter: 2 }, // 7 vertical rows for days
+      tooltip: true,
+      displayLegend: false,
+      cellRadius: 3,
+      scale: {
+        color: { type: "linear", domain: [0, 10], range: ["#ebedf0", "#216e39"] }
+      }
+    });
+
+  } catch (err) { console.error("❌ Failed to load profile:", err); }
+}
+
+loadProfile();
+</script>
+</body>
+</html>
