@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Security-Policy"
-  content="
-    default-src 'self' http://localhost:4000 https://cdn.jsdelivr.net https://unpkg.com;
-    style-src   'self' 'unsafe-inline' https://cdn.jsdelivr.net;
-    img-src     'self' https://github.com https://github.githubassets.com https://avatars.githubusercontent.com data:;
-    script-src  'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com http://localhost:4000;
-  ">
+  <meta http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self' http://localhost:4000 https://cdn.jsdelivr.net https://unpkg.com;
+      style-src   'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+      img-src     'self' https://github.com https://github.githubassets.com https://avatars.githubusercontent.com data:;
+      script-src  'self' 'unsafe-inline' https://cdn.jsdelivr.net https://unpkg.com;
+    ">
+
   <title>My Profile</title>
 
   <link rel="stylesheet" href="../designs/styles.css">
-  <link rel="stylesheet" href="../designs/profile.css"> 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cal-heatmap/cal-heatmap.css">
+  <link rel="stylesheet" href="../designs/profile.css">
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="https://cdn.jsdelivr.net/npm/cal-heatmap/dist/cal-heatmap.min.js"></script>
-
 </head>
 <body>
   <header>
@@ -38,78 +38,43 @@
 
     <div id="content-container">
       <div id="pinned-repos">
-        <h2>Pinned Repositories</h2>
+        <div class="pinned-header">
+          <h2>📌 Pinned Repositories</h2>
+          <button id="edit-pinned-btn" onclick="openPinnedModal()">✏️ Edit Pinned</button>
+        </div>
         <div class="pinned-list"></div>
       </div>
 
       <div id="cal-heatmap-container">
+        <div class="heatmap-header">
+          <h2>🔥 Commits Heatmap</h2>
+          <select id="year-selector">
+            <option value="all">All Time</option>
+          </select>
+        </div>
         <div id="cal-heatmap"></div>
       </div>
     </div>
   </main>
 
-<script>
-function goBack() { window.location.href = "./index.html"; }
+  <!-- Modal for selecting pinned repos -->
+  <div id="pinned-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Select Pinned Repositories</h2>
+        <button class="close-btn" onclick="closePinnedModal()">&times;</button>
+      </div>
+      <div class="selection-info">
+        Select up to 6 repositories to pin (<span id="selected-count">0</span>/6 selected)
+      </div>
+      <div id="repo-selector" class="repo-selector"></div>
+      <div class="modal-footer">
+        <button class="modal-btn modal-btn-cancel" onclick="closePinnedModal()">Cancel</button>
+        <button class="modal-btn modal-btn-save" onclick="savePinnedRepos()">Save Pinned Repos</button>
+      </div>
+    </div>
+  </div>
 
-async function loadProfile() {
-  try {
-    const res = await fetch("http://localhost:4000/profile");
-    const data = await res.json();
-
-    document.getElementById("avatar").src =
-      data.avatar_url || "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png";
-    document.getElementById("username").textContent = data.username || "Unknown User";
-    document.getElementById("repos").textContent = data.repos || 0;
-    document.getElementById("totalCommits").textContent = data.totalCommits || 0;
-
-    const reposRes = await fetch("http://localhost:4000/repos");
-    const allRepos = await reposRes.json();
-
-    const pinned = allRepos.filter(r => r.isOwner || r.isContributor).slice(0, 6);
-    renderPinnedRepos(pinned);
-
-    const cal = new CalHeatmap();
-    cal.paint({
-      target: "#cal-heatmap",
-      data: { source: data.heatmap || [], x: "date", y: "count" },
-      date: { start: new Date(new Date().setFullYear(new Date().getFullYear() - 1)) },
-      range: 12,
-      domain: { type: "month", gutter: 4, label: { text: "MMM", textAlign: "start", position: "top" } },
-      subDomain: { type: "day", width: 17, height: 11, gutter: 2, radius: 2 },
-      scale: { color: { type: "threshold", domain: [1, 3, 6, 9], range: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"] } }
-    });
-
-  } catch (err) { console.error("❌ Failed to load profile:", err); }
-}
-
-function renderPinnedRepos(repos) {
-  const container = document.querySelector(".pinned-list");
-  container.innerHTML = "";
-
-  repos.forEach(r => {
-    const el = document.createElement("div");
-    el.className = "pinned-card";
-    el.innerHTML = `
-      <strong>${r.name}</strong><br>
-      ⭐ ${r.streak.totalCommits || 0} commits<br>
-      <a href="./repo.html?repo=${encodeURIComponent(r.full_name)}">View Details</a>
-    `;
-    container.appendChild(el);
-  });
-}
-
-loadProfile();
-</script>
-
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    window.electronAPI.initTerminal({
-      onHighlight: (elements) => console.log(elements)
-    }).then((terminal) => {
-      terminal.appendLine("Terminal initialized. Press Ctrl + ` to toggle.");
-    });
-  });
-</script>
-
+  <script src="../actions/profile.js"></script>
 </body>
 </html>

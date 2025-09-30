@@ -19,14 +19,26 @@ router.get("/profile", async (req, res) => {
 
       const [owner, repo] = r.full_name.split("/");
       const commits = (await loadCommits(owner, repo)) || [];
-      allDates.push(...commits.map(c => formatDate(c.date)).filter(Boolean));
+      
+      // Ensure dates are in YYYY-MM-DD format
+      commits.forEach(c => {
+        if (c.date) {
+          const formattedDate = formatDate(c.date);
+          if (formattedDate) allDates.push(formattedDate);
+        }
+      });
     }
 
+    // Count commits per day
     const dailyCounts = allDates.reduce((acc, d) => {
       acc[d] = (acc[d] || 0) + 1;
       return acc;
     }, {});
-    const heatmap = Object.entries(dailyCounts).map(([date, count]) => ({ date, count }));
+    
+    // Convert to array and sort by date
+    const heatmap = Object.entries(dailyCounts)
+      .map(([date, count]) => ({ date, count }))
+      .sort((a, b) => a.date.localeCompare(b.date));
 
     res.json({
       username: USER || "unknown",
@@ -38,6 +50,7 @@ router.get("/profile", async (req, res) => {
       heatmap,
     });
   } catch (err) {
+    console.error("Profile error:", err);
     res.status(500).json({ error: err.message });
   }
 });
